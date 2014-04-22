@@ -20,12 +20,12 @@
     <dc:creator opf:role="aut">Various</dc:creator>
     <dc:publisher>Andy McMillan</dc:publisher>
 
-    <dc:title id="title_main" xml:lang="en">Issue 1</dc:title>
+    <dc:title id="title_main">The Manual: Issue 1</dc:title>
     <meta refines="#title_main" property="title-type">main</meta>
     <dc:title id="title_collection">The Manual</dc:title>
     <meta refines="#title_collection" property="title-type">collection</meta>
-    <dc:title id="title_extended">The Manual: Issue 1</dc:title>
-    <meta refines="#title_extended" property="title-type">extended</meta>
+    <dc:title id="title_short" xml:lang="en">Issue 1</dc:title>
+    <meta refines="#title_short" property="title-type">short</meta>
 
     <!-- TODO description -->
     <dc:description id="en_description" xml:lang="en">DESCRIPTION TBD</dc:description>
