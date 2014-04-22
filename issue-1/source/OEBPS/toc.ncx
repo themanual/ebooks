@@ -35,6 +35,7 @@
     <navPoint id="navpoint4" playOrder="4">
       <navLabel>
         <text>Simon Collison</text>
+        <content src="text/author-1-article.xhtml" />
       </navLabel>
       <navPoint id="navpoint5" playOrder="5">
         <navLabel><text>Maturity and the Weight of Learning</text></navLabel>
@@ -48,6 +49,7 @@
 
     <!-- Author Pair -->
     <navPoint id="navpoint7" playOrder="7">
+      <content src="text/author-2-article.xhtml" />
       <navLabel><text>Frank Chimero</text></navLabel>
       <navPoint id="navpoint8" playOrder="8">
         <navLabel><text>The Space Between You and Me</text></navLabel>
@@ -61,6 +63,7 @@
 
     <!-- Author Pair -->
     <navPoint id="navpoint10" playOrder="10">
+      <content src="text/author-3-article.xhtml" />
       <navLabel><text>Jon Tan</text></navLabel>
       <navPoint id="navpoint11" playOrder="11">
         <navLabel><text>Taxidermista</text></navLabel>
@@ -74,6 +77,7 @@
 
     <!-- Author Pair -->
     <navPoint id="navpoint13" playOrder="13">
+      <content src="text/author-4-article.xhtml" />
       <navLabel><text>Dan Rubin</text></navLabel>
       <navPoint id="navpoint14" playOrder="14">
         <navLabel><text>Off the Page</text></navLabel>
@@ -87,6 +91,7 @@
 
     <!-- Author Pair -->
     <navPoint id="navpoint16" playOrder="16">
+      <content src="text/author-5-article.xhtml" />
       <navLabel><text>Liz Danzico</text></navLabel>
       <navPoint id="navpoint17" playOrder="17">
         <navLabel><text>Names and the New Public</text></navLabel>
@@ -100,6 +105,7 @@
 
     <!-- Author Pair -->
     <navPoint id="navpoint19" playOrder="19">
+      <content src="text/author-6-article.xhtml" />
       <navLabel><text>The Standardistas</text></navLabel>
       <navPoint id="navpoint20" playOrder="20">
         <navLabel><text>Designing the Mind</text></navLabel>
