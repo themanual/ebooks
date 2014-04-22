@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ncx PUBLIC "-//NISO//DTD ncx 2005-1//EN" "http://www.daisy.org/z3986/2005/ncx-2005-1.dtd">
+<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1" xml:lang="en">
+
+  <head>
+    <meta name="dtb:uid" content="urn:isbn:1AF6F8864C674C8C91D96B8E0C58D732"/>
+    <meta name="dtb:depth" content="2"/>
+    <meta name="dtb:totalPageCount" content="0"/>
+    <meta name="dtb:maxPageNumber" content="0"/>
+  </head>
+
+  <docTitle>
+    <text>The Manual: Issue 1</text>
+  </docTitle>
+
+  <navMap>
+
+    <navPoint id="navpoint1" playOrder="1">
+      <navLabel><text>Letter from the Publisher</text></navLabel>
+      <content src="text/letter.xhtml" />
+    </navPoint>
+
+    <navPoint id="navpoint2" playOrder="2">
+      <navLabel><text>Authors</text></navLabel>
+      <content src="text/authors.xhtml" />
+    </navPoint>
+
+    <navPoint id="navpoint3" playOrder="3">
+      <navLabel><text>Illustrators</text></navLabel>
+      <content src="text/illustrators.xhtml" />
+    </navPoint>
+
+
+    <!-- Author Pair -->
+    <navPoint id="navpoint4" playOrder="4">
+      <navLabel>
+        <text>Simon Collison</text>
+      </navLabel>
+      <navPoint id="navpoint5" playOrder="5">
+        <navLabel><text>Maturity and the Weight of Learning</text></navLabel>
+        <content src="text/author-1-article.xhtml" />
+      </navPoint>
+      <navPoint id="navpoint6" playOrder="6">
+        <navLabel><text>Lesson</text></navLabel>
+        <content src="text/author-1-lesson.xhtml" />
+      </navPoint>
+    </navPoint>
+
+    <!-- Author Pair -->
+    <navPoint id="navpoint7" playOrder="7">
+      <navLabel><text>Frank Chimero</text></navLabel>
+      <navPoint id="navpoint8" playOrder="8">
+        <navLabel><text>The Space Between You and Me</text></navLabel>
+        <content src="text/author-2-article.xhtml" />
+      </navPoint>
+      <navPoint id="navpoint9" playOrder="9">
+        <navLabel><text>Lesson</text></navLabel>
+        <content src="text/author-2-lesson.xhtml" />
+      </navPoint>
+    </navPoint>
+
+    <!-- Author Pair -->
+    <navPoint id="navpoint10" playOrder="10">
+      <navLabel><text>Jon Tan</text></navLabel>
+      <navPoint id="navpoint11" playOrder="11">
+        <navLabel><text>Taxidermista</text></navLabel>
+        <content src="text/author-3-article.xhtml" />
+      </navPoint>
+      <navPoint id="navpoint12" playOrder="12">
+        <navLabel><text>Lesson</text></navLabel>
+        <content src="text/author-3-lesson.xhtml" />
+      </navPoint>
+    </navPoint>
+
+    <!-- Author Pair -->
+    <navPoint id="navpoint13" playOrder="13">
+      <navLabel><text>Dan Rubin</text></navLabel>
+      <navPoint id="navpoint14" playOrder="14">
+        <navLabel><text>Off the Page</text></navLabel>
+        <content src="text/author-4-article.xhtml" />
+      </navPoint>
+      <navPoint id="navpoint15" playOrder="15">
+        <navLabel><text>Lesson</text></navLabel>
+        <content src="text/author-4-lesson.xhtml" />
+      </navPoint>
+    </navPoint>
+
+    <!-- Author Pair -->
+    <navPoint id="navpoint16" playOrder="16">
+      <navLabel><text>Liz Danzico</text></navLabel>
+      <navPoint id="navpoint17" playOrder="17">
+        <navLabel><text>Names and the New Public</text></navLabel>
+        <content src="text/author-5-article.xhtml" />
+      </navPoint>
+      <navPoint id="navpoint18" playOrder="18">
+        <navLabel><text>Lesson</text></navLabel>
+        <content src="text/author-5-lesson.xhtml" />
+      </navPoint>
+    </navPoint>
+
+    <!-- Author Pair -->
+    <navPoint id="navpoint19" playOrder="19">
+      <navLabel><text>The Standardistas</text></navLabel>
+      <navPoint id="navpoint20" playOrder="20">
+        <navLabel><text>Designing the Mind</text></navLabel>
+        <content src="text/author-6-article.xhtml" />
+      </navPoint>
+      <navPoint id="navpoint21" playOrder="21">
+        <navLabel><text>Lesson</text></navLabel>
+        <content src="text/author-6-lesson.xhtml" />
+      </navPoint>
+    </navPoint>
+
+    <navPoint id="navpoint22" playOrder="22">
+      <navLabel><text>Staff</text></navLabel>
+      <content src="text/staff.xhtml" />
+    </navPoint>
+
+    <navPoint id="navpoint23" playOrder="23">
+      <navLabel><text>Acknowledgements</text></navLabel>
+      <content src="text/acknowledgements.xhtml" />
+    </navPoint>
+
+  </navMap>
+
+</ncx>
