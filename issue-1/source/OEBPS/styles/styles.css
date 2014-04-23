@@ -40,8 +40,8 @@ strong {
 }
 
 h1 {
-  margin-top:     3em;
-  margin-bottom:  3em;
+  margin-top:     2.5em;
+  margin-bottom:  2.5em;
   color: #EF3E42 !important;
   font-weight: bold;
   line-height: 1.2;
@@ -55,7 +55,6 @@ h1 .subheading,
 h1 .preheading,
 h1 .simple {
   color: black;
-  font-weight: normal;
   display: block;
 }
 
@@ -173,7 +172,6 @@ li li {
 
 .toc-section > p {
   font-size: 85%;
-  font-weight: bold;
 }
 
 .toc-section:first-child {
