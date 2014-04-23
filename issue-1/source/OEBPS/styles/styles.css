@@ -48,16 +48,16 @@ h1 .preheading,
 h1 .simple {
   color: black;
   font-weight: normal;
+  /*font-size: 95%;*/
   display: block;
-  font-size: 90%;
 }
 
 h1 .subheading {
-  margin-top: 1em !important;
+  margin-top: 0.6em !important;
 }
 
 h1 .preheading {
-  margin-bottom: 1em !important;
+  margin-bottom: 0.6em !important;
 }
 
 h1 .author .by {
@@ -67,13 +67,19 @@ h1 .author .by {
 }
 
 h2 {
-  margin-top: 2em;
+  line-height: 1.2em;
+  margin-top: 1.8em;
   font-weight: bold;
+  margin-bottom: .6em;
 }
 
 p {
   margin: 0;
   margin-top: 1em;
+}
+
+h2 + p {
+  margin-top: 0;
 }
 
 p + p {
@@ -88,14 +94,21 @@ p.indented {
   text-indent: 1em;
 }
 
-a:link, a:link span,
-a:visited, a:visited span,
-a:hover, a:hover span,
-a:active, a:active span {
+a:link,     a:link span,
+a:visited,  a:visited span,
+a:hover,    a:hover span,
+a:active,   a:active span {
   text-decoration: none;
   color: #EF3E42 !important;
   /* iBooks hack: https://stackoverflow.com/questions/6263703/style-anchors-in-ibooks-epub/6355591 */
   -webkit-text-fill-color: #EF3E42 !important;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+  text-decoration: underline !important;
 }
 
 /*a:link, a:visited, */sup {
@@ -144,14 +157,24 @@ li li {
 }
 
 .toc-section {
-  margin-top: 1em !important;
-  margin-bottom: 1em !important;
+  margin-top: .75em !important;
+  margin-bottom: .75em !important;
+}
+
+.toc-section:first-child {
+  margin-top: 0 !important;
+}
+
+.toc-section:last-child {
+  margin-bottom: 0 !important;
 }
 
 .toc-section > p {
   text-transform: uppercase;
-  font-size: 90%;
+  font-size: 85%;
   margin-top: 0;
+  letter-spacing: 0.1em;
+  word-spacing: 0.1em;
 }
 
 .callout {
