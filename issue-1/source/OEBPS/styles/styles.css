@@ -43,12 +43,21 @@ h1 {
   line-height: 1.2;
 }
 
-h1 .author {
+h1 .subheading,
+h1 .preheading,
+h1 .simple {
   color: black;
   font-weight: normal;
   display: block;
-  margin-top: 1em !important;
   font-size: 90%;
+}
+
+h1 .subheading {
+  margin-top: 1em !important;
+}
+
+h1 .preheading {
+  margin-bottom: 1em !important;
 }
 
 h1 .author .by {
