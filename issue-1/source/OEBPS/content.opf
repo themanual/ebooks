@@ -73,8 +73,6 @@
     <item id="p_toc"              media-type="application/xhtml+xml" href="text/toc.xhtml" />
     <item id="p_loi"              media-type="application/xhtml+xml" href="text/loi.xhtml" />
     <item id="p_letter"           media-type="application/xhtml+xml" href="text/letter.xhtml" />
-    <item id="p_authors"          media-type="application/xhtml+xml" href="text/authors.xhtml" />
-    <item id="p_illustrators"     media-type="application/xhtml+xml" href="text/illustrators.xhtml" />
     <item id="p_author_1_article" media-type="application/xhtml+xml" href="text/author-1-article.xhtml" />
     <item id="p_author_1_lesson"  media-type="application/xhtml+xml" href="text/author-1-lesson.xhtml" />
     <item id="p_author_2_article" media-type="application/xhtml+xml" href="text/author-2-article.xhtml" />
@@ -87,6 +85,8 @@
     <item id="p_author_5_lesson"  media-type="application/xhtml+xml" href="text/author-5-lesson.xhtml" />
     <item id="p_author_6_article" media-type="application/xhtml+xml" href="text/author-6-article.xhtml" />
     <item id="p_author_6_lesson"  media-type="application/xhtml+xml" href="text/author-6-lesson.xhtml" />
+    <item id="p_authors"          media-type="application/xhtml+xml" href="text/authors.xhtml" />
+    <item id="p_illustrators"     media-type="application/xhtml+xml" href="text/illustrators.xhtml" />
     <item id="p_staff"            media-type="application/xhtml+xml" href="text/staff.xhtml" />
     <item id="p_acknowledgements" media-type="application/xhtml+xml" href="text/acknowledgements.xhtml" />
 
@@ -114,8 +114,6 @@
     <itemref idref="p_toc" />
     <itemref idref="p_loi" />
     <itemref idref="p_letter" />
-    <itemref idref="p_authors" />
-    <itemref idref="p_illustrators" />
     <itemref idref="p_author_1_article" />
     <itemref idref="p_author_1_lesson" />
     <itemref idref="p_author_2_article" />
@@ -128,6 +126,8 @@
     <itemref idref="p_author_5_lesson" />
     <itemref idref="p_author_6_article" />
     <itemref idref="p_author_6_lesson" />
+    <itemref idref="p_authors" />
+    <itemref idref="p_illustrators" />
     <itemref idref="p_staff" />
     <itemref idref="p_acknowledgements" />
   </spine>
@@ -140,9 +140,7 @@
     <!-- <reference type="dedication" href="text/dedication.xhtml" /> -->
     <reference type="toc" href="text/toc.xhtml" />
     <reference type="loi" href="text/loi.xhtml" />
-    <reference type="preface" href="text/letter.xhtml" />
-    <reference type="notes" href="text/authors.xhtml" />
-    <reference type="notes" href="text/illustrators.xhtml" />
+    <reference type="text" href="text/letter.xhtml" />
     <reference type="text" href="text/author-1-article.xhtml" />
     <reference type="text" href="text/author-1-lesson.xhtml" />
     <reference type="text" href="text/author-2-article.xhtml" />
@@ -155,7 +153,9 @@
     <reference type="text" href="text/author-5-lesson.xhtml" />
     <reference type="text" href="text/author-6-article.xhtml" />
     <reference type="text" href="text/author-6-lesson.xhtml" />
-    <reference type="colophon" href="text/staff.xhtml" />
+    <reference type="notes" href="text/authors.xhtml" />
+    <reference type="notes" href="text/illustrators.xhtml" />
+    <reference type="notes" href="text/staff.xhtml" />
     <reference type="acknowledgements" href="text/acknowledgements.xhtml" />
   </guide>
 

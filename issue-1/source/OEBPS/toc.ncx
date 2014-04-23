@@ -20,101 +20,100 @@
       <content src="text/letter.xhtml" />
     </navPoint>
 
-    <navPoint id="navpoint2" playOrder="2">
-      <navLabel><text>Authors</text></navLabel>
-      <content src="text/authors.xhtml" />
-    </navPoint>
-
-    <navPoint id="navpoint3" playOrder="3">
-      <navLabel><text>Illustrators</text></navLabel>
-      <content src="text/illustrators.xhtml" />
-    </navPoint>
-
-
     <!-- Author Pair -->
-    <navPoint id="navpoint4" playOrder="4">
+    <navPoint id="navpoint4" playOrder="2">
       <navLabel>
         <text>Simon Collison</text>
         <content src="text/author-1-article.xhtml" />
       </navLabel>
-      <navPoint id="navpoint5" playOrder="5">
+      <navPoint id="navpoint5" playOrder="3">
         <navLabel><text>Maturity and the Weight of Learning</text></navLabel>
         <content src="text/author-1-article.xhtml" />
       </navPoint>
-      <navPoint id="navpoint6" playOrder="6">
+      <navPoint id="navpoint6" playOrder="4">
         <navLabel><text>Lesson</text></navLabel>
         <content src="text/author-1-lesson.xhtml" />
       </navPoint>
     </navPoint>
 
     <!-- Author Pair -->
-    <navPoint id="navpoint7" playOrder="7">
+    <navPoint id="navpoint7" playOrder="5">
       <content src="text/author-2-article.xhtml" />
       <navLabel><text>Frank Chimero</text></navLabel>
-      <navPoint id="navpoint8" playOrder="8">
+      <navPoint id="navpoint8" playOrder="6">
         <navLabel><text>The Space Between You and Me</text></navLabel>
         <content src="text/author-2-article.xhtml" />
       </navPoint>
-      <navPoint id="navpoint9" playOrder="9">
+      <navPoint id="navpoint9" playOrder="7">
         <navLabel><text>Lesson</text></navLabel>
         <content src="text/author-2-lesson.xhtml" />
       </navPoint>
     </navPoint>
 
     <!-- Author Pair -->
-    <navPoint id="navpoint10" playOrder="10">
+    <navPoint id="navpoint10" playOrder="8">
       <content src="text/author-3-article.xhtml" />
       <navLabel><text>Jon Tan</text></navLabel>
-      <navPoint id="navpoint11" playOrder="11">
+      <navPoint id="navpoint11" playOrder="9">
         <navLabel><text>Taxidermista</text></navLabel>
         <content src="text/author-3-article.xhtml" />
       </navPoint>
-      <navPoint id="navpoint12" playOrder="12">
+      <navPoint id="navpoint12" playOrder="10">
         <navLabel><text>Lesson</text></navLabel>
         <content src="text/author-3-lesson.xhtml" />
       </navPoint>
     </navPoint>
 
     <!-- Author Pair -->
-    <navPoint id="navpoint13" playOrder="13">
+    <navPoint id="navpoint13" playOrder="11">
       <content src="text/author-4-article.xhtml" />
       <navLabel><text>Dan Rubin</text></navLabel>
-      <navPoint id="navpoint14" playOrder="14">
+      <navPoint id="navpoint14" playOrder="12">
         <navLabel><text>Off the Page</text></navLabel>
         <content src="text/author-4-article.xhtml" />
       </navPoint>
-      <navPoint id="navpoint15" playOrder="15">
+      <navPoint id="navpoint15" playOrder="13">
         <navLabel><text>Lesson</text></navLabel>
         <content src="text/author-4-lesson.xhtml" />
       </navPoint>
     </navPoint>
 
     <!-- Author Pair -->
-    <navPoint id="navpoint16" playOrder="16">
+    <navPoint id="navpoint16" playOrder="14">
       <content src="text/author-5-article.xhtml" />
       <navLabel><text>Liz Danzico</text></navLabel>
-      <navPoint id="navpoint17" playOrder="17">
+      <navPoint id="navpoint17" playOrder="15">
         <navLabel><text>Names and the New Public</text></navLabel>
         <content src="text/author-5-article.xhtml" />
       </navPoint>
-      <navPoint id="navpoint18" playOrder="18">
+      <navPoint id="navpoint18" playOrder="16">
         <navLabel><text>Lesson</text></navLabel>
         <content src="text/author-5-lesson.xhtml" />
       </navPoint>
     </navPoint>
 
     <!-- Author Pair -->
-    <navPoint id="navpoint19" playOrder="19">
+    <navPoint id="navpoint19" playOrder="17">
       <content src="text/author-6-article.xhtml" />
       <navLabel><text>The Standardistas</text></navLabel>
-      <navPoint id="navpoint20" playOrder="20">
+      <navPoint id="navpoint20" playOrder="18">
         <navLabel><text>Designing the Mind</text></navLabel>
         <content src="text/author-6-article.xhtml" />
       </navPoint>
-      <navPoint id="navpoint21" playOrder="21">
+      <navPoint id="navpoint21" playOrder="19">
         <navLabel><text>Lesson</text></navLabel>
         <content src="text/author-6-lesson.xhtml" />
       </navPoint>
+    </navPoint>
+
+    <navPoint id="navpoint2" playOrder="20">
+      <navLabel><text>Authors</text></navLabel>
+      <content src="text/authors.xhtml" />
+    </navPoint>
+
+    <navPoint id="navpoint3" playOrder="21">
+      <navLabel><text>Illustrators</text></navLabel>
+      <content src="text/illustrators.xhtml" />
     </navPoint>
 
     <navPoint id="navpoint22" playOrder="22">
