@@ -1,6 +1,6 @@
 /* based on Mark Boulton Design ebook styles */
 
-body, h1, h2, h3, h4, p, blockquote, ul, ol {
+body, h1, h2, h3, h4, p, blockquote, ul, ol, img {
   margin: 0;
   padding: 0;
   font-size: 100%;
@@ -25,7 +25,7 @@ body {
 
 .smallcaps, h1,
 .toc-section > p {
-  font-size: 95%;
+  font-size: 90%;
   text-transform: uppercase;
   letter-spacing: .1em;
   word-spacing: .1em;
@@ -44,7 +44,7 @@ h1 {
   margin-bottom:  2.5em;
   color: #EF3E42 !important;
   font-weight: bold;
-  line-height: 1.2;
+  line-height: 1.1;
 }
 
 h1.center {
@@ -59,11 +59,11 @@ h1 .simple {
 }
 
 h1 .subheading {
-  margin-top: 0.5em !important;
+  margin-top: .5em !important;
 }
 
 h1 .preheading {
-  margin-bottom: 0.5em !important;
+  margin-bottom: .5em !important;
 }
 
 h1 .by {
@@ -259,15 +259,6 @@ blockquote p {
   font-size: 1em;
 }
 
-img {
-  max-width: 90%;
-  margin: 2em auto;
-}
-
-img + img {
-  margin-top: -2em;
-}
-
 .tools-head {
   margin: 0 0 1em;
 }
@@ -402,7 +393,6 @@ img.right {
 
 #cover img {
   margin: 0;
-  border: solid 1px red;
 }
 
 /* Copyright Styles */
@@ -434,33 +424,11 @@ img.right {
   font-weight: normal;
 }
 
-/* TOC / Part Styles */
+/* Part Styles */
 
-#TOC li, .part li {
+.part li {
   /*font-family: Verdana, Tahoma, Arial, sans-serif;*/
   font-size: 1.2em;
-}
-
-#TOC li {
-  text-transform: uppercase;
-  margin-bottom: 1em;
-  list-style: none;
-  font-weight: bold;
-}
-
-#TOC li ul {
-  margin: 0.5em 0 0;
-}
-
-#TOC li li {
-  font-size: 1em !important;
-  margin: 0 0 0.5em 1em !important;
-  text-transform: none !important;
-  font-weight: normal !important;
-}
-
-#TOC a, .part a {
-  text-decoration: none;
 }
 
 .part h1 {
@@ -630,4 +598,14 @@ td code {
 .answer {
   margin-left: 10px;
   font-weight: 700;
+}
+
+#illustration {
+  width: 100%;
+  text-align: center;
+  page-break-after: always;
+}
+
+#illustration img {
+  max-width: 100%;
 }
