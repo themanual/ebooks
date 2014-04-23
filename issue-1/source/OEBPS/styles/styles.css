@@ -6,6 +6,7 @@ body, h1, h2, h3, h4, p, blockquote, ul, ol {
   font-size: 100%;
 }
 
+.no-hyphens, .no-hyphens *,
 h1, h2, h3, h4 {
   -webkit-hyphens: none !important;
   adobe-hyphenate: none;
@@ -126,6 +127,22 @@ ol.abc li {
 li li {
   font-size: 1em;
   margin-left: 1em;
+}
+
+.toc, .toc li, .toc ul, .toc ol {
+  list-style: none;
+  margin: 0;
+}
+
+.toc-section {
+  margin-top: 1em !important;
+  margin-bottom: 1em !important;
+}
+
+.toc-section > p {
+  text-transform: uppercase;
+  font-size: 90%;
+  margin-top: 0;
 }
 
 .callout {
