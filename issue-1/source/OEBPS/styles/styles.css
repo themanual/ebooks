@@ -23,6 +23,14 @@ body {
 .m-tt  { margin-top: 1.5em  !important; }
 .m-tt  { margin-top: 2em    !important; }
 
+.smallcaps, h1,
+.toc-section > p {
+  font-size: 95%;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  word-spacing: .1em;
+}
+
 em {
   font-style: italic;
 }
@@ -32,15 +40,15 @@ strong {
 }
 
 h1 {
-  text-transform: uppercase;
-  letter-spacing: .1em;
-  word-spacing: .1em;
-  margin-top:     2.5em;
-  margin-bottom:  2.5em;
+  margin-top:     3em;
+  margin-bottom:  3em;
   color: #EF3E42 !important;
   font-weight: bold;
-  text-align: center;
   line-height: 1.2;
+}
+
+h1.center {
+  text-align: center;
 }
 
 h1 .subheading,
@@ -48,19 +56,18 @@ h1 .preheading,
 h1 .simple {
   color: black;
   font-weight: normal;
-  /*font-size: 95%;*/
   display: block;
 }
 
 h1 .subheading {
-  margin-top: 0.6em !important;
+  margin-top: 0.5em !important;
 }
 
 h1 .preheading {
-  margin-bottom: 0.6em !important;
+  margin-bottom: 0.5em !important;
 }
 
-h1 .author .by {
+h1 .by {
   font-style: italic;
   text-transform: lowercase;
   letter-spacing: 0;
@@ -70,7 +77,7 @@ h2 {
   line-height: 1.2em;
   margin-top: 1.8em;
   font-weight: bold;
-  margin-bottom: .6em;
+  page-break-after: avoid;
 }
 
 p {
@@ -79,7 +86,7 @@ p {
 }
 
 h2 + p {
-  margin-top: 0;
+  margin-top: .5em;
 }
 
 p + p {
@@ -94,21 +101,20 @@ p.indented {
   text-indent: 1em;
 }
 
-a:link,     a:link span,
-a:visited,  a:visited span,
-a:hover,    a:hover span,
-a:active,   a:active span {
-  text-decoration: none;
+a:link,
+a:visited,
+a:hover,
+a:active {
   color: #EF3E42 !important;
   /* iBooks hack: https://stackoverflow.com/questions/6263703/style-anchors-in-ibooks-epub/6355591 */
   -webkit-text-fill-color: #EF3E42 !important;
 }
 
-a:link,
-a:visited,
-a:hover,
-a:active {
-  text-decoration: underline !important;
+.toc a:link,
+.toc a:visited,
+.toc a:hover,
+.toc a:active {
+  text-decoration: none !important;
 }
 
 /*a:link, a:visited, */sup {
@@ -151,14 +157,23 @@ li li {
   margin-left: 1em;
 }
 
+.toc {
+  line-height: 1.4;
+}
+
 .toc, .toc li, .toc ul, .toc ol {
   list-style: none;
   margin: 0;
 }
 
 .toc-section {
-  margin-top: .75em !important;
-  margin-bottom: .75em !important;
+  margin-top: 1em !important;
+  margin-bottom: 1em !important;
+}
+
+.toc-section > p {
+  font-size: 85%;
+  font-weight: bold;
 }
 
 .toc-section:first-child {
@@ -170,11 +185,7 @@ li li {
 }
 
 .toc-section > p {
-  text-transform: uppercase;
-  font-size: 85%;
   margin-top: 0;
-  letter-spacing: 0.1em;
-  word-spacing: 0.1em;
 }
 
 .callout {
@@ -360,6 +371,7 @@ img.right {
   margin-top: 2.5em;
   border-top: 1px solid #ccddcc;
   padding-top: 1em;
+  page-break-before: avoid;
 }
 
 .footnotes ol {
