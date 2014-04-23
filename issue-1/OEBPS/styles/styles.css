@@ -55,10 +55,15 @@ h1 {
   margin-bottom:  2.5em;
   color: #EF3E42 !important;
   line-height: 1.2;
+  font-weight: bold;
 }
 
 h1.center {
   text-align: center;
+}
+
+h1 .black {
+  color: black;
 }
 
 h1 .subheading,
