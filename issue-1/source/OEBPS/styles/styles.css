@@ -392,12 +392,17 @@ img.right {
 
 /* Cover Styles */
 
-#cover img {
-  margin: 0;
+#cover, #cover div {
+  text-align: center;
 }
 
 #cover h1 {
   display: none;
+}
+
+#cover img {
+  margin: 0;
+  border: solid 1px red;
 }
 
 /* Copyright Styles */
