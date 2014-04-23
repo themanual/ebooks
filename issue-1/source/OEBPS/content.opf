@@ -67,8 +67,6 @@
 
 <!-- Content -->
     <item id="p_cover"            media-type="application/xhtml+xml" href="text/cover.xhtml" />
-    <item id="p_title"            media-type="application/xhtml+xml" href="text/title.xhtml" />
-    <item id="p_copyright"        media-type="application/xhtml+xml" href="text/copyright.xhtml" />
     <!-- <item id="p_dedication"       media-type="application/xhtml+xml" href="text/dedication.xhtml" /> -->
     <item id="p_toc"              media-type="application/xhtml+xml" href="text/toc.xhtml" />
     <item id="p_loi"              media-type="application/xhtml+xml" href="text/loi.xhtml" />
@@ -89,6 +87,7 @@
     <item id="p_illustrators"     media-type="application/xhtml+xml" href="text/illustrators.xhtml" />
     <item id="p_staff"            media-type="application/xhtml+xml" href="text/staff.xhtml" />
     <item id="p_acknowledgements" media-type="application/xhtml+xml" href="text/acknowledgements.xhtml" />
+    <item id="p_copyright"        media-type="application/xhtml+xml" href="text/copyright.xhtml" />
 
 <!-- CSS -->
     <item id="css" media-type="text/css" href="styles/styles.css" />
@@ -108,8 +107,6 @@
 <!-- Spine: Reading order of text content -->
   <spine toc="toc">
     <itemref idref="p_cover" />
-    <itemref idref="p_title" />
-    <itemref idref="p_copyright" />
     <!-- <itemref idref="p_dedication" /> -->
     <itemref idref="p_toc" />
     <itemref idref="p_loi" />
@@ -130,13 +127,12 @@
     <itemref idref="p_illustrators" />
     <itemref idref="p_staff" />
     <itemref idref="p_acknowledgements" />
+    <itemref idref="p_copyright" />
   </spine>
 
 <!-- Guide -->
   <guide>
     <reference type="cover" href="text/cover.xhtml" />
-    <reference type="title-page" href="text/title.xhtml" />
-    <reference type="copyright-page" href="text/copyright.xhtml" />
     <!-- <reference type="dedication" href="text/dedication.xhtml" /> -->
     <reference type="toc" href="text/toc.xhtml" />
     <reference type="loi" href="text/loi.xhtml" />
@@ -157,6 +153,7 @@
     <reference type="notes" href="text/illustrators.xhtml" />
     <reference type="notes" href="text/staff.xhtml" />
     <reference type="acknowledgements" href="text/acknowledgements.xhtml" />
+    <reference type="copyright-page" href="text/copyright.xhtml" />
   </guide>
 
 </package>
