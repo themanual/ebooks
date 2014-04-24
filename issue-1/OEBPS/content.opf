@@ -1,71 +1,92 @@
 <?xml version='1.0' encoding='utf-8'?>
-<package xmlns="http://www.idpf.org/2007/opf"
-         xmlns:dc="http://purl.org/dc/elements/1.1/"
-         unique-identifier="uid"
-         version="2.0">
+<package  xml:lang="en"
+          xmlns="http://www.idpf.org/2007/opf"
+          xmlns:dc="http://purl.org/dc/elements/1.1/"
+          unique-identifier="uid"
+          version="3.0">
 
-<!-- METADATA -->
-  <metadata xmlns:dc="http://purl.org/dc/elements/1.1/"
-            xmlns:opf="http://www.idpf.org/2007/opf">
-<!-- identifiers -->
-    <dc:identifier  opf:scheme="ISBN" id="uid"
-                    xmlns:dc="http://purl.org/dc/elements/1.1/">urn:isbn:1AF6F8864C674C8C91D96B8E0C58D732</dc:identifier>
-    <dc:identifier  opf:scheme="URI">http://alwaysreadthemanual.com/issues/1</dc:identifier>
-    <dc:identifier  opf:scheme="ISSN">2047-3508</dc:identifier>
 
-<!-- cover, title, description -->
+  <metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <!-- required -->
+    <dc:identifier id="uid">urn:uuid:1AF6F886-4C67-4C8C-91D9-6B8E0C58D732</dc:identifier>
+    <dc:identifier>urn:ISSN:2047-3508</dc:identifier>
+    <meta property="dcterms:modified">2014-04</meta>
+
+    <dc:date>2012</dc:date>
+    <dc:rights>Copyright 2012-2014 Fiction</dc:rights>
+
+    <dc:title id="title-full">The Manual: Issue 1</dc:title>
+    <meta refines="#title-full" property="title-type">extended</meta>
+
+    <dc:title id="title-pub">The Manual</dc:title>
+    <meta refines="#title-pub" property="title-type">collection</meta>
+    <meta refines="#title-pub" property="display-seq">1</meta>
+
+    <dc:title id="title-issue" xml:lang="en">Issue 1</dc:title>
+    <meta refines="#title-issue" property="title-type">short</meta>
+    <meta refines="#title-issue" property="display-seq">2</meta>
+
+    <dc:language>en</dc:language>
+
+    <!-- cover, title, description -->
     <meta name="cover" content="coverimage" />
 
     <!-- TODO review creator, publisher, title -->
-    <dc:creator opf:role="aut">The Manual</dc:creator>
+    <dc:creator id="pub-creator">The Manual</dc:creator>
+    <meta refines="#pub-creator" property="role" scheme="marc:relators">pbl</meta>
     <dc:publisher>Fiction</dc:publisher>
-
-    <dc:title id="title_main" xml:lang="en">Issue 1</dc:title>
-    <meta refines="#title_main" property="title-type">main</meta>
-    <dc:title id="title_collection">The Manual</dc:title>
-    <meta refines="#title_collection" property="title-type">collection</meta>
-    <dc:title id="title_extended">The Manual: Issue 1</dc:title>
-    <meta refines="#title_extended" property="title-type">extended</meta>
+    <dc:type>Non-fiction</dc:type>
+    <dc:subject>DESIGN / Web / General</dc:subject>
 
     <!-- TODO description -->
     <dc:description id="en_description" xml:lang="en">DESCRIPTION TBD</dc:description>
 
-<!-- contributors-->
-    <dc:contributor opf:role="aut" opf:file-as="Collison, Simon">Simon Collison</dc:contributor>
-    <dc:contributor opf:role="aut" opf:file-as="Chimero, Frank">Frank Chimero</dc:contributor>
-    <dc:contributor opf:role="aut" opf:file-as="Tan, Jon">Jon Tan</dc:contributor>
-    <dc:contributor opf:role="aut" opf:file-as="Rubin, Dan">Dan Rubin</dc:contributor>
-    <dc:contributor opf:role="aut" opf:file-as="Danzico, Liz">Liz Danzico</dc:contributor>
-    <dc:contributor opf:role="aut" opf:file-as="Standardistas, The">The Standardistas</dc:contributor>
+    <!-- contributors-->
+    <dc:contributor id="pub-author-1">Simon Collison</dc:contributor>
+    <meta refines="#pub-author-1" property="role" scheme="marc:relators">aut</meta>
+    <dc:contributor id="pub-author-2">Frank Chimero</dc:contributor>
+    <meta refines="#pub-author-2" property="role" scheme="marc:relators">aut</meta>
+    <dc:contributor id="pub-author-3">Jon Tan</dc:contributor>
+    <meta refines="#pub-author-3" property="role" scheme="marc:relators">aut</meta>
+    <dc:contributor id="pub-author-4">Dan Rubin</dc:contributor>
+    <meta refines="#pub-author-4" property="role" scheme="marc:relators">aut</meta>
+    <dc:contributor id="pub-author-5">Liz Danzico</dc:contributor>
+    <meta refines="#pub-author-5" property="role" scheme="marc:relators">aut</meta>
+    <dc:contributor id="pub-author-6">The Standardistas</dc:contributor>
+    <meta refines="#pub-author-6" property="role" scheme="marc:relators">aut</meta>
 
-    <dc:contributor opf:role="ill" opf:file-as="Biesinger, Raymond">Raymond Biesinger</dc:contributor>
-    <dc:contributor opf:role="ill" opf:file-as="Zagnoli, Olimpia">Olimpia Zagnoli</dc:contributor>
-    <dc:contributor opf:role="ill" opf:file-as="Gray, Christopher">Christopher Gray</dc:contributor>
-    <dc:contributor opf:role="ill" opf:file-as="Gatley, Owen">Owen Gatley</dc:contributor>
-    <dc:contributor opf:role="ill" opf:file-as="Zhu, Ping">Ping Zhu</dc:contributor>
-    <dc:contributor opf:role="ill" opf:file-as="Superbrothers">Superbrothers</dc:contributor>
+    <dc:contributor id="pub-illustrator-1">Raymond Biesinger</dc:contributor>
+    <meta refines="pub-illustrator-1" property="role" scheme="marc:relators">ill</meta>
+    <dc:contributor id="pub-illustrator-2">Olimpia Zagnoli</dc:contributor>
+    <meta refines="pub-illustrator-2" property="role" scheme="marc:relators">ill</meta>
+    <dc:contributor id="pub-illustrator-3">Christopher Gray</dc:contributor>
+    <meta refines="pub-illustrator-3" property="role" scheme="marc:relators">ill</meta>
+    <dc:contributor id="pub-illustrator-4">Owen Gatley</dc:contributor>
+    <meta refines="pub-illustrator-4" property="role" scheme="marc:relators">ill</meta>
+    <dc:contributor id="pub-illustrator-5">Ping Zhu</dc:contributor>
+    <meta refines="pub-illustrator-5" property="role" scheme="marc:relators">ill</meta>
+    <dc:contributor id="pub-illustrator-6">Superbrothers</dc:contributor>
+    <meta refines="pub-illustrator-6" property="role" scheme="marc:relators">ill</meta>
 
-    <dc:contributor opf:role="pbl" opf:file-as="McMillan, Andy">Andy McMillan</dc:contributor>
-    <dc:contributor opf:role="edt" opf:file-as="Wood, Carolyn">Carolyn Wood</dc:contributor>
-    <dc:contributor opf:role="bkd" opf:file-as="Burrows, Jez">Jez Burrows</dc:contributor>
-    <dc:contributor opf:role=""></dc:contributor>
-<!-- Dates and More -->
-    <dc:date opf:event="original-publication">2012</dc:date>
-    <dc:date opf:event="ops-publication">2014</dc:date>
-    <dc:rights>Copyright 2012-2014 Fiction</dc:rights>
-    <dc:language>en</dc:language>
-    <dc:type>Non-fiction</dc:type>
-    <dc:subject>DESIGN / Web / General</dc:subject>
-    <dc:source>http://alwaysreadthemanual.com</dc:source>
+    <dc:contributor id="staff-1">Andy McMillan</dc:contributor>
+    <meta refines="staff-1" property="role" scheme="marc:relators">pbl</meta>
+    <dc:contributor id="staff-2">Carolyn Wood</dc:contributor>
+    <meta refines="staff-2" property="role" scheme="marc:relators">edt</meta>
+    <dc:contributor id="staff-3">Jez Burrows</dc:contributor>
+    <meta refines="staff-3" property="role" scheme="marc:relators">bkd</meta>
+    <dc:contributor id="staff-4">Paulo Pereira</dc:contributor>
+    <meta refines="staff-4" property="role" scheme="marc:relators">bkd</meta>
+    <dc:contributor id="staff-5">Nate Utesch</dc:contributor>
+    <meta refines="staff-5" property="role" scheme="marc:relators">ard</meta>
   </metadata>
 
-<!-- Manifest: All necessary files -->
+
   <manifest>
 
-<!-- TOC -->
+    <!-- TOC -->
     <item id="toc" media-type="application/x-dtbncx+xml" href="toc.ncx"></item>
 
-<!-- Content -->
+    <!-- Content -->
     <item id="p_cover"            media-type="application/xhtml+xml" href="text/cover.xhtml" />
     <!-- <item id="p_dedication"       media-type="application/xhtml+xml" href="text/dedication.xhtml" /> -->
     <item id="p_toc"              media-type="application/xhtml+xml" href="text/toc.xhtml" />
@@ -89,10 +110,10 @@
     <item id="p_acknowledgements" media-type="application/xhtml+xml" href="text/acknowledgements.xhtml" />
     <item id="p_copyright"        media-type="application/xhtml+xml" href="text/copyright.xhtml" />
 
-<!-- CSS -->
+    <!-- CSS -->
     <item id="css" media-type="text/css" href="styles/styles.css" />
 
-<!-- Images -->
+    <!-- Images -->
     <item id="coverimage"   media-type="image/jpeg" href="images/cover.jpg"  />
     <item id="i_article_1"  media-type="image/jpeg" href="illustration_1.jpg" />
     <item id="i_article_2"  media-type="image/jpeg" href="illustration_2.jpg" />
@@ -100,11 +121,9 @@
     <item id="i_article_4"  media-type="image/jpeg" href="illustration_4.jpg" />
     <item id="i_article_5"  media-type="image/jpeg" href="illustration_5.jpg" />
     <item id="i_article_6"  media-type="image/jpeg" href="illustration_6.jpg" />
-
   </manifest>
 
 
-<!-- Spine: Reading order of text content -->
   <spine toc="toc">
     <itemref idref="p_cover" />
     <!-- <itemref idref="p_dedication" /> -->
@@ -130,7 +149,7 @@
     <itemref idref="p_copyright" />
   </spine>
 
-<!-- Guide -->
+
   <guide>
     <reference type="cover" href="text/cover.xhtml" />
     <!-- <reference type="dedication" href="text/dedication.xhtml" /> -->
