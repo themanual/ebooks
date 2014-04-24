@@ -56,7 +56,8 @@ strong {
 }
 
 h1 {
-  margin-top:     2.5em;
+  margin-top:     0;
+  padding-top:    2.5em;
   margin-bottom:  2.5em;
   color: #EF3E42 !important;
   line-height: 1.2;
@@ -584,6 +585,10 @@ td code {
 
 .toc {
   line-height: 1.2;
+}
+
+.toc, .toc ol {
+  margin: 0;
 }
 
 .toc, .toc li {
