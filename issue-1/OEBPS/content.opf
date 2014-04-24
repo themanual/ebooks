@@ -1,11 +1,6 @@
-<?xml version='1.0' encoding='utf-8'?>
-<package  xml:lang="en"
-          xmlns="http://www.idpf.org/2007/opf"
-          xmlns:dc="http://purl.org/dc/elements/1.1/"
-          unique-identifier="uid"
-          version="3.0">
+<?xml version="1.0" encoding="UTF-8"?>
 
-
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="uid" version="3.0" xml:lang="en">
   <metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
     <!-- required -->
     <dc:identifier id="uid">urn:uuid:1AF6F886-4C67-4C8C-91D9-6B8E0C58D732</dc:identifier>
