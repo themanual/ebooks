@@ -78,9 +78,6 @@
 
   <manifest>
 
-    <!-- TOC -->
-    <item id="toc" media-type="application/x-dtbncx+xml" href="toc.ncx"></item>
-
     <!-- Content -->
     <item id="p_cover"            media-type="application/xhtml+xml" href="text/cover.xhtml" />
     <!-- <item id="p_dedication"       media-type="application/xhtml+xml" href="text/dedication.xhtml" /> -->
@@ -116,10 +113,13 @@
     <item id="i_article_4"  media-type="image/jpeg" href="illustration_4.jpg" />
     <item id="i_article_5"  media-type="image/jpeg" href="illustration_5.jpg" />
     <item id="i_article_6"  media-type="image/jpeg" href="illustration_6.jpg" />
+
+    <!-- NCX for backwards compatibility -->
+    <item id="ncx" media-type="application/x-dtbncx+xml" href="toc.ncx"></item>
   </manifest>
 
 
-  <spine toc="toc">
+  <spine toc="ncx">
     <itemref idref="p_cover" />
     <!-- <itemref idref="p_dedication" /> -->
     <itemref idref="p_toc" />
