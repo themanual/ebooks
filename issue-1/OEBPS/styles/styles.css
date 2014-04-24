@@ -6,6 +6,11 @@ body, h1, h2, h3, h4, p, blockquote, ul, ol, img {
   font-size: 100%;
 }
 
+.hidden {
+  display: none;
+  visibility: hidden;
+}
+
 .left {
   text-align: left !important;
 }
@@ -572,6 +577,10 @@ td code {
 /*
  * Table of Contents
  */
+
+#loi {
+  page-break-before: always;
+}
 
 .toc {
   line-height: 1.2;
