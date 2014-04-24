@@ -106,7 +106,8 @@
     <item id="css" media-type="text/css" href="styles/styles.css" />
 
     <!-- Images -->
-    <item id="coverimage"   media-type="image/jpeg" href="images/cover.jpg"  />
+    <item id="coverimage"   media-type="image/jpeg" href="images/cover.jpg" properties="cover-image" />
+
     <item id="i_article_1"  media-type="image/jpeg" href="illustration_1.jpg" />
     <item id="i_article_2"  media-type="image/jpeg" href="illustration_2.jpg" />
     <item id="i_article_3"  media-type="image/jpeg" href="illustration_3.jpg" />
