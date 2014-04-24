@@ -107,12 +107,12 @@
     <!-- Images -->
     <item id="coverimage"   media-type="image/jpeg" href="images/cover.jpg" properties="cover-image" />
 
-    <item id="i_article_1"  media-type="image/jpeg" href="illustration_1.jpg" />
-    <item id="i_article_2"  media-type="image/jpeg" href="illustration_2.jpg" />
-    <item id="i_article_3"  media-type="image/jpeg" href="illustration_3.jpg" />
-    <item id="i_article_4"  media-type="image/jpeg" href="illustration_4.jpg" />
-    <item id="i_article_5"  media-type="image/jpeg" href="illustration_5.jpg" />
-    <item id="i_article_6"  media-type="image/jpeg" href="illustration_6.jpg" />
+    <item id="i_article_1"  media-type="image/jpeg" href="images/illustration_1.jpg" />
+    <item id="i_article_2"  media-type="image/jpeg" href="images/illustration_2.jpg" />
+    <item id="i_article_3"  media-type="image/jpeg" href="images/illustration_3.jpg" />
+    <item id="i_article_4"  media-type="image/jpeg" href="images/illustration_4.jpg" />
+    <item id="i_article_5"  media-type="image/jpeg" href="images/illustration_5.jpg" />
+    <item id="i_article_6"  media-type="image/jpeg" href="images/illustration_6.jpg" />
 
     <!-- backwards compatibility -->
     <item id="ncx" media-type="application/x-dtbncx+xml" href="toc.ncx"></item>
