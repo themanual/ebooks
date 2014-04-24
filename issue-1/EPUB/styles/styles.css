@@ -68,10 +68,6 @@ h1.center {
   text-align: center;
 }
 
-h1 .black {
-  color: black;
-}
-
 h1 .subheading,
 h1 .preheading,
 h1 .simple {
@@ -121,6 +117,7 @@ p.indented {
   text-indent: 1em;
 }
 
+a,
 a:link,
 a:visited,
 a:hover,
@@ -130,6 +127,12 @@ a:active {
   -webkit-text-fill-color: #EF3E42 !important;
 }
 
+.black,
+a.black {
+  color: black !important;
+}
+
+.toc a,
 .toc a:link,
 .toc a:visited,
 .toc a:hover,

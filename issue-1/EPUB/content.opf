@@ -81,7 +81,8 @@
     <!-- Content -->
     <item id="p_cover"            media-type="application/xhtml+xml" href="html/cover.xhtml" />
     <!-- <item id="p_dedication"       media-type="application/xhtml+xml" href="html/dedication.xhtml" /> -->
-    <item id="p_nav"              media-type="application/xhtml+xml" href="html/nav.xhtml" properties="nav" />
+    <item id="nav"                media-type="application/xhtml+xml" href="html/nav.xhtml" properties="nav" />
+    <item id="p_toc"              media-type="application/xhtml+xml" href="html/toc.xhtml" />
     <item id="p_letter"           media-type="application/xhtml+xml" href="html/letter.xhtml" />
     <item id="p_author_1_article" media-type="application/xhtml+xml" href="html/author-1-article.xhtml" />
     <item id="p_author_1_lesson"  media-type="application/xhtml+xml" href="html/author-1-lesson.xhtml" />
@@ -122,7 +123,7 @@
   <spine toc="ncx">
     <itemref idref="p_cover" />
     <!-- <itemref idref="p_dedication" /> -->
-    <itemref idref="p_nav" />
+    <itemref idref="p_toc" />
     <itemref idref="p_letter" />
     <itemref idref="p_author_1_article" />
     <itemref idref="p_author_1_lesson" />
@@ -147,8 +148,8 @@
   <guide>
     <reference type="cover" href="html/cover.xhtml" />
     <!-- <reference type="dedication" href="html/dedication.xhtml" /> -->
-    <reference type="toc"   href="html/nav.xhtml#toc" />
-    <reference type="loi"   href="html/nav.xhtml#loi" />
+    <reference type="toc"   href="html/toc.xhtml#toc" />
+    <reference type="loi"   href="html/toc.xhtml#loi" />
     <reference type="text"  href="html/letter.xhtml" />
     <reference type="text"  href="html/author-1-article.xhtml" />
     <reference type="text"  href="html/author-1-lesson.xhtml" />
