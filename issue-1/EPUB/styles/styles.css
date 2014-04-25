@@ -106,7 +106,8 @@ p {
 }
 
 h2 + p {
-  margin-top: .5em;
+  margin-top: .25em;
+  page-break-before: avoid;
 }
 
 p + p {
@@ -147,6 +148,13 @@ a.black {
 /*a:link, a:visited, */sup {
   color: rgb(0,159,238) !important;
   text-decoration: underline;
+}
+
+pre {
+  line-height: 1.5;
+  margin: 1.5em 0 1.5em 1.5em;
+  padding: 0;
+  color: rgb(102, 102, 102); /* #666666 */
 }
 
 .footnote {
