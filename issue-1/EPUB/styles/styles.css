@@ -160,7 +160,7 @@ li {
 }
 
 ol {
-  margin-left: 10px;
+  margin-left: 1.5em;
 }
 
 ol li {
@@ -320,9 +320,10 @@ img.right {
 
 .footnotes {
   margin-top: 2.5em;
-  border-top: 1px solid #ccddcc;
-  padding-top: 1em;
   page-break-before: avoid;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  border-top: 1px solid #EF3E42;
 }
 
 .footnotes ol {
@@ -332,6 +333,14 @@ img.right {
 
 .footnotes li {
   position: relative;
+}
+
+.footnotes li:target {
+  color: black;
+}
+
+.footnotes p {
+  margin-top: 0;
 }
 
 .footnotes sup {
