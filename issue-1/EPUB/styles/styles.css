@@ -6,6 +6,10 @@ body, h1, h2, h3, h4, p, blockquote, ul, ol, img {
   font-size: 100%;
 }
 
+img {
+  border: none !important;
+}
+
 .hidden {
   display: none;
   visibility: hidden;
@@ -98,7 +102,7 @@ h2 {
 
 p {
   margin: 0;
-  margin-top: 1em;
+  margin-top: 1.5em;
 }
 
 h2 + p {
@@ -148,10 +152,6 @@ a.black {
 sub, sup {
   font-size: .8em;
   text-decoration: none;
-}
-
-p + p {
-  text-indent: 1em;
 }
 
 li {
