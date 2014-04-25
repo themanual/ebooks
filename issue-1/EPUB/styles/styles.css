@@ -149,6 +149,14 @@ a.black {
   text-decoration: underline;
 }
 
+.footnote {
+  font-size: 70%;
+  font-weight: bold;
+  vertical-align: super;
+  padding-left: .3em;
+  padding-right: .3em;
+}
+
 sub, sup {
   font-size: .8em;
   text-decoration: none;
@@ -319,20 +327,26 @@ img.right {
 /* Footer Styles */
 
 .footnotes {
-  margin-top: 2.5em;
+  margin-top: 3em;
   page-break-before: avoid;
-  padding-top: 1em;
-  padding-bottom: 1em;
-  border-top: 1px solid #EF3E42;
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
+  border-top: 1px solid #e0e0e0;
 }
 
 .footnotes ol {
-  font-size: 80%;
+  font-size: 75%;
   color: #999999;
 }
 
 .footnotes li {
   position: relative;
+  line-height: 1.5;
+  margin-bottom: .5em;
+}
+
+.footnotes .reversefootnote {
+  display: inline !important;
 }
 
 .footnotes li:target {
