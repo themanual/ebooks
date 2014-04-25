@@ -115,6 +115,11 @@ p + p {
   text-indent: 1em;
 }
 
+p.spaced {
+  margin-top: 1.5em;
+  text-indent: 0;
+}
+
 p.unindented {
   text-indent: 0;
 }
