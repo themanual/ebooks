@@ -589,7 +589,7 @@ td code {
 }
 
 /*
- * Full-page illustration
+ * Illustrations
  */
 
 #illustration {
@@ -600,6 +600,18 @@ td code {
 
 #illustration img {
   max-width: 100%;
+}
+
+.author-portrait {
+  float: right;
+  clear: right;
+  width: 5em;
+  margin-left:   .5em;
+  margin-bottom: .5em;
+}
+
+.author-portrait img {
+  width: 100%;
 }
 
 /*
