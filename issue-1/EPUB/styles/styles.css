@@ -191,16 +191,26 @@ li li {
 }
 
 blockquote {
+  border-left: solid 1px #EF3E42;
   display: block;
+  font-size: 100%;
   padding: 0 1em;
-  font-style: italic;
-  color: #333333;
+  color: rgb(102, 102, 102); /* #666666 */
+}
+
+blockquote,
+blockquote p {
+  font-style: normal !important;
 }
 
 blockquote cite {
-  font-size: 80%;
   display: block;
+  font-size: 100%;
   text-align: right;
+  font-style: normal;
+  font-weight: normal;
+  text-indent: 0;
+  margin-top: .75em;
 }
 
 blockquote + blockquote {
@@ -221,28 +231,6 @@ p.int + p {
 p.int + p.int {
   text-indent: 1em;
   margin-top: 0;
-}
-
-li p, li h3, li blockquote, li h4 {
-  font-size: 1em;
-  margin-left: 0;
-  margin-right: 0;
-}
-
-li .caption {
-  font-size: 0.8em;
-}
-
-li h3 {
-  margin-top: 0;
-}
-
-cite {
-  display: block;
-  color: rgb(110,110,101);
-  font-style: normal;
-  font-size: 0.7em;
-  text-indent: 0;
 }
 
 .image, .break + p {
