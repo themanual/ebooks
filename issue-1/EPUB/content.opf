@@ -11,7 +11,7 @@
     <dc:rights>Copyright 2012-2014 Fiction</dc:rights>
 
     <dc:title id="title-full">The Manual: Issue 1</dc:title>
-    <meta refines="#title-full" property="title-type">extended</meta>
+    <meta refines="#title-full" property="title-type">main</meta>
 
     <dc:title id="title-pub">The Manual</dc:title>
     <meta refines="#title-pub" property="title-type">collection</meta>
