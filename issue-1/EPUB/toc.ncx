@@ -107,8 +107,8 @@
         </navPoint>
 
         <navPoint id="navpoint22">
-            <navLabel><text>Staff</text></navLabel>
-            <content src="html/staff.xhtml" />
+            <navLabel><text>Colophon</text></navLabel>
+            <content src="html/colophon.xhtml" />
         </navPoint>
 
         <navPoint id="navpoint23">
