@@ -59,8 +59,13 @@ strong {
   font-weight: bold;
 }
 
+.afterbreak {
+  height: 1px !important;
+  visibility: hidden !important;
+}
+
 h1 {
-  padding-top:    2.5em;
+  margin-top:    2.5em;
   margin-bottom:  2.5em;
   color: #EF3E42 !important;
   line-height: 1.2;
@@ -616,10 +621,6 @@ td code {
 /*
  * Table of Contents
  */
-
-#loi {
-  page-break-before: always;
-}
 
 .toc {
   line-height: 1.2;

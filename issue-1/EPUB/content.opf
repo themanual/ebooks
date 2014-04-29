@@ -36,6 +36,17 @@
     <!-- TODO description -->
     <dc:description id="en_description" xml:lang="en">DESCRIPTION TBD</dc:description>
 
+    <dc:contributor id="staff-1">Andy McMillan</dc:contributor>
+    <meta refines="staff-1" property="role" scheme="marc:relators">pbl</meta>
+    <dc:contributor id="staff-2">Carolyn Wood</dc:contributor>
+    <meta refines="staff-2" property="role" scheme="marc:relators">edt</meta>
+    <dc:contributor id="staff-3">Jez Burrows</dc:contributor>
+    <meta refines="staff-3" property="role" scheme="marc:relators">bkd</meta>
+    <dc:contributor id="staff-4">Paulo Pereira</dc:contributor>
+    <meta refines="staff-4" property="role" scheme="marc:relators">bkd</meta>
+    <dc:contributor id="staff-5">Nate Utesch</dc:contributor>
+    <meta refines="staff-5" property="role" scheme="marc:relators">ard</meta>
+
     <!-- contributors-->
     <dc:contributor id="pub-author-1">Simon Collison</dc:contributor>
     <meta refines="#pub-author-1" property="role" scheme="marc:relators">aut</meta>
@@ -63,43 +74,39 @@
     <dc:contributor id="pub-illustrator-6">Superbrothers</dc:contributor>
     <meta refines="pub-illustrator-6" property="role" scheme="marc:relators">ill</meta>
 
-    <dc:contributor id="staff-1">Andy McMillan</dc:contributor>
-    <meta refines="staff-1" property="role" scheme="marc:relators">pbl</meta>
-    <dc:contributor id="staff-2">Carolyn Wood</dc:contributor>
-    <meta refines="staff-2" property="role" scheme="marc:relators">edt</meta>
-    <dc:contributor id="staff-3">Jez Burrows</dc:contributor>
-    <meta refines="staff-3" property="role" scheme="marc:relators">bkd</meta>
-    <dc:contributor id="staff-4">Paulo Pereira</dc:contributor>
-    <meta refines="staff-4" property="role" scheme="marc:relators">bkd</meta>
-    <dc:contributor id="staff-5">Nate Utesch</dc:contributor>
-    <meta refines="staff-5" property="role" scheme="marc:relators">ard</meta>
   </metadata>
 
 
   <manifest>
 
     <!-- Content -->
-    <item id="p_cover"            media-type="application/xhtml+xml" href="html/cover.xhtml" />
-    <!-- <item id="p_dedication"       media-type="application/xhtml+xml" href="html/dedication.xhtml" /> -->
-    <item id="nav"                media-type="application/xhtml+xml" href="html/nav.xhtml" properties="nav" />
-    <item id="p_toc"              media-type="application/xhtml+xml" href="html/toc.xhtml" />
-    <item id="p_letter"           media-type="application/xhtml+xml" href="html/letter.xhtml" />
-    <item id="p_author_1_article" media-type="application/xhtml+xml" href="html/author-1-article.xhtml" />
-    <item id="p_author_1_lesson"  media-type="application/xhtml+xml" href="html/author-1-lesson.xhtml" />
-    <item id="p_author_2_article" media-type="application/xhtml+xml" href="html/author-2-article.xhtml" />
-    <item id="p_author_2_lesson"  media-type="application/xhtml+xml" href="html/author-2-lesson.xhtml" />
-    <item id="p_author_3_article" media-type="application/xhtml+xml" href="html/author-3-article.xhtml" />
-    <item id="p_author_3_lesson"  media-type="application/xhtml+xml" href="html/author-3-lesson.xhtml" />
-    <item id="p_author_4_article" media-type="application/xhtml+xml" href="html/author-4-article.xhtml" />
-    <item id="p_author_4_lesson"  media-type="application/xhtml+xml" href="html/author-4-lesson.xhtml" />
-    <item id="p_author_5_article" media-type="application/xhtml+xml" href="html/author-5-article.xhtml" />
-    <item id="p_author_5_lesson"  media-type="application/xhtml+xml" href="html/author-5-lesson.xhtml" />
-    <item id="p_author_6_article" media-type="application/xhtml+xml" href="html/author-6-article.xhtml" />
-    <item id="p_author_6_lesson"  media-type="application/xhtml+xml" href="html/author-6-lesson.xhtml" />
-    <item id="p_authors"          media-type="application/xhtml+xml" href="html/authors.xhtml" />
-    <item id="p_illustrators"     media-type="application/xhtml+xml" href="html/illustrators.xhtml" />
-    <item id="p_colophon"         media-type="application/xhtml+xml" href="html/colophon.xhtml" />
-    <item id="p_acknowledgements" media-type="application/xhtml+xml" href="html/acknowledgements.xhtml" />
+    <item id="p_cover"                  media-type="application/xhtml+xml" href="html/cover.xhtml" />
+    <item id="nav"                      media-type="application/xhtml+xml" href="html/nav.xhtml" properties="nav" />
+    <item id="p_toc"                    media-type="application/xhtml+xml" href="html/toc.xhtml" />
+    <item id="p_loi"                    media-type="application/xhtml+xml" href="html/loi.xhtml" />
+    <item id="p_letter"                 media-type="application/xhtml+xml" href="html/letter.xhtml" />
+    <item id="p_author_1_article_illo"  media-type="application/xhtml+xml" href="html/author-1-article.xhtml" />
+    <item id="p_author_1_article_text"  media-type="application/xhtml+xml" href="html/author-1-article-text.xhtml" />
+    <item id="p_author_1_lesson"        media-type="application/xhtml+xml" href="html/author-1-lesson.xhtml" />
+    <item id="p_author_2_article_illo"  media-type="application/xhtml+xml" href="html/author-2-article.xhtml" />
+    <item id="p_author_2_article_text"  media-type="application/xhtml+xml" href="html/author-2-article-text.xhtml" />
+    <item id="p_author_2_lesson"        media-type="application/xhtml+xml" href="html/author-2-lesson.xhtml" />
+    <item id="p_author_3_article_illo"  media-type="application/xhtml+xml" href="html/author-3-article.xhtml" />
+    <item id="p_author_3_article_text"  media-type="application/xhtml+xml" href="html/author-3-article-text.xhtml" />
+    <item id="p_author_3_lesson"        media-type="application/xhtml+xml" href="html/author-3-lesson.xhtml" />
+    <item id="p_author_4_article_illo"  media-type="application/xhtml+xml" href="html/author-4-article.xhtml" />
+    <item id="p_author_4_article_text"  media-type="application/xhtml+xml" href="html/author-4-article-text.xhtml" />
+    <item id="p_author_4_lesson"        media-type="application/xhtml+xml" href="html/author-4-lesson.xhtml" />
+    <item id="p_author_5_article_illo"  media-type="application/xhtml+xml" href="html/author-5-article.xhtml" />
+    <item id="p_author_5_article_text"  media-type="application/xhtml+xml" href="html/author-5-article-text.xhtml" />
+    <item id="p_author_5_lesson"        media-type="application/xhtml+xml" href="html/author-5-lesson.xhtml" />
+    <item id="p_author_6_article_illo"  media-type="application/xhtml+xml" href="html/author-6-article.xhtml" />
+    <item id="p_author_6_article_text"  media-type="application/xhtml+xml" href="html/author-6-article-text.xhtml" />
+    <item id="p_author_6_lesson"        media-type="application/xhtml+xml" href="html/author-6-lesson.xhtml" />
+    <item id="p_authors"                media-type="application/xhtml+xml" href="html/authors.xhtml" />
+    <item id="p_illustrators"           media-type="application/xhtml+xml" href="html/illustrators.xhtml" />
+    <item id="p_colophon"               media-type="application/xhtml+xml" href="html/colophon.xhtml" />
+    <item id="p_acknowledgements"       media-type="application/xhtml+xml" href="html/acknowledgements.xhtml" />
 
     <!-- CSS -->
     <item id="css" media-type="text/css" href="styles/styles.css" />
@@ -127,20 +134,26 @@
 
   <spine toc="ncx">
     <itemref idref="p_cover" />
-    <!-- <itemref idref="p_dedication" /> -->
     <itemref idref="p_toc" />
+    <itemref idref="p_loi" />
     <itemref idref="p_letter" />
-    <itemref idref="p_author_1_article" />
+    <itemref idref="p_author_1_article_illo" />
+    <itemref idref="p_author_1_article_text" />
     <itemref idref="p_author_1_lesson" />
-    <itemref idref="p_author_2_article" />
+    <itemref idref="p_author_2_article_illo" />
+    <itemref idref="p_author_2_article_text" />
     <itemref idref="p_author_2_lesson" />
-    <itemref idref="p_author_3_article" />
+    <itemref idref="p_author_3_article_illo" />
+    <itemref idref="p_author_3_article_text" />
     <itemref idref="p_author_3_lesson" />
-    <itemref idref="p_author_4_article" />
+    <itemref idref="p_author_4_article_illo" />
+    <itemref idref="p_author_4_article_text" />
     <itemref idref="p_author_4_lesson" />
-    <itemref idref="p_author_5_article" />
+    <itemref idref="p_author_5_article_illo" />
+    <itemref idref="p_author_5_article_text" />
     <itemref idref="p_author_5_lesson" />
-    <itemref idref="p_author_6_article" />
+    <itemref idref="p_author_6_article_illo" />
+    <itemref idref="p_author_6_article_text" />
     <itemref idref="p_author_6_lesson" />
     <itemref idref="p_authors" />
     <itemref idref="p_illustrators" />
@@ -148,29 +161,14 @@
     <itemref idref="p_acknowledgements" />
   </spine>
 
-  <!-- backwards compatibility -->
   <guide>
-    <reference type="cover" href="html/cover.xhtml" />
-    <!-- <reference type="dedication" href="html/dedication.xhtml" /> -->
-    <reference type="toc"   href="html/toc.xhtml#toc" />
-    <reference type="loi"   href="html/toc.xhtml#loi" />
-    <reference type="text"  href="html/letter.xhtml" />
-    <reference type="text"  href="html/author-1-article.xhtml" />
-    <reference type="text"  href="html/author-1-lesson.xhtml" />
-    <reference type="text"  href="html/author-2-article.xhtml" />
-    <reference type="text"  href="html/author-2-lesson.xhtml" />
-    <reference type="text"  href="html/author-3-article.xhtml" />
-    <reference type="text"  href="html/author-3-lesson.xhtml" />
-    <reference type="text"  href="html/author-4-article.xhtml" />
-    <reference type="text"  href="html/author-4-lesson.xhtml" />
-    <reference type="text"  href="html/author-5-article.xhtml" />
-    <reference type="text"  href="html/author-5-lesson.xhtml" />
-    <reference type="text"  href="html/author-6-article.xhtml" />
-    <reference type="text"  href="html/author-6-lesson.xhtml" />
-    <reference type="notes" href="html/authors.xhtml" />
-    <reference type="notes" href="html/illustrators.xhtml" />
-    <reference type="notes" href="html/colophon.xhtml" />
-    <reference type="acknowledgements" href="html/acknowledgements.xhtml" />
+    <reference type="cover"             title="Cover"                       href="html/cover.xhtml" />
+    <reference type="toc"               title="Table of Contents"           href="html/toc.xhtml" />
+    <reference type="loi"               title="List of Illustrations"       href="html/loi.xhtml" />
+    <reference type="text"              title="Text"                        href="html/letter.xhtml" />
+    <reference type="notes"             title="Authors and Illustrators"    href="html/authors.xhtml" />
+    <reference type="colophon"          title="Colophon"                    href="html/colophon.xhtml" />
+    <reference type="acknowledgements"  title="Acknowledgements"            href="html/acknowledgements.xhtml" />
   </guide>
 
 </package>
