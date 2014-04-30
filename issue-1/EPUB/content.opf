@@ -133,7 +133,7 @@
 
 
   <spine toc="ncx">
-    <itemref idref="p_cover" />
+    <itemref idref="p_cover" linear="no" />
     <itemref idref="p_toc" />
     <itemref idref="p_loi" />
     <itemref idref="p_letter" />
