@@ -1,47 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" xml:lang="en">
-<head>
-  <title>Authors</title>
-  <link rel="stylesheet" type="text/css" href="../styles/styles.css" />
-</head>
-<body>
-  <h1>Authors</h1>
+----
+layout: plain
+title: Authors
+----
 
-  <div class="author">
-    <div class="author-portrait"><img src="../images/author_2.jpg" alt="" /></div>
-    <h2>Frank Chimero</h2>
-    <p>Frank Chimero is a designer, writer, illustrator, and educator. He is interested in aesthetics, chance, culture, language, process, style, automation, design, seeing, perception, wit, typography, wordplay, identity, form, paradigms, and the tools, symbols, style, future. He is happiest when he forgets himself.</p>
-  </div>
-
-  <div class="author">
-    <div class="author-portrait"><img src="../images/author_1.jpg" alt="" /></div>
-    <h2>Simon Collison</h2>
-    <p>Simon is a UK-based web designer with over a decade of experience at the sharp end. Simon cofounded the successful Erskine Design which he ran for four years before returning to freelancing. He&#8217;s written a few books and speaks about design at events around the world. Simon also organizes the New Adventures conference, is working on a new book, and some ambitious top-secret projects.</p>
-  </div>
-
-  <div class="author">
-    <div class="author-portrait"><img src="../images/author_5.jpg" alt="" /></div>
-    <h2>Liz Danzico</h2>
-    <p>Liz Danzico is part educator, part designer, part editor, and full-time dog owner, who writes part of her time at Bobulate. After more than a decade, she still finds it lovely to live and work in New York City.</p>
-  </div>
-
-  <div class="author">
-    <div class="author-portrait"><img src="../images/author_4.jpg" alt="" /></div>
-    <h2>Dan Rubin</h2>
-    <p>Dan Rubin is a man of many interests and talents. A designer, photographer, and barbershop harmony aficionado, he speaks at conferences around the world, writes about myriad topics, and works with good-looking clients including MailChimp, Google,Yahoo!, Microsoft, Geffen/Universal, and IDEO.</p>
-  </div>
-
-  <div class="author">
-    <div class="author-portrait"><img src="../images/author_3.jpg" alt="" /></div>
-    <h2>Jon Tan</h2>
-    <p>Jon is a designer. He cofounded Fontdeck, and the Analog cooperative, where he works with friends creating things like the new Mapalong web app, and running the Brooklyn Beta conference. Jon speaks internationally, and writes about design and typography. When he&#8217;s not traveling, Jon&#8217;s base is the co-working studio, Mild Bunch HQ, run by Analog in Bristol, UK.</p>
-  </div>
-
-  <div class="author">
-    <div class="author-portrait"><img src="../images/author_6.jpg" alt="" /></div>
-    <h2>The Standardistas</h2>
-    <p>Christopher Murphy and Nicklas Persson teach interactive design at the University of Ulster at Belfast, where they have been active in promoting a web standards-based curriculum. As the tweed-clad duo, The Standardistas, they write and speak regularly on standards-based web design. They&#8217;ve written for 24 Ways, New Adventures, and .net magazine, and a book, HTML and CSS Web Standards Solutions: A Web Standardistas&#8217; Approach.</p>
-  </div>
-
-</body>
-</html>
+{% for author in site.data.issue.loa %}
+<div class="author">
+  <div class="author-portrait"><img src="../images/portrait-{{author}}.jpg" alt="" /></div>
+  <h2>{{ site.data.issue.authors[author].name }}</h2>
+  <p>{{ site.data.issue.authors[author].bio }}</p>
+</div>
+{% end %}

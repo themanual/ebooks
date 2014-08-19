@@ -10,14 +10,14 @@
     <dc:date>2012</dc:date>
     <dc:rights>Copyright 2012-2014 Fiction</dc:rights>
 
-    <dc:title id="title-full">The Manual: Issue 1</dc:title>
+    <dc:title id="title-full">The Manual: Issue {{ site.data.issue.number }}</dc:title>
     <meta refines="#title-full" property="title-type">main</meta>
 
     <dc:title id="title-pub">The Manual</dc:title>
     <meta refines="#title-pub" property="title-type">collection</meta>
     <meta refines="#title-pub" property="display-seq">1</meta>
 
-    <dc:title id="title-issue" xml:lang="en">Issue 1</dc:title>
+    <dc:title id="title-issue" xml:lang="en">Issue {{ site.data.issue.number }}</dc:title>
     <meta refines="#title-issue" property="title-type">short</meta>
     <meta refines="#title-issue" property="display-seq">2</meta>
 
@@ -27,7 +27,7 @@
     <meta name="cover" content="coverimage" />
 
     <!-- TODO review creator, publisher, title -->
-    <dc:creator id="pub-creator">The Manual</dc:creator>
+    <dc:creator id="pub-creator">{{ site.data.issue.publication }}</dc:creator>
     <meta refines="#pub-creator" property="role" scheme="marc:relators">pbl</meta>
     <dc:publisher>Fiction</dc:publisher>
     <dc:type>Non-fiction</dc:type>
@@ -48,31 +48,15 @@
     <meta refines="staff-5" property="role" scheme="marc:relators">ard</meta>
 
     <!-- contributors-->
-    <dc:contributor id="pub-author-1">Simon Collison</dc:contributor>
-    <meta refines="#pub-author-1" property="role" scheme="marc:relators">aut</meta>
-    <dc:contributor id="pub-author-2">Frank Chimero</dc:contributor>
-    <meta refines="#pub-author-2" property="role" scheme="marc:relators">aut</meta>
-    <dc:contributor id="pub-author-3">Jon Tan</dc:contributor>
-    <meta refines="#pub-author-3" property="role" scheme="marc:relators">aut</meta>
-    <dc:contributor id="pub-author-4">Dan Rubin</dc:contributor>
-    <meta refines="#pub-author-4" property="role" scheme="marc:relators">aut</meta>
-    <dc:contributor id="pub-author-5">Liz Danzico</dc:contributor>
-    <meta refines="#pub-author-5" property="role" scheme="marc:relators">aut</meta>
-    <dc:contributor id="pub-author-6">The Standardistas</dc:contributor>
-    <meta refines="#pub-author-6" property="role" scheme="marc:relators">aut</meta>
+    {% for author in site.data.issue.toa %}
+    <dc:contributor id="pub-author-{{ forloop.index }}">{{ site.data.issue.authors[author].name }}</dc:contributor>
+    <meta refines="#pub-author-{{ forloop.index }}" property="role" scheme="marc:relators">aut</meta>
+    {% endfor %}
 
-    <dc:contributor id="pub-illustrator-1">Raymond Biesinger</dc:contributor>
-    <meta refines="pub-illustrator-1" property="role" scheme="marc:relators">ill</meta>
-    <dc:contributor id="pub-illustrator-2">Olimpia Zagnoli</dc:contributor>
-    <meta refines="pub-illustrator-2" property="role" scheme="marc:relators">ill</meta>
-    <dc:contributor id="pub-illustrator-3">Christopher Gray</dc:contributor>
-    <meta refines="pub-illustrator-3" property="role" scheme="marc:relators">ill</meta>
-    <dc:contributor id="pub-illustrator-4">Owen Gatley</dc:contributor>
-    <meta refines="pub-illustrator-4" property="role" scheme="marc:relators">ill</meta>
-    <dc:contributor id="pub-illustrator-5">Ping Zhu</dc:contributor>
-    <meta refines="pub-illustrator-5" property="role" scheme="marc:relators">ill</meta>
-    <dc:contributor id="pub-illustrator-6">Superbrothers</dc:contributor>
-    <meta refines="pub-illustrator-6" property="role" scheme="marc:relators">ill</meta>
+    {% for illustrator in site.data.issue.loi %}
+    <dc:contributor id="pub-illustrator-{{ forloop.index }}">{{ site.data.issue.illustrators[illustrator].name }}</dc:contributor>
+    <meta refines="#pub-illustrator-{{ forloop.index }}" property="role" scheme="marc:relators">ill</meta>
+    {% endfor %}
 
   </metadata>
 
@@ -81,51 +65,38 @@
 
     <!-- Content -->
     <item id="p_cover"                  media-type="application/xhtml+xml" href="html/cover.xhtml" />
+    {% if site.data.issue.has.dedication %}
+    <item id="p_dedication"             media-type="application/xhtml+xml" href="html/dedication.xhtml" />
+    {% endif %}
     <item id="nav"                      media-type="application/xhtml+xml" href="html/nav.xhtml" properties="nav" />
     <item id="p_toc"                    media-type="application/xhtml+xml" href="html/toc.xhtml" />
     <item id="p_loi"                    media-type="application/xhtml+xml" href="html/loi.xhtml" />
+    {% if site.data.issue.has.letter %}
     <item id="p_letter"                 media-type="application/xhtml+xml" href="html/letter.xhtml" />
-    <item id="p_author_1_article_illo"  media-type="application/xhtml+xml" href="html/author-1-article.xhtml" />
-    <item id="p_author_1_article_text"  media-type="application/xhtml+xml" href="html/author-1-article-text.xhtml" />
-    <item id="p_author_1_lesson"        media-type="application/xhtml+xml" href="html/author-1-lesson.xhtml" />
-    <item id="p_author_2_article_illo"  media-type="application/xhtml+xml" href="html/author-2-article.xhtml" />
-    <item id="p_author_2_article_text"  media-type="application/xhtml+xml" href="html/author-2-article-text.xhtml" />
-    <item id="p_author_2_lesson"        media-type="application/xhtml+xml" href="html/author-2-lesson.xhtml" />
-    <item id="p_author_3_article_illo"  media-type="application/xhtml+xml" href="html/author-3-article.xhtml" />
-    <item id="p_author_3_article_text"  media-type="application/xhtml+xml" href="html/author-3-article-text.xhtml" />
-    <item id="p_author_3_lesson"        media-type="application/xhtml+xml" href="html/author-3-lesson.xhtml" />
-    <item id="p_author_4_article_illo"  media-type="application/xhtml+xml" href="html/author-4-article.xhtml" />
-    <item id="p_author_4_article_text"  media-type="application/xhtml+xml" href="html/author-4-article-text.xhtml" />
-    <item id="p_author_4_lesson"        media-type="application/xhtml+xml" href="html/author-4-lesson.xhtml" />
-    <item id="p_author_5_article_illo"  media-type="application/xhtml+xml" href="html/author-5-article.xhtml" />
-    <item id="p_author_5_article_text"  media-type="application/xhtml+xml" href="html/author-5-article-text.xhtml" />
-    <item id="p_author_5_lesson"        media-type="application/xhtml+xml" href="html/author-5-lesson.xhtml" />
-    <item id="p_author_6_article_illo"  media-type="application/xhtml+xml" href="html/author-6-article.xhtml" />
-    <item id="p_author_6_article_text"  media-type="application/xhtml+xml" href="html/author-6-article-text.xhtml" />
-    <item id="p_author_6_lesson"        media-type="application/xhtml+xml" href="html/author-6-lesson.xhtml" />
+    {% endif %}
+    {% for piece in site.data.issue.toc %}
+    <item id="p_author_{{forloop.index}}_article_cover" media-type="application/xhtml+xml" href="html/author-{{forloop.index}}-article-illo.xhtml" />
+    <item id="p_author_{{forloop.index}}_article_text"  media-type="application/xhtml+xml" href="html/author-{{forloop.index}}-article.xhtml" />
+    <item id="p_author_{{forloop.index}}_lesson"        media-type="application/xhtml+xml" href="html/author-{{forloop.index}}-lesson.xhtml" />
+    {% endfor %}
     <item id="p_authors"                media-type="application/xhtml+xml" href="html/authors.xhtml" />
     <item id="p_illustrators"           media-type="application/xhtml+xml" href="html/illustrators.xhtml" />
     <item id="p_colophon"               media-type="application/xhtml+xml" href="html/colophon.xhtml" />
+    {% if site.data.issue.has.acknowledgements %}
     <item id="p_acknowledgements"       media-type="application/xhtml+xml" href="html/acknowledgements.xhtml" />
+    {% endif %}
 
     <!-- CSS -->
     <item id="css" media-type="text/css" href="styles/styles.css" />
 
     <!-- Images -->
     <item id="coverimage"   media-type="image/jpeg" href="images/cover.jpg" properties="cover-image" />
-
-    <item id="i_article_1"  media-type="image/jpeg" href="images/illustration_1.jpg" />
-    <item id="i_article_2"  media-type="image/jpeg" href="images/illustration_2.jpg" />
-    <item id="i_article_3"  media-type="image/jpeg" href="images/illustration_3.jpg" />
-    <item id="i_article_4"  media-type="image/jpeg" href="images/illustration_4.jpg" />
-    <item id="i_article_5"  media-type="image/jpeg" href="images/illustration_5.jpg" />
-    <item id="i_article_6"  media-type="image/jpeg" href="images/illustration_6.jpg" />
-    <item id="i_author_1"   media-type="image/jpeg" href="images/author_1.jpg" />
-    <item id="i_author_2"   media-type="image/jpeg" href="images/author_2.jpg" />
-    <item id="i_author_3"   media-type="image/jpeg" href="images/author_3.jpg" />
-    <item id="i_author_4"   media-type="image/jpeg" href="images/author_4.jpg" />
-    <item id="i_author_5"   media-type="image/jpeg" href="images/author_5.jpg" />
-    <item id="i_author_6"   media-type="image/jpeg" href="images/author_6.jpg" />
+    {% for illustration in site.data.issue.loi %}
+    <item id="i_article_{{ forloop.index }}"  media-type="image/jpeg" href="images/illustration_{{ forloop.index }}.jpg" />
+    {% endfor %}
+    {% for author in site.data.issue.toa %}
+    <item id="i_author_{{ forlopp.index }}"   media-type="image/jpeg" href="images/author_{{ forlopp.index }}.jpg" />
+    {% end %}
 
     <!-- backwards compatibility -->
     <item id="ncx" media-type="application/x-dtbncx+xml" href="toc.ncx"></item>
@@ -134,41 +105,41 @@
 
   <spine toc="ncx">
     <itemref idref="p_cover" linear="no" />
+    {% if site.data.issue.has.dedication %}
+    <itemref idref="p_dedication" />
+    {% endif %}
     <itemref idref="p_toc" />
     <itemref idref="p_loi" />
+    {% if site.data.issue.has.letter %}
     <itemref idref="p_letter" />
-    <itemref idref="p_author_1_article_illo" />
-    <itemref idref="p_author_1_article_text" />
-    <itemref idref="p_author_1_lesson" />
-    <itemref idref="p_author_2_article_illo" />
-    <itemref idref="p_author_2_article_text" />
-    <itemref idref="p_author_2_lesson" />
-    <itemref idref="p_author_3_article_illo" />
-    <itemref idref="p_author_3_article_text" />
-    <itemref idref="p_author_3_lesson" />
-    <itemref idref="p_author_4_article_illo" />
-    <itemref idref="p_author_4_article_text" />
-    <itemref idref="p_author_4_lesson" />
-    <itemref idref="p_author_5_article_illo" />
-    <itemref idref="p_author_5_article_text" />
-    <itemref idref="p_author_5_lesson" />
-    <itemref idref="p_author_6_article_illo" />
-    <itemref idref="p_author_6_article_text" />
-    <itemref idref="p_author_6_lesson" />
+    {% endif %}
+    {% for piece in site.data.issue.toc %}
+    <itemref idref="p_author_{{ forloop.index }}_article_cover" />
+    <itemref idref="p_author_{{ forloop.index }}_article_text" />
+    <itemref idref="p_author_{{ forloop.index }}_lesson" />
+    {% endfor %}
     <itemref idref="p_authors" />
     <itemref idref="p_illustrators" />
     <itemref idref="p_colophon" />
+    {% if site.data.issue.has.acknowledgements %}
     <itemref idref="p_acknowledgements" />
+    {% endif %}
   </spine>
 
   <guide>
     <reference type="cover"             title="Cover"                       href="html/cover.xhtml" />
     <reference type="toc"               title="Table of Contents"           href="html/toc.xhtml" />
     <reference type="loi"               title="List of Illustrations"       href="html/loi.xhtml" />
+    {% if site.data.issue.has.letter %}
     <reference type="text"              title="Text"                        href="html/letter.xhtml" />
+    {% else %}
+    <reference type="text"              title="Text"                        href="html/author-1-article-illo.xhtml" />
+    {% endif %}
     <reference type="notes"             title="Authors and Illustrators"    href="html/authors.xhtml" />
     <reference type="colophon"          title="Colophon"                    href="html/colophon.xhtml" />
+    {% if site.data.issue.has.acknowledgements %}
     <reference type="acknowledgements"  title="Acknowledgements"            href="html/acknowledgements.xhtml" />
+    {% endif %}
   </guide>
 
 </package>

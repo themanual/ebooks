@@ -1,35 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" xml:lang="en">
-<head>
-  <title>Illustrators</title>
-  <link rel="stylesheet" type="text/css" href="../styles/styles.css" />
-</head>
-<body>
-  <h1>Illustrators</h1>
+----
+layout: plain
+title: Illustrators
+----
 
-  <h2>Raymond Biesinger</h2>
-
-  <p>Raymond Biesinger is a multitalented illustrator whose headquarters is Montreal, Canada. He&#8217;s drawn for everyone from the New Yorker to little photo copied zines, and he&#8217;s now working on prints, books, and an instructional audio LP.</p>
-
-  <h2>Owen Gatley</h2>
-
-  <p>Owen hails from the Malvern Hills in Worcestershire and likes to create playful illustrations, often taking inspiration from 1950s color palettes and comic books. Clients include Pan Macmillan, Urban Outfitters, and The Times.</p>
-
-  <h2>Christopher Gray</h2>
-
-  <p>Christopher Gray is a graphic designer based in Sweden. In 2009 he started the Illustration label Toy and is represented by animation film company Studio AKA. His work uses a minimalist style to convey thoughts, narratives, and concepts. His work has been published by Die Gestalten, Creative Review, idN, and Wallpaper*. In the past year he has collaborated with the BBC, Nike, Moleskine, and the New York Times.</p>
-
-  <h2>Superbrothers</h2>
-
-  <p>Superbrothers, Inc. is an ambiguously pluralized art and design organization located in Toronto committed to creating audiovisual ephemera for a broad, literate audience. They are the co-creators of the the archetypical adventure videogame project for iOS known as Sword &amp; Sworcery.</p>
-
-  <h2>Olimpia Zagnoli</h2>
-
-  <p>OZ was born in 1984. OZ is an illustrator. OZ lives in Milan. OZ loves New York. OZ listens to T. Rex. OZ eats popcorn. OZ reads Peanuts. OZ drives a Yellow Fiat. OZ is Olimpia Zagnoli.</p>
-
-  <h2>Ping Zhu</h2>
-
-  <p>Ping is an illustrator organically grown in Los Angeles and imported to London. She loves animals and speed drawing on Post-its&#174;.When feeling fancy, she combines them.</p>
-
-</body>
-</html>
+{% for illustrator in site.data.issue.loi %}
+<h2>{{ site.data.issue.illustrators[illustrator].name }}</h2>
+<p>{{ site.data.issue.illustrators[illustrator].bio }}</p>
+{% end %}

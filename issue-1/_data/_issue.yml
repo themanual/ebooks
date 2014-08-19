@@ -1,0 +1,82 @@
+number: 1
+
+title:
+  full: "The Manual: Issue 1"
+  short: "Issue 1"
+  collection: "The Manual"
+
+has:
+  acknowledgements: true
+  dedication: false
+  letter: true
+
+portrait_illustrator: "ping-zhu"
+
+toc:
+  - article: "Maturity and the Weight of Learning"
+    author: "simon-collison"
+    illustrator: "raymond-biesinger"
+  - article: "The Space Between You and Me"
+    author: "frank-chimero"
+    illustrator: "olimpia-zagnoli"
+  - article: "Taxidermista"
+    author: "jon-tan"
+    illustrator: ""
+  - article: ""
+    author: "dan-rubin"
+    illustrator: ""
+  - article: ""
+    author: "liz-danzico"
+    illustrator: ""
+  - article: ""
+    author: "the-standardistas"
+    illustrator: ""
+loa:
+  - "frank-chimero"
+  - "simon-collison"
+  - "liz-danzico"
+  - "dan-rubin"
+  - "jon-tan"
+  - "the-standardistas"
+loi:
+  - "raymond-biesinger"
+  - "owen-gatley"
+  - "christopher-gray"
+  - "superbrothers"
+  - "olimpia-zagnoli"
+  - "ping-zhu"
+authors:
+  simon-collison:
+    name: "Simon Collison"
+    bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum iure vitae architecto quidem, quas praesentium totam, et sapiente. Omnis tempora fugiat quae animi, nobis! Similique, voluptatum temporibus sunt quos? Molestias."
+  frank-chimero:
+    name: "Frank Chimero"
+    bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis ullam perferendis at cupiditate voluptatibus molestias architecto dolorem repudiandae provident ut! Eaque ab minus numquam, quis praesentium. Magni, incidunt dolore adipisci."
+  jon-tan:
+    name: "Jon Tan"
+    bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati alias tenetur est sequi odit ipsam dicta eum, doloremque veritatis possimus aliquid quam totam saepe ut consequatur placeat facere tempora. Fuga."
+  dan-rubin:
+    name: "Dan Rubin"
+    bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio commodi omnis, obcaecati esse explicabo voluptatibus saepe aliquam inventore rem similique modi earum, repellendus. Sit explicabo laudantium, expedita officiis cum quasi."
+  liz-danzico:
+    name: "Liz Danzico"
+    bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores at quos fugit possimus quaerat quibusdam animi quidem hic, quae unde maiores quam et, veritatis, optio aut neque aperiam ipsam. Nulla!"
+illustrators:
+  raymond-biesinger:
+    name: "Raymond Biesinger"
+    bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae accusamus deserunt magnam quis impedit maxime est, id, tempora totam assumenda expedita, sequi fugit fugiat sit ratione beatae sed corporis modi."
+  owen-gatley:
+    name: "Owen Gatley"
+    bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum odio quidem tempore quas aliquid rem numquam, nisi ducimus, at, deleniti amet, repellendus blanditiis. Ex reiciendis, cum quidem placeat consequatur distinctio."
+  christopher-gray:
+    name: "Christopher Gray"
+    bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil commodi, aliquid qui, corrupti repudiandae obcaecati minus consequatur eos cupiditate reprehenderit rem delectus nulla hic amet error molestiae labore voluptatem voluptate!"
+  superbrothers:
+    name: "Superbrothers"
+    bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque, voluptatibus et. Fugiat consectetur, facilis consequatur minima molestiae! Tempora quas vero sint, nesciunt, ipsum officia magnam aspernatur, delectus natus alias iusto."
+  olimpia-zagnoli:
+    name: "Olimpia Zagnoli"
+    bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio ipsum eaque necessitatibus cupiditate hic. Soluta eaque, quaerat atque nisi ipsam. Illum neque excepturi commodi praesentium expedita dolor accusamus delectus repellendus!"
+  ping-zhu:
+    name: "Ping Zhu"
+    bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod excepturi, est eaque debitis, ipsam asperiores magnam! Officia perferendis fugiat obcaecati labore quasi recusandae, quos illo, deleniti reprehenderit omnis, a repudiandae."
