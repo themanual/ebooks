@@ -1,7 +1,7 @@
 ----
-layout: "piece"
-author: "simon-collison"
-type: "lesson"
+layout: piece
+author: simon-collison
+type:   lesson
 ---
 
 The university’s Faculty of Art and Design wasn’t known as the premier art school, and I certainly hadn’t intended to study there. But my first and second choice institutions had refused me, so north I sped, up the A1 to capture my final chance at a fine art degree.

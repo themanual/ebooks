@@ -1,7 +1,7 @@
 ----
-layout: "piece"
-author: "simon-collison"
-type: "article"
+layout: piece
+author: simon-collison
+type:   article
 ---
 
 Beneath the streets of a characterful city, we gathered in a characterless basement. No windows, faulty air conditioning, barely enough space to hold the assembled designers, developers, and client team, yet this was an opportunity to work alongside a number of respected practitioners on a once-in-a-lifetime project.
