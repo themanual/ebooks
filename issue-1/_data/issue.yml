@@ -1,4 +1,12 @@
 number: 1
+year: 2012
+description: "DESCRIPTION TBD"
+
+issn: 2047-3508
+uuid: 1AF6F886-4C67-4C8C-91D9-6B8E0C58D732
+version: v1.0.0
+
+color: "#EF3E42"
 
 title:
   full: "The Manual: Issue 1"
@@ -46,6 +54,23 @@ loi:
   - "olimpia-zagnoli"
   - "ping-zhu"
 
+staff:
+  - name: "Andy McMillan"
+    colophon: "Publisher"
+    role: pbl
+  - name: "Carolyn Wood"
+    colophon: "Editor"
+    role: edt
+  - name: "Jez Burrows"
+    colophon: "Cover Designer"
+    role: bkd
+  - name: "Paulo Pereira"
+    colophon: "Ebook Designer"
+    role: bkd
+  - name: "Nate Utesch"
+    colophon: "Art Director"
+    role: ard
+
 authors:
   simon-collison:
     name: "Simon Collison"
@@ -62,11 +87,14 @@ authors:
   liz-danzico:
     name: "Liz Danzico"
     bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores at quos fugit possimus quaerat quibusdam animi quidem hic, quae unde maiores quam et, veritatis, optio aut neque aperiam ipsam. Nulla!"
+  the-standardistas:
+    name: "The Standardistas"
+    bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis, ducimus, dicta odit nihil recusandae in repellat quidem cum veritatis, laboriosam corporis. Officiis quod aut earum aspernatur dolor provident nam maiores!"
 
 illustrators:
   raymond-biesinger:
     name: "Raymond Biesinger"
-    bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae accusamus deserunt magnam quis impedit maxime est, id, tempora totam assumenda expedita, sequi fugit fugiat sit ratione beatae sed corporis modi."
+    bio: "Lorem ipsum [dolor](http://paulo.is) sit amet, consectetur adipisicing elit. Quae accusamus deserunt magnam quis impedit maxime est, id, tempora totam assumenda expedita, sequi fugit fugiat sit ratione beatae sed corporis modi."
   owen-gatley:
     name: "Owen Gatley"
     bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum odio quidem tempore quas aliquid rem numquam, nisi ducimus, at, deleniti amet, repellendus blanditiis. Ex reiciendis, cum quidem placeat consequatur distinctio."
