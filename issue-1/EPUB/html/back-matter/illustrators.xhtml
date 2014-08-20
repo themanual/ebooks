@@ -5,5 +5,5 @@ title: Illustrators
 
 {% for illustrator in site.data.issue.loi %}
 <h2>{{ site.data.issue.illustrators[illustrator].name }}</h2>
-<p>{{ site.data.issue.illustrators[illustrator].bio | markdownify }}</p>
+{{ site.data.issue.illustrators[illustrator].bio | markdownify }}
 {% endfor %}

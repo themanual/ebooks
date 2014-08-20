@@ -8,7 +8,7 @@
     <!-- required -->
     <dc:identifier id="uid">urn:uuid:{{ site.data.issue.uuid }}</dc:identifier>
     <dc:identifier>urn:ISSN:{{ site.data.issue.issn }}</dc:identifier>
-    <meta property="dcterms:modified">{{ "now" | date: "%b %d %H %M %Z" }}</meta>
+    <meta property="dcterms:modified">{{ "now" | date: "%Y-%M-%dT%TZ" }}</meta>
 
     <dc:date>{{ site.data.issue.year }}</dc:date>
     <dc:rights>Copyright {{ site.data.issue.year }}-{{ site.time | date: "%Y" }} Fiction</dc:rights>
@@ -30,7 +30,7 @@
     <meta name="cover" content="coverimage" />
 
     <!-- TODO review creator, publisher, title -->
-    <dc:creator id="pub-creator">{{ site.data.issue.collection }}</dc:creator>
+    <dc:creator id="pub-creator">{{ site.data.issue.title.collection }}</dc:creator>
     <meta refines="#pub-creator" property="role" scheme="marc:relators">pbl</meta>
     <dc:publisher>Fiction</dc:publisher>
     <dc:type>Non-fiction</dc:type>
@@ -69,7 +69,7 @@
     <item id="p_toc"                    media-type="application/xhtml+xml" href="html/front-matter/toc.xhtml" />
     <item id="p_loi"                    media-type="application/xhtml+xml" href="html/front-matter/loi.xhtml" />
     {% if site.data.issue.has.letter %}
-    <item id="p_letter"                 media-type="application/xhtml+xml" href="html/front-matter/letter.xhtml" />
+    <item id="p_letter"                 media-type="application/xhtml+xml" href="html/content/letter.xhtml" />
     {% endif %}
     {% for item in site.data.issue.toc %}
     <item id="p_author_{{forloop.index}}_article_cover" media-type="application/xhtml+xml" href="html/content/author-{{forloop.index}}-article-illo.xhtml" />
@@ -89,10 +89,10 @@
     <!-- Images -->
     <item id="coverimage"   media-type="image/jpeg" href="images/cover.jpg" properties="cover-image" />
     {% for illustrator in site.data.issue.loi %}
-    <item id="i_article_{{ forloop.index }}"  media-type="image/jpeg" href="images/illustration/{{ illustrator }}.jpg" />
+    <item id="i_article_{{ forloop.index }}"  media-type="image/jpeg" href="images/illustrations/{{ illustrator }}.jpg" />
     {% endfor %}
-    {% for author in site.data.issue.toa %}
-    <item id="i_author_{{ forlopp.index }}"   media-type="image/jpeg" href="images/portraits/{{ author }}.jpg" />
+    {% for author in site.data.issue.loa %}
+    <item id="i_author_{{ forloop.index }}"   media-type="image/jpeg" href="images/portraits/{{ author }}.jpg" />
     {% endfor %}
 
     <!-- backwards compatibility -->
