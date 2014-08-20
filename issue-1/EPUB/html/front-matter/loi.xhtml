@@ -12,11 +12,11 @@ title: Illustrations
     {% assign k = item[0] %}
     {% assign v = item[1] %}
     <li class="toc-section">
-      <span class="toc-heading">{{ site.data.issue.illustrators[v.illustrator].name }}Raymond Biesinger</span>
+      <span class="toc-heading">{{ site.data.issue.illustrators[v.illustrator].name }}</span>
       <ol>
-        <li><a href="author-{{forloop.index}}-article-illo.xhtml">{{ v.article }}</a></li>
+        <li><a href="../content/author-{{forloop.index}}-article-illo.xhtml">{{ v.article }}</a></li>
         {% if v.illustrator == portrait_illustrator %}
-        <li><a href="authors.xhtml">Authors</a></li>
+        <li><a href="../back-matter/authors.xhtml">Authors</a></li>
         {% endif %}
       </ol>
     </li>

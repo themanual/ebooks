@@ -9,7 +9,7 @@ title: Table of Contents
 <nav id="toc">
   <ol class="toc no-hyphens left">
     {% if site.data.issue.has.letter %}
-    <li><a href="letter.xhtml">Letter From the Publisher</a></li>
+    <li><a href="../content/letter.xhtml">Letter From the Publisher</a></li>
     {% endif %}
 
     {% for item in site.data.issue.toc %}
@@ -18,16 +18,16 @@ title: Table of Contents
     <li class="toc-section">
       <span class="toc-heading black">{{ site.data.issue.authors[k].name }}</span>
       <ol>
-        <li><a href="author-{{forloop.index}}-article-illo.xhtml">{{ v.article }}</a></li>
-        <li><a href="author-{{forloop.index}}-lesson.xhtml">Lesson</a></li>
+        <li><a href="../content/author-{{forloop.index}}-article-illo.xhtml">{{ v.article }}</a></li>
+        <li><a href="../content/author-{{forloop.index}}-lesson.xhtml">Lesson</a></li>
       </ol>
     </li>
     {% endfor %}
-    <li><a href="authors.xhtml">Authors</a></li>
-    <li><a href="illustrators.xhtml">Illustrators</a></li>
-    <li><a href="colophon.xhtml">Colophon</a></li>
+    <li><a href="../back-matter/authors.xhtml">Authors</a></li>
+    <li><a href="../back-matter/illustrators.xhtml">Illustrators</a></li>
+    <li><a href="../back-matter/colophon.xhtml">Colophon</a></li>
     {% if site.data.issue.has.acknowledgements %}
-    <li><a href="acknowledgements.xhtml">Acknowledgements</a></li>
+    <li><a href="../content/acknowledgements.xhtml">Acknowledgements</a></li>
     {% endif %}
   </ol>
 </nav>
