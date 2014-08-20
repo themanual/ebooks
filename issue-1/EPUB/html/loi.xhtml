@@ -1,6 +1,6 @@
 ----
 layout: default
-title: List of Illustrations
+title: Illustrations
 ----
 <h1>
   <span class="black">Illustrations</span>
@@ -8,12 +8,14 @@ title: List of Illustrations
 
 <nav id="loi">
   <ol class="toc no-hyphens left">
-    {% for entry in site.data.issue.toc %}
+    {% for item in site.data.issue.toc %}
+    {% assign k = item[0] %}
+    {% assign v = item[1] %}
     <li class="toc-section">
-      <span class="toc-heading">{{ site.data.issue.illustrators[entry.illustrator].name }}Raymond Biesinger</span>
+      <span class="toc-heading">{{ site.data.issue.illustrators[v.illustrator].name }}Raymond Biesinger</span>
       <ol>
-        <li><a href="author-{{forloop.index}}-article-illo.xhtml">{{ entry.article }}</a></li>
-        {% if entry.illustrator == portrait_illustrator %}
+        <li><a href="author-{{forloop.index}}-article-illo.xhtml">{{ v.article }}</a></li>
+        {% if v.illustrator == portrait_illustrator %}
         <li><a href="authors.xhtml">Authors</a></li>
         {% endif %}
       </ol>

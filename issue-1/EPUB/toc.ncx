@@ -21,16 +21,18 @@
         {% capture count %}{{ count | plus: '1' }}{% endcapture %}
         {% endif %}
 
-        {% for entry site.data.issue.toc %}
-        <navPoint id="nav-{{entry.author}}" playOrder="{{count}}">
-            <navLabel><text>{{ site.data.issue.authors[entry.author].name }}</text></navLabel>
+        {% for item site.data.issue.toc %}
+        {% assign k = item[0] %}
+        {% assign v = item[1] %}
+        <navPoint id="nav-{{k}}" playOrder="{{count}}">
+            <navLabel><text>{{ site.data.issue.authors[k].name }}</text></navLabel>
             <content src="html/author-{{forloop.index}}-article-illo.xhtml" />
-            <navPoint id="nav-{{entry.author}}-article" playOrder="{{count}}">
-                <navLabel><text>{{ entry.article }}</text></navLabel>
+            <navPoint id="nav-{{k}}-article" playOrder="{{count}}">
+                <navLabel><text>{{ v.article }}</text></navLabel>
                 <content src="html/author-{{forloop.index}}-article-illo.xhtml" />
             </navPoint>
             {% capture count %}{{ count | plus: '1' }}{% endcapture %}
-            <navPoint id="nav-{{entry.author}}-lesson" playOrder="{{count}}">
+            <navPoint id="nav-{{k}}-lesson" playOrder="{{count}}">
                 <navLabel><text>Lesson</text></navLabel>
                 <content src="html/author-{{forloop.index}}-lesson.xhtml" />
             </navPoint>

@@ -12,11 +12,13 @@ title: Table of Contents
     <li><a href="letter.xhtml">Letter From the Publisher</a></li>
     {% endif %}
 
-    {% for entry in site.data.issue.toc %}
+    {% for item in site.data.issue.toc %}
+    {% assign k = item[0] %}
+    {% assign v = item[1] %}
     <li class="toc-section">
-      <span class="toc-heading black">{{ site.data.issue.authors[entry.author].name }}</span>
+      <span class="toc-heading black">{{ site.data.issue.authors[k].name }}</span>
       <ol>
-        <li><a href="author-{{forloop.index}}-article-illo.xhtml">{{ entry.article }}</a></li>
+        <li><a href="author-{{forloop.index}}-article-illo.xhtml">{{ v.article }}</a></li>
         <li><a href="author-{{forloop.index}}-lesson.xhtml">Lesson</a></li>
       </ol>
     </li>

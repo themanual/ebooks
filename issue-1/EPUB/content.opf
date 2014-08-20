@@ -74,7 +74,7 @@
     {% if site.data.issue.has.letter %}
     <item id="p_letter"                 media-type="application/xhtml+xml" href="html/letter.xhtml" />
     {% endif %}
-    {% for piece in site.data.issue.toc %}
+    {% for item in site.data.issue.toc %}
     <item id="p_author_{{forloop.index}}_article_cover" media-type="application/xhtml+xml" href="html/author-{{forloop.index}}-article-illo.xhtml" />
     <item id="p_author_{{forloop.index}}_article_text"  media-type="application/xhtml+xml" href="html/author-{{forloop.index}}-article.xhtml" />
     <item id="p_author_{{forloop.index}}_lesson"        media-type="application/xhtml+xml" href="html/author-{{forloop.index}}-lesson.xhtml" />
@@ -113,7 +113,7 @@
     {% if site.data.issue.has.letter %}
     <itemref idref="p_letter" />
     {% endif %}
-    {% for piece in site.data.issue.toc %}
+    {% for item in site.data.issue.toc %}
     <itemref idref="p_author_{{ forloop.index }}_article_cover" />
     <itemref idref="p_author_{{ forloop.index }}_article_text" />
     <itemref idref="p_author_{{ forloop.index }}_lesson" />
