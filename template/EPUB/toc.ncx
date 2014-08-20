@@ -1,0 +1,66 @@
+---
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<ncx xmlns:ncx="http://www.daisy.org/z3986/2005/ncx/" xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1" xml:lang="en">
+    <head>
+        <meta name="dtb:uid" content="urn:uuid:1AF6F886-4C67-4C8C-91D9-6B8E0C58D732"/>
+        <meta name="dtb:depth" content="2"/>
+        <meta name="dtb:totalPageCount" content="0"/>
+        <meta name="dtb:maxPageNumber" content="0"/>
+    </head>
+
+    <docTitle>
+        <text>{{ site.data.title.full }}</text>
+    </docTitle>
+
+    <navMap>
+        {% assign count = 1 %}
+        {% if site.data.issue.has.letter %}
+        <navPoint id="nav-letter" playOrder="{{count}}">
+            <navLabel><text>Letter from the Publisher</text></navLabel>
+            <content src="html/content/letter.xhtml" />
+        </navPoint>
+        {% capture count %}{{ count | plus: '1' }}{% endcapture %}
+        {% endif %}
+
+        {% for item in site.data.issue.toc %}
+        {% assign k = item[0] %}{% assign v = item[1] %}
+        <navPoint id="nav-{{k}}" playOrder="{{count}}">
+            <navLabel><text>{{ site.data.issue.authors[k].name }}</text></navLabel>
+            <content src="html/content/author-{{forloop.index}}-article-illo.xhtml" />
+            <navPoint id="nav-{{k}}-article" playOrder="{{count}}">
+                <navLabel><text>{{ v.article }}</text></navLabel>
+                <content src="html/content/author-{{forloop.index}}-article-illo.xhtml" />
+            </navPoint>
+            {% capture count %}{{ count | plus: '1' }}{% endcapture %}
+            <navPoint id="nav-{{k}}-lesson" playOrder="{{count}}">
+                <navLabel><text>Lesson</text></navLabel>
+                <content src="html/content/author-{{forloop.index}}-lesson.xhtml" />
+            </navPoint>
+            {% capture count %}{{ count | plus: '1' }}{% endcapture %}
+        </navPoint>
+        {% endfor %}
+        <navPoint id="nav-authors" playOrder="{{count}}">
+            <navLabel><text>Authors</text></navLabel>
+            <content src="html/back-matter/authors.xhtml" />
+        </navPoint>
+        {% capture count %}{{ count | plus: '1' }}{% endcapture %}
+        <navPoint id="nav-illustrators" playOrder="{{count}}">
+            <navLabel><text>Illustrators</text></navLabel>
+            <content src="html/back-matter/illustrators.xhtml" />
+        </navPoint>
+        {% capture count %}{{ count | plus: '1' }}{% endcapture %}
+        <navPoint id="nav-colophon" playOrder="{{count}}">
+            <navLabel><text>Colophon</text></navLabel>
+            <content src="html/back-matter/colophon.xhtml" />
+        </navPoint>
+        {% capture count %}{{ count | plus: '1' }}{% endcapture %}
+        {% if site.data.issue.has.acknowledgements %}
+        <navPoint id="nav-acknowledgements" playOrder="{{count}}">
+            <navLabel><text>Acknowledgements</text></navLabel>
+            <content src="html/content/acknowledgements.xhtml" />
+        </navPoint>
+        {% capture count %}{{ count | plus: '1' }}{% endcapture %}
+        {% endif %}
+    </navMap>
+</ncx>

@@ -1,0 +1,4 @@
+---
+layout: dedication
+title: Dedication
+---

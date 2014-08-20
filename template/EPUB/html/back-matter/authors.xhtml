@@ -1,0 +1,12 @@
+---
+layout: plain
+title: Authors
+---
+
+{% for author in site.data.issue.loa %}
+<div class="author">
+  <div class="author-portrait"><img src="../../images/portraits/{{author}}.jpg" alt="" /></div>
+  <h2>{{ site.data.issue.authors[author].name }}</h2>
+  {{ site.data.issue.authors[author].bio | markdownify }}
+</div>
+{% endfor %}

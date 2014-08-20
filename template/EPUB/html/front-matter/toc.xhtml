@@ -1,0 +1,33 @@
+---
+layout: default
+title: Table of Contents
+---
+<h1>
+  <span class="black">{{ site.data.issue.title.collection }}</span> {{ site.data.issue.title.short }}
+</h1>
+
+<nav id="toc">
+  <ol class="toc no-hyphens left">
+    {% if site.data.issue.has.letter %}
+    <li><a href="../content/letter.xhtml">Letter From the Publisher</a></li>
+    {% endif %}
+
+    {% for item in site.data.issue.toc %}
+    {% assign k = item[0] %}
+    {% assign v = item[1] %}
+    <li class="toc-section">
+      <span class="toc-heading black">{{ site.data.issue.authors[k].name }}</span>
+      <ol>
+        <li><a href="../content/author-{{forloop.index}}-article-illo.xhtml">{{ v.article }}</a></li>
+        <li><a href="../content/author-{{forloop.index}}-lesson.xhtml">Lesson</a></li>
+      </ol>
+    </li>
+    {% endfor %}
+    <li><a href="../back-matter/authors.xhtml">Authors</a></li>
+    <li><a href="../back-matter/illustrators.xhtml">Illustrators</a></li>
+    <li><a href="../back-matter/colophon.xhtml">Colophon</a></li>
+    {% if site.data.issue.has.acknowledgements %}
+    <li><a href="../content/acknowledgements.xhtml">Acknowledgements</a></li>
+    {% endif %}
+  </ol>
+</nav>

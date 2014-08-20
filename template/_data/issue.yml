@@ -1,0 +1,145 @@
+# Issue Number
+number:
+# Year of Publication
+year:
+# Metadata Description
+description: ""
+
+# ISSN of The Manual
+issn: 2047-3508
+# UUID of Issue, should be unique.
+uuid:
+# Version
+version: v1.0.0
+
+# Issue Color
+color: "#XXXXXX"
+
+# Multiple title formats
+title:
+  full: "The Manual: Issue N"
+  short: "Issue N"
+  collection: "The Manual"
+
+# Optional pages in issue.
+# - if false, remove corresponding file under EPUB/html/content
+has:
+  acknowledgements: true  # acknowledgements(.xhtml|.md)
+  dedication: true        # dedication(.xhtml|.md)
+  letter: true            # letter(.xhtml|.md)
+
+# Illustrator of portraits, must belong in 'loi'
+portrait_illustrator: ""
+
+#
+# Table of Contents
+#
+# author-key:
+#   article: "Title of Article"
+#   illustrator: illustrator-key
+#
+toc:
+  author-1:
+    article: ""
+    illustrator: illustrator-1
+  author-2:
+    article: ""
+    illustrator: illustrator-2
+  author-3:
+    article: ""
+    illustrator: illustrator-3
+  author-4:
+    article: ""
+    illustrator: illustrator-4
+  author-5:
+    article: ""
+    illustrator: illustrator-5
+  author-6:
+    article: ""
+    illustrator: illustrator-6
+
+#
+# List of author keys
+# (last name alphabetical order)
+#
+loa:
+  - author-key
+  - author-key
+  - author-key
+  - author-key
+  - author-key
+  - author-key
+
+#
+# List of illustrator keys
+# (last name alphabetical order)
+#
+loi:
+  - illustrator-key
+  - illustrator-key
+  - illustrator-key
+  - illustrator-key
+  - illustrator-key
+  - illustrator-key
+
+#
+# Staff
+#
+# - name: "Staffer Name"
+# - colophon: "Staffer Role"
+# - role: http://www.loc.gov/marc/relators/ (pbl, edt, bkd, ard)
+staff:
+  - name: ""
+    colophon: ""
+    role:
+  - name: ""
+    colophon: ""
+    role:
+
+#
+# Authors Names and Biographies
+# (biographies in markdown)
+#
+authors:
+  author-1:
+    name: ""
+    bio: ""
+  author-2:
+    name: ""
+    bio: ""
+  author-3:
+    name: ""
+    bio: ""
+  author-4:
+    name: ""
+    bio: ""
+  author-5:
+    name: ""
+    bio: ""
+  author-6:
+    name: ""
+    bio: ""
+
+#
+# Illustrators Names and Biographies
+# (biographies in markdown)
+#
+illustrators:
+  illustrator-1:
+    name: ""
+    bio: ""
+  illustrator-2:
+    name: ""
+    bio: ""
+  illustrator-3:
+    name: ""
+    bio: ""
+  illustrator-4:
+    name: ""
+    bio: ""
+  illustrator-5:
+    name: ""
+    bio: ""
+  illustrator-6:
+    name: ""
+    bio: ""
