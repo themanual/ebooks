@@ -1,7 +1,7 @@
-----
+---
 layout: plain
 title: Colophon
-----
+---
 
 ## Publisher
 Andy McMillan

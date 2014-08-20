@@ -1,8 +1,8 @@
-----
+---
 layout: piece
 author: the-standardistas
 type:   lesson
-----
+---
 
 Though we both now live and work in Northern Ireland, and have done so for many years, our roots are far afield. When we first met in Belfast, and began our working relationship, we were unaware that we had, in fact, experienced a chance encounter many years earlier.
 

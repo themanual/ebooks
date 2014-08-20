@@ -1,8 +1,8 @@
-----
+---
 layout: piece
 author: liz-danzico
 type:   lesson
-----
+---
 
 I like things. Full disclosure: a lot of things. More things, perhaps, than can be reasonably liked by one person. To me, rose-colored glasses have always seemed a curious concept as the world seems shiny enough without them. So I steer clear of conditions that might increase the likelihood of increasing the world’s sparklehood.
 

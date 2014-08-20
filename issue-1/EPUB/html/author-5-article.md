@@ -1,8 +1,8 @@
-----
+---
 layout: piece
 author: liz-danzico
 type:   article
-----
+---
 
 It could be any dinner in any place. Every person around the table wants intimacy. And every one of you, whether you came here with that in mind or not, no matter what your intended investment, wants a relationship of some kind with this group of colleagues and prospective friends you’ve just met. Yet by dessert and coffee, you struggle to recall either the first or last name of any person with whom you shared this meal. You look around. There are eight of you exchanging personal, public, private information — and not one notices you as you scan the faces. You are thirsty, but you realize you can’t recall a single person’s name to ask for a refill. You are at once among friends and strangers. Nameless faces together. If asked, you might be able to identify each of their avatars, know where each is a *mayor*, know how to friend each of them in any given social network, but as for their names? Unknown. “*Hey*,” you say out loud to no one in particular, “*I need water*.”
 

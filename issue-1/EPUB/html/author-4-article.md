@@ -1,8 +1,8 @@
-----
+---
 layout: piece
 author: dan-rubin
 type:   article
-----
+---
 
 Consider for a moment the beautiful physical artifact you are holding. Caress its cover, marvel at its binding, its spine, the gutter, how the ink flirts with the texture of its paper.
 

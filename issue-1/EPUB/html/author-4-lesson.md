@@ -1,8 +1,8 @@
-----
+---
 layout: piece
 author: dan-rubin
 type:   lesson
-----
+---
 
 It was 1 am. I was twelve.
 

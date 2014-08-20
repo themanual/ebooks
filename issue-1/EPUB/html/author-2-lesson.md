@@ -1,8 +1,8 @@
-----
+---
 layout: piece
 author: frank-chimero
 type:   lesson
-----
+---
 
 The smell of burnt coffee and copier toner saturated the small room off the computer lab on the fifth floor of the university’s alumni center. In the feast of creativity, this is where we broke our bread. The design department was a few blocks further downtown, ostracized from the main campus. We were shoved up to the top of the building like a team of astronauts in quarantine. We were excluded. Then we were forgotten. A harsh atmosphere for education? No. We quickly learned that if you’re forgotten, you can do whatever you wish. We were free; encouraged to be reckless and boisterous. We were treated as humans and co-designers by our teachers rather than as mere students.
 

@@ -1,8 +1,8 @@
-----
+---
 layout: piece
 author: jon-tan
 type:   article
-----
+---
 
 Imagine: You’re in the Tate Modern. You enter one of the upper-floor galleries. The far wall is covered in pictures. People stand, hands clasped behind their backs, contemplating. Some pictures seem sparse, some muted, others rich with color. Some seem to be all text; others appear to have none. You walk closer and you realize they’re all pictures of websites. Frozen, in frames, on the wall.
 

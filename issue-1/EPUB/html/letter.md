@@ -1,7 +1,7 @@
-----
+---
 layout: plain
 title: Letter from the Publisher
-----
+---
 
 It’s a mild October afternoon, and I find myself in the poorly lit back room of the Brooklyn Inn nursing a pint of Southampton Ale across the table from my good friend Simon Collison. We’re in town for Brooklyn Beta, where Simon has just finished presenting a workshop on “Analytical Design,” and I have just finished attending it.
 

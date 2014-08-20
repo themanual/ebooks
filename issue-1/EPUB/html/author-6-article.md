@@ -1,8 +1,8 @@
-----
+---
 layout: piece
 author: the-standardistas
 type:   article
-----
+---
 
 Our industry has until very recently been a blue-collar affair: it focused primarily on the mechanics of how things work. As a consequence, *function* has dominated discussion and writing within our field. The canon of literature we have collectively developed has tended toward the *how to*, which at its best celebrates a lively, inventive, and sometimes remarkable method and craft. At its worst, it’s represented by didactic step-by-step guides which lead the practitioner down unquestioning pathways resulting in rote learning, an inability to recognize the need for more nuanced choices, and a tendency to accept the status quo and be mere copiers.
 

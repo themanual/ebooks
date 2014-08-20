@@ -1,4 +1,4 @@
-----
+---
 layout: piece
 author: simon-collison
 type:   lesson

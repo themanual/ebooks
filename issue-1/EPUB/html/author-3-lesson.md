@@ -1,8 +1,8 @@
-----
+---
 layout: piece
 author: jon-tan
 type:   lesson
-----
+---
 
 It’s an age ago. I’m on a beach called Haad Rin Nok, on an island called Kho Pha Ngan in the Gulf of Thailand. The beach is deep, pale sand bounded by green steep headlands to the north and south, the sea in front, and wooden bars and bungalows behind.
 

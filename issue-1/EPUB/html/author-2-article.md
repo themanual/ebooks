@@ -1,8 +1,8 @@
-----
+---
 layout: piece
 author: frank-chimero
 type:   article
-----
+---
 
 > I fear that we are beginning to design ourselves to suit digital models of us, and I worry about a leaching of empathy and humanity in that process.[^lanier]
 >
