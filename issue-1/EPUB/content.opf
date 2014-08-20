@@ -1,23 +1,26 @@
+---
+---
 <?xml version="1.0" encoding="UTF-8"?>
 
 <package xmlns="http://www.idpf.org/2007/opf" unique-identifier="uid" version="3.0" xml:lang="en">
+
   <metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
     <!-- required -->
-    <dc:identifier id="uid">urn:uuid:1AF6F886-4C67-4C8C-91D9-6B8E0C58D732</dc:identifier>
-    <dc:identifier>urn:ISSN:2047-3508</dc:identifier>
-    <meta property="dcterms:modified">2014-04-24T00:00:00Z</meta>
+    <dc:identifier id="uid">urn:uuid:{{ site.data.issue.uuid }}</dc:identifier>
+    <dc:identifier>urn:ISSN:{{ site.data.issue.issn }}</dc:identifier>
+    <meta property="dcterms:modified">{{ "now" | date: "%b %d %H %M %Z" }}</meta>
 
-    <dc:date>2012</dc:date>
-    <dc:rights>Copyright 2012-2014 Fiction</dc:rights>
+    <dc:date>{{ site.data.issue.year }}</dc:date>
+    <dc:rights>Copyright {{ site.data.issue.year }}-{{ site.time | date: "%Y" }} Fiction</dc:rights>
 
-    <dc:title id="title-full">The Manual: Issue {{ site.data.issue.number }}</dc:title>
+    <dc:title id="title-full">{{ site.data.issue.title.full }}</dc:title>
     <meta refines="#title-full" property="title-type">main</meta>
 
-    <dc:title id="title-pub">The Manual</dc:title>
+    <dc:title id="title-pub">{{ site.data.issue.title.collection }}</dc:title>
     <meta refines="#title-pub" property="title-type">collection</meta>
     <meta refines="#title-pub" property="display-seq">1</meta>
 
-    <dc:title id="title-issue" xml:lang="en">Issue {{ site.data.issue.number }}</dc:title>
+    <dc:title id="title-issue" xml:lang="en">{{ site.data.issue.title.short }}</dc:title>
     <meta refines="#title-issue" property="title-type">short</meta>
     <meta refines="#title-issue" property="display-seq">2</meta>
 
@@ -27,25 +30,19 @@
     <meta name="cover" content="coverimage" />
 
     <!-- TODO review creator, publisher, title -->
-    <dc:creator id="pub-creator">{{ site.data.issue.publication }}</dc:creator>
+    <dc:creator id="pub-creator">{{ site.data.issue.collection }}</dc:creator>
     <meta refines="#pub-creator" property="role" scheme="marc:relators">pbl</meta>
     <dc:publisher>Fiction</dc:publisher>
     <dc:type>Non-fiction</dc:type>
     <dc:subject>DESIGN / Web / General</dc:subject>
 
     <!-- TODO description -->
-    <dc:description id="en_description" xml:lang="en">DESCRIPTION TBD</dc:description>
+    <dc:description id="en_description" xml:lang="en">{{ site.data.issue.description }}</dc:description>
 
-    <dc:contributor id="staff-1">Andy McMillan</dc:contributor>
-    <meta refines="staff-1" property="role" scheme="marc:relators">pbl</meta>
-    <dc:contributor id="staff-2">Carolyn Wood</dc:contributor>
-    <meta refines="staff-2" property="role" scheme="marc:relators">edt</meta>
-    <dc:contributor id="staff-3">Jez Burrows</dc:contributor>
-    <meta refines="staff-3" property="role" scheme="marc:relators">bkd</meta>
-    <dc:contributor id="staff-4">Paulo Pereira</dc:contributor>
-    <meta refines="staff-4" property="role" scheme="marc:relators">bkd</meta>
-    <dc:contributor id="staff-5">Nate Utesch</dc:contributor>
-    <meta refines="staff-5" property="role" scheme="marc:relators">ard</meta>
+    {% for staffer in site.data.issue.staff %}
+    <dc:contributor id="staff-{{forloop.index}}">{{staffer.name}}</dc:contributor>
+    <meta refines="staff-{{forloop.index}}" property="role" scheme="marc:relators">{{staffer.role}}</meta>
+    {% endfor %}
 
     <!-- contributors-->
     {% for author in site.data.issue.toa %}
@@ -64,26 +61,26 @@
   <manifest>
 
     <!-- Content -->
-    <item id="p_cover"                  media-type="application/xhtml+xml" href="html/cover.xhtml" />
+    <item id="p_cover"                  media-type="application/xhtml+xml" href="html/front-matter/cover.xhtml" />
     {% if site.data.issue.has.dedication %}
-    <item id="p_dedication"             media-type="application/xhtml+xml" href="html/dedication.xhtml" />
+    <item id="p_dedication"             media-type="application/xhtml+xml" href="html/front-matter/dedication.xhtml" />
     {% endif %}
-    <item id="nav"                      media-type="application/xhtml+xml" href="html/nav.xhtml" properties="nav" />
-    <item id="p_toc"                    media-type="application/xhtml+xml" href="html/toc.xhtml" />
-    <item id="p_loi"                    media-type="application/xhtml+xml" href="html/loi.xhtml" />
+    <item id="nav"                      media-type="application/xhtml+xml" href="html/front-matter/nav.xhtml" properties="nav" />
+    <item id="p_toc"                    media-type="application/xhtml+xml" href="html/front-matter/toc.xhtml" />
+    <item id="p_loi"                    media-type="application/xhtml+xml" href="html/front-matter/loi.xhtml" />
     {% if site.data.issue.has.letter %}
-    <item id="p_letter"                 media-type="application/xhtml+xml" href="html/letter.xhtml" />
+    <item id="p_letter"                 media-type="application/xhtml+xml" href="html/front-matter/letter.xhtml" />
     {% endif %}
     {% for item in site.data.issue.toc %}
-    <item id="p_author_{{forloop.index}}_article_cover" media-type="application/xhtml+xml" href="html/author-{{forloop.index}}-article-illo.xhtml" />
-    <item id="p_author_{{forloop.index}}_article_text"  media-type="application/xhtml+xml" href="html/author-{{forloop.index}}-article.xhtml" />
-    <item id="p_author_{{forloop.index}}_lesson"        media-type="application/xhtml+xml" href="html/author-{{forloop.index}}-lesson.xhtml" />
+    <item id="p_author_{{forloop.index}}_article_cover" media-type="application/xhtml+xml" href="html/content/author-{{forloop.index}}-article-illo.xhtml" />
+    <item id="p_author_{{forloop.index}}_article_text"  media-type="application/xhtml+xml" href="html/content/author-{{forloop.index}}-article.xhtml" />
+    <item id="p_author_{{forloop.index}}_lesson"        media-type="application/xhtml+xml" href="html/content/author-{{forloop.index}}-lesson.xhtml" />
     {% endfor %}
-    <item id="p_authors"                media-type="application/xhtml+xml" href="html/authors.xhtml" />
-    <item id="p_illustrators"           media-type="application/xhtml+xml" href="html/illustrators.xhtml" />
-    <item id="p_colophon"               media-type="application/xhtml+xml" href="html/colophon.xhtml" />
+    <item id="p_authors"                media-type="application/xhtml+xml" href="html/back-matter/authors.xhtml" />
+    <item id="p_illustrators"           media-type="application/xhtml+xml" href="html/back-matter/illustrators.xhtml" />
+    <item id="p_colophon"               media-type="application/xhtml+xml" href="html/back-matter/colophon.xhtml" />
     {% if site.data.issue.has.acknowledgements %}
-    <item id="p_acknowledgements"       media-type="application/xhtml+xml" href="html/acknowledgements.xhtml" />
+    <item id="p_acknowledgements"       media-type="application/xhtml+xml" href="html/content/acknowledgements.xhtml" />
     {% endif %}
 
     <!-- CSS -->
@@ -91,12 +88,12 @@
 
     <!-- Images -->
     <item id="coverimage"   media-type="image/jpeg" href="images/cover.jpg" properties="cover-image" />
-    {% for illustration in site.data.issue.loi %}
-    <item id="i_article_{{ forloop.index }}"  media-type="image/jpeg" href="images/illustration_{{ forloop.index }}.jpg" />
+    {% for illustrator in site.data.issue.loi %}
+    <item id="i_article_{{ forloop.index }}"  media-type="image/jpeg" href="images/illustration/{{ illustrator }}.jpg" />
     {% endfor %}
     {% for author in site.data.issue.toa %}
-    <item id="i_author_{{ forlopp.index }}"   media-type="image/jpeg" href="images/author_{{ forlopp.index }}.jpg" />
-    {% end %}
+    <item id="i_author_{{ forlopp.index }}"   media-type="image/jpeg" href="images/portraits/{{ author }}.jpg" />
+    {% endfor %}
 
     <!-- backwards compatibility -->
     <item id="ncx" media-type="application/x-dtbncx+xml" href="toc.ncx"></item>
@@ -127,18 +124,18 @@
   </spine>
 
   <guide>
-    <reference type="cover"             title="Cover"                       href="html/cover.xhtml" />
-    <reference type="toc"               title="Table of Contents"           href="html/toc.xhtml" />
-    <reference type="loi"               title="List of Illustrations"       href="html/loi.xhtml" />
+    <reference type="cover"             title="Cover"                       href="html/front-matter/cover.xhtml" />
+    <reference type="toc"               title="Table of Contents"           href="html/front-matter/toc.xhtml" />
+    <reference type="loi"               title="List of Illustrations"       href="html/front-matter/loi.xhtml" />
     {% if site.data.issue.has.letter %}
-    <reference type="text"              title="Text"                        href="html/letter.xhtml" />
+    <reference type="text"              title="Text"                        href="html/content/letter.xhtml" />
     {% else %}
-    <reference type="text"              title="Text"                        href="html/author-1-article-illo.xhtml" />
+    <reference type="text"              title="Text"                        href="html/content/author-1-article-illo.xhtml" />
     {% endif %}
-    <reference type="notes"             title="Authors and Illustrators"    href="html/authors.xhtml" />
-    <reference type="colophon"          title="Colophon"                    href="html/colophon.xhtml" />
+    <reference type="notes"             title="Authors and Illustrators"    href="html/back-matter/authors.xhtml" />
+    <reference type="colophon"          title="Colophon"                    href="html/back-matter/colophon.xhtml" />
     {% if site.data.issue.has.acknowledgements %}
-    <reference type="acknowledgements"  title="Acknowledgements"            href="html/acknowledgements.xhtml" />
+    <reference type="acknowledgements"  title="Acknowledgements"            href="html/content/acknowledgements.xhtml" />
     {% endif %}
   </guide>
 
