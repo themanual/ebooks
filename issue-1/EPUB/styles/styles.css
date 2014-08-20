@@ -1,4 +1,5 @@
-/* based on Mark Boulton Design ebook styles */
+---
+---
 
 body, h1, h2, h3, h4, p, blockquote, ul, ol, img {
   margin: 0;
@@ -67,7 +68,7 @@ strong {
 h1 {
   margin-top:    2.5em;
   margin-bottom:  2.5em;
-  color: #EF3E42 !important;
+  color: {{ site.data.issue.color }} !important;
   line-height: 1.2;
   font-weight: bold;
 }
@@ -136,9 +137,9 @@ a:link,
 a:visited,
 a:hover,
 a:active {
-  color: #EF3E42 !important;
+  color: {{ site.data.issue.color }} !important;
   /* iBooks hack: https://stackoverflow.com/questions/6263703/style-anchors-in-ibooks-epub/6355591 */
-  -webkit-text-fill-color: #EF3E42 !important;
+  -webkit-text-fill-color: {{ site.data.issue.color }} !important;
 }
 
 .black,
@@ -216,7 +217,7 @@ li li {
 }
 
 blockquote {
-  border-left: solid 1px #EF3E42;
+  border-left: solid 1px {{ site.data.issue.color }};
   display: block;
   font-size: 100%;
   padding: 0 1em;
