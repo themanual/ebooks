@@ -13,24 +13,24 @@ has:
 portrait_illustrator: "ping-zhu"
 
 toc:
-  - article: "Maturity and the Weight of Learning"
-    author: "simon-collison"
+  simon-collison:
+    article: "Maturity and the Weight of Learning"
     illustrator: "raymond-biesinger"
-  - article: "The Space Between You and Me"
-    author: "frank-chimero"
+  frank-chimero:
+    article: "The Space Between You and Me"
     illustrator: "olimpia-zagnoli"
-  - article: "Taxidermista"
-    author: "jon-tan"
-    illustrator: ""
-  - article: ""
-    author: "dan-rubin"
-    illustrator: ""
-  - article: ""
-    author: "liz-danzico"
-    illustrator: ""
-  - article: ""
-    author: "the-standardistas"
-    illustrator: ""
+  jon-tan:
+    article: "Taxidermista"
+    illustrator: "christopher-gray"
+  dan-rubin:
+    article: "Off the Page"
+    illustrator: "owen-gatley"
+  liz-danzico:
+    article: "Names and the New Public"
+    illustrator: "ping-zhu"
+  the-standardistas:
+    article: "Designing the Mind"
+    illustrator: "superbrothers"
 loa:
   - "frank-chimero"
   - "simon-collison"
@@ -45,6 +45,7 @@ loi:
   - "superbrothers"
   - "olimpia-zagnoli"
   - "ping-zhu"
+
 authors:
   simon-collison:
     name: "Simon Collison"
@@ -61,6 +62,7 @@ authors:
   liz-danzico:
     name: "Liz Danzico"
     bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores at quos fugit possimus quaerat quibusdam animi quidem hic, quae unde maiores quam et, veritatis, optio aut neque aperiam ipsam. Nulla!"
+
 illustrators:
   raymond-biesinger:
     name: "Raymond Biesinger"
