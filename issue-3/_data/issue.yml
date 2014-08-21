@@ -1,0 +1,154 @@
+# Issue Number
+number: 3
+# Year of Publication
+year: 2012
+# Metadata Description
+description: "TBD"
+
+# ISSN of The Manual
+issn: 2047-3508
+# UUID of Issue, should be unique.
+uuid: AB2741C0-F849-425A-8530-E6CDF5E82E5E
+# Version
+version: v1.0.0
+
+# Issue Color
+color: "#ED9C31"
+
+# Multiple title formats
+title:
+  full: "The Manual: Issue 3"
+  short: "Issue 3"
+  collection: "The Manual"
+
+# Optional pages in issue.
+# - if false, remove corresponding file under EPUB/html/content
+has:
+  acknowledgements: false  # acknowledgements(.xhtml|.md)
+  dedication: false        # dedication(.xhtml|.md)
+  letter: false            # letter(.xhtml|.md)
+
+# Illustrator of portraits, must belong in 'loi'
+portrait_illustrator: luke-pearson
+
+#
+# Table of Contents
+#
+# author-key:
+#   article: "Title of Article"
+#   illustrator: illustrator-key
+#
+toc:
+  paul-soulellis:
+    article: "Design Humility"
+    illustrator: eleni-kalorkoti
+  tiffani-jones-brown:
+    article: "Practicing Passion"
+    illustrator: michael-kirkham
+  nina-stoessinger:
+    article: "Deeper Into Type"
+    illustrator: owen-davey
+  duane-king:
+    article: "Hyper"
+    illustrator: luke-pearson
+  jeremy-keith:
+    article: "As We May Link"
+    illustrator: rob-bailey
+  ethan-marcotte:
+    article: "Unstirring the Jam"
+    illustrator: jing-wei
+
+#
+# List of author keys
+# (last name alphabetical order)
+#
+loa:
+  - tiffani-jones-brown
+  - jeremy-keith
+  - duane-king
+  - ethan-marcotte
+  - paul-soulellis
+  - nina-stoessinger
+
+#
+# List of illustrator keys
+# (last name alphabetical order)
+#
+loi:
+  - rob-bailey
+  - owen-davey
+  - eleni-kalorkoti
+  - michael-kirkham
+  - luke-pearson
+  - jing-wei
+
+#
+# Staff
+#
+# - name: "Staffer Name"
+# - colophon: "Staffer Role"
+# - role: http://www.loc.gov/marc/relators/ (pbl, edt, bkd, ard)
+staff:
+  - name: "Andy McMillan"
+    colophon: "Publisher"
+    role: pbl
+  - name: "Carolyn Wood"
+    colophon: "Editor"
+    role: edt
+  - name: "Jez Burrows"
+    colophon: "Cover Designer"
+    role: bkd
+  - name: "Paulo Pereira"
+    colophon: "Ebook Designer"
+    role: bkd
+  - name: "Nate Utesch"
+    colophon: "Art Director"
+    role: ard
+
+#
+# Authors Names and Biographies
+# (biographies in markdown)
+#
+authors:
+  paul-soulellis:
+    name: "Paul Soulellis"
+    bio: ""
+  tiffani-jones-brown:
+    name: "Tiffani Jones Brown"
+    bio: ""
+  nina-stoessinger:
+    name: "Nina Stössinger"
+    bio: ""
+  duane-king:
+    name: "Duane King"
+    bio: ""
+  jeremy-keith:
+    name: "Jeremy Keith"
+    bio: ""
+  ethan-marcotte:
+    name: "Ethan Marcotte"
+    bio: ""
+
+#
+# Illustrators Names and Biographies
+# (biographies in markdown)
+#
+illustrators:
+  eleni-kalorkoti:
+    name: "Eleni Kalorkoti"
+    bio: ""
+  michael-kirkham:
+    name: "Michael Kirkham"
+    bio: ""
+  owen-davey:
+    name: "Owen Davey"
+    bio: ""
+  luke-pearson:
+    name: "Luke Pearson"
+    bio: ""
+  rob-bailey:
+    name: "Rob Bailey"
+    bio: ""
+  jing-wei:
+    name: "Jing Wei"
+    bio: ""
