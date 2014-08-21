@@ -10,7 +10,7 @@
     </head>
 
     <docTitle>
-        <text>{{ site.data.title.full }}</text>
+        <text>{{ site.data.issue.title.full }}</text>
     </docTitle>
 
     <navMap>
