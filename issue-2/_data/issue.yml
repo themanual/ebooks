@@ -1,0 +1,154 @@
+# Issue Number
+number: 2
+# Year of Publication
+year: 2011
+# Metadata Description
+description: ""
+
+# ISSN of The Manual
+issn: 2047-3508
+# UUID of Issue, should be unique.
+uuid: 7A9EC14F-661F-43C7-AAF1-8F8757BEA7CB
+# Version
+version: v1.0.0
+
+# Issue Color
+color: "#51B9E0"
+
+# Multiple title formats
+title:
+  full: "The Manual: Issue 2"
+  short: "Issue 2"
+  collection: "The Manual"
+
+# Optional pages in issue.
+# - if false, remove corresponding file under EPUB/html/content
+has:
+  acknowledgements: false # acknowledgements(.xhtml|.md)
+  dedication: true        # dedication(.xhtml|.md)
+  letter: true            # letter(.xhtml|.md)
+
+# Illustrator of portraits, must belong in 'loi'
+portrait_illustrator: "paul-blow"
+
+#
+# Table of Contents
+#
+# author-key:
+#   article: "Title of Article"
+#   illustrator: illustrator-key
+#
+toc:
+  alex-charchar:
+    article: "The Colors of Grief"
+    illustrator: jon-mcnaught
+  mark-boulton:
+    article: "Visual Design is Not a Thing"
+    illustrator: always-with-honor
+  karen-mcgrane:
+    article: "Ear Trumpets and Bionic Superpowers"
+    illustrator: dadu-shin
+  cennydd-bowles:
+    article: "The Things of The Future"
+    illustrator: rose-blake
+  trent-walton:
+    article: "Tongue-Tied"
+    illustrator: paul-blow
+  josh-brewer:
+    article: "The Sky Ain’t The Limit"
+    illustrator: mike-lemanski
+
+#
+# List of author keys
+# (last name alphabetical order)
+#
+loa:
+  - mark-boulton
+  - cennydd-bowles
+  - josh-brewer
+  - alex-charchar
+  - karen-mcgrane
+  - trent-walton
+
+#
+# List of illustrator keys
+# (last name alphabetical order)
+#
+loi:
+  - always-with-honor
+  - rose-blake
+  - paul-blow
+  - mike-lemanski
+  - jon-mcnaught
+  - dadu-shin
+
+#
+# Staff
+#
+# - name: "Staffer Name"
+# - colophon: "Staffer Role"
+# - role: http://www.loc.gov/marc/relators/ (pbl, edt, bkd, ard)
+staff:
+  - name: "Andy McMillan"
+    colophon: "Publisher"
+    role: pbl
+  - name: "Carolyn Wood"
+    colophon: "Editor"
+    role: edt
+  - name: "Jez Burrows"
+    colophon: "Cover Designer"
+    role: bkd
+  - name: "Paulo Pereira"
+    colophon: "Ebook Designer"
+    role: bkd
+  - name: "Nate Utesch"
+    colophon: "Art Director"
+    role: ard
+
+#
+# Authors Names and Biographies
+# (biographies in markdown)
+#
+authors:
+  alex-charchar:
+    name: "Alex Charchar"
+    bio: ""
+  mark-boulton:
+    name: "Mark Boulton"
+    bio: ""
+  karen-mcgrane:
+    name: "Karen McGrane"
+    bio: ""
+  cennydd-bowles:
+    name: "Cennydd Bowles"
+    bio: ""
+  trent-walton:
+    name: "Trent Walton"
+    bio: ""
+  josh-brewer:
+    name: "Josh Brewer"
+    bio: ""
+
+#
+# Illustrators Names and Biographies
+# (biographies in markdown)
+#
+illustrators:
+  jon-mcnaught:
+    name: "Jon McNaught"
+    bio: ""
+  always-with-honor:
+    name: "Always With Honor"
+    bio: ""
+  dadu-shin:
+    name: "Dadu Shin"
+    bio: ""
+  rose-blake:
+    name: "Rose Blake"
+    bio: ""
+  paul-blow:
+    name: "Paul Blow"
+    bio: ""
+  mike-lemanski:
+    name: "Mike Lemanski"
+    bio: ""
