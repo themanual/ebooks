@@ -1,0 +1,160 @@
+# Issue Number
+number: 4
+# Year of Publication
+year: 2014
+# Metadata Description
+description: "TBD"
+
+# ISSN of The Manual
+issn: 2047-3508
+# UUID of Issue, should be unique.
+uuid: AACA88AE-BE83-4E87-BBA1-710E5D43FA06
+# Version
+version: v1.0.0
+
+# Issue Color
+color: "#00CFB5"
+
+# Multiple title formats
+title:
+  full: "The Manual: Issue 4"
+  short: "Issue 4"
+  collection: "The Manual"
+
+# Optional pages in issue.
+# - if false, remove corresponding file under EPUB/html/content
+has:
+  acknowledgements: false # acknowledgements(.xhtml|.md)
+  dedication: true        # dedication(.xhtml|.md)
+  letter: true            # letter(.xhtml|.md)
+
+# Illustrator of portraits, must belong in 'loi'
+portrait_illustrator: "richard-perez"
+
+#
+# Table of Contents
+#
+# author-key:
+#   article: "Title of Article"
+#   illustrator: illustrator-key
+#
+toc:
+  craig-mod:
+    article: "On Permission"
+    illustrator: julianna-brion
+  wilson-miner:
+    article: "Perennial Design"
+    illustrator: richard-perez
+  diana-kimball:
+    article: "On Mentoring"
+    illustrator: matthew-the-horse
+  jennifer-brook:
+    article: "Platforms as Cultures"
+    illustrator: cesar-barcelo
+  david-cole:
+    article: "Made to Measure"
+    illustrator: tim-gough
+  paul-ford:
+    article: "On File Formats, Very Briefly"
+    illustrator: philipp-dornbierer
+
+#
+# List of author keys
+# (last name alphabetical order)
+#
+loa:
+  - jennifer-brook
+  - david-cole
+  - paul-ford
+  - diana-kimball
+  - wilson-miner
+  - craig-mod
+
+#
+# List of illustrator keys
+# (last name alphabetical order)
+#
+loi:
+  - cesar-barcelo
+  - julianna-brion
+  - philipp-dornbierer
+  - tim-gough
+  - matthew-the-horse
+  - richard-perez
+
+#
+# Staff
+#
+# - name: "Staffer Name"
+# - colophon: "Staffer Role"
+# - role: http://www.loc.gov/marc/relators/ (pbl, edt, bkd, ard)
+staff:
+  - name: "Andy McMillan"
+    colophon: "Publisher"
+    role: pbl
+  - name: "Liz Danzico"
+    colophon: "Editor in Chief"
+    role: edt
+  - name: "Lisa Sanchez"
+    colophon: "Assistant Editor"
+    role: edt
+  - name: "Julie Steenson"
+    colophon: "Copy Editor"
+    role: edt
+  - name: "Frank Chimero"
+    colophon: "Cover Designer"
+    role: cov
+  - name: "Paulo Pereira"
+    colophon: "Ebook Designer"
+    role: bkd
+  - name: "David McMillan"
+    colophon: "Art Director"
+    role: ard
+
+#
+# Authors Names and Biographies
+# (biographies in markdown)
+#
+authors:
+  craig-mod:
+    name: "Craig Mod"
+    bio: ""
+  wilson-miner:
+    name: "Wilson Miner"
+    bio: ""
+  diana-kimball:
+    name: "Diana Kimball"
+    bio: ""
+  jennifer-brook:
+    name: "Jennifer Brook"
+    bio: ""
+  david-cole:
+    name: "David Cole"
+    bio: ""
+  paul-ford:
+    name: "Paul Ford"
+    bio: ""
+
+#
+# Illustrators Names and Biographies
+# (biographies in markdown)
+#
+illustrators:
+  julianna-brion:
+    name: "Julianna Brion"
+    bio: ""
+  richard-perez:
+    name: "Richard Perez"
+    bio: ""
+  matthew-the-horse:
+    name: "Matthew the Horse"
+    bio: ""
+  cesar-barcelo:
+    name: "César Barceló"
+    bio: ""
+  tim-gough:
+    name: "Tim Gough"
+    bio: ""
+  philipp-dornbierer:
+    name: "Philipp Dornbierer"
+    bio: ""
