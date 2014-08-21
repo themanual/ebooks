@@ -16,7 +16,7 @@ title: Table of Contents
     {% assign k = item[0] %}
     {% assign v = item[1] %}
     <li class="toc-section">
-      <span class="toc-heading black">{{ site.data.issue.authors[k].name }}</span>
+      <a href="../content/author-{{forloop.index}}-article-illo.xhtml" class="toc-heading black">{{ site.data.issue.authors[k].name }}</a>
       <ol>
         <li><a href="../content/author-{{forloop.index}}-article-illo.xhtml">{{ v.article }}</a></li>
         <li><a href="../content/author-{{forloop.index}}-lesson.xhtml">Lesson</a></li>
