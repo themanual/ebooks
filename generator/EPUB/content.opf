@@ -63,7 +63,7 @@
     <!-- Content -->
     <item id="p_cover"                  media-type="application/xhtml+xml" href="html/front-matter/cover.xhtml" />
     {% if site.data.issue.has.dedication %}
-    <item id="p_dedication"             media-type="application/xhtml+xml" href="html/front-matter/dedication.xhtml" />
+    <item id="p_dedication"             media-type="application/xhtml+xml" href="html/content/dedication.xhtml" />
     {% endif %}
     <item id="nav"                      media-type="application/xhtml+xml" href="html/front-matter/nav.xhtml" properties="nav" />
     <item id="p_toc"                    media-type="application/xhtml+xml" href="html/front-matter/toc.xhtml" />
