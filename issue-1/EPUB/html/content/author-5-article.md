@@ -36,25 +36,23 @@ While technology is certainly affording us the ability to use only one identifie
 
 Consider any email you might receive on any given day:
 
-<pre>
-October 24, 2011
-
-Give me a call when you’re free.
-
-Mike
-
-Mike Rogers
-phone: 212-555-3464
-mobile: 212-555-5309
-skype: mikerogers
-gchat: mikerogers
-http://twitter.com/name/
-http://facebook.com/name/
-http://linkedin.com/name/
-http://mywebsite.com/
-http://mywebsiteproject-one.com/
-http://twitter.com/mywebsiteproject-one/
-</pre>
+    October 24, 2011
+    
+    Give me a call when you’re free.
+    
+    Mike
+    
+    Mike Rogers
+    phone: 212-555-3464
+    mobile: 212-555-5309
+    skype: mikerogers
+    gchat: mikerogers
+    http://twitter.com/name/
+    http://facebook.com/name/
+    http://linkedin.com/name/
+    http://mywebsite.com/
+    http://mywebsiteproject-one.com/
+    http://twitter.com/mywebsiteproject-one/
 
 Our signature files have out-charactered the text of our email. It’s not enough to sign a note; we must ensure that all forms of contact are known. Our own 300 colors are on display. Yet around a dinner table, it may be rare to remember even one name.
 
@@ -83,11 +81,7 @@ At the intersection of people, technology, and context, we have an opportunity l
 In a 1963 What is Science? talk, physicist and educator Richard Feynman explained the difference between simply knowing the name of something and truly knowing something.[^feynman] We have come well past knowing only one another’s names. It seems we’re 300 colors richer in our understanding of knowing identities as explorers of the particulars of what and where they can be. And now in our new public, at the end of the dinner, we all can say we truly do know someone.
 
 [^post]: Emily Post, *Etiquette in Society, in Business, in Politics and at Home*, (Funk &amp; Wagnalls Company, 1922).
-
 [^heyward]: Andrew Heyward, “Media Companies Need To Become Marketing, (Blog, Harvard Business, 2009).
-
 [^donath]: Judith Donath, “Signals, Cues, and Meaning,” (PDF draft for MIT Press, 2007).
-
 [^boyd-markwick]: Danah boyd and Alice Markwick, “Social Steganography: Privacy in Networked Publics.” Paper presented at the International Communication Association Conference, Boston, MA, May 2011.
-
 [^feynman]: Richard Feynman, “What is Science?” (*The Physics Teacher*, vol. 7, issue 6, 1969).
