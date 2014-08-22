@@ -36,19 +36,25 @@ The Photoshop file format itself, however, is impenetrable. Where `<HTML>`...`</
 
 You can, if you’re passionate, read the standard on the web, and it’s all piled in there, the history of pictures on computers. That’s when it becomes clear: only Photoshop’s creator Adobe can understand this thing. Here’s the list of four-letter abbreviations that are used to set the blend mode of a layer, taken straight from the standard as formatted:
 
-    'pass' = pass through, 'norm' = normal, 'diss' = dissolve, 'dark' = darken, 'mul ' = multiply, 'idiv' = color burn, 'lbrn' = linear burn, 'dkCl' = darker color, 'lite' = lighten, 'scrn' = screen, 'div ' = color dodge, 'lddg' = linear dodge, 'lgCl' = lighter color, 'over' = overlay, 'sLit' = soft light, 'hLit' = hard light, 'vLit' = vivid light, 'lLit' = linear light, 'pLit' = pin light, 'hMix' = hard mix, 'diff' = difference, 'smud' = exclusion, 'fsub' = subtract, 'fdiv' = divide 'hue ' = hue, 'sat ' = saturation, 'colr' = color, 'lum ' = luminosity`
+<pre>
+'pass' = pass through, 'norm' = normal, 'diss' = dissolve, 'dark' = darken, 'mul ' = multiply, 'idiv' = color burn, 'lbrn' = linear burn, 'dkCl' = darker color, 'lite' = lighten, 'scrn' = screen, 'div ' = color dodge, 'lddg' = linear dodge, 'lgCl' = lighter color, 'over' = overlay, 'sLit' = soft light, 'hLit' = hard light, 'vLit' = vivid light, 'lLit' = linear light, 'pLit' = pin light, 'hMix' = hard mix, 'diff' = difference, 'smud' = exclusion, 'fsub' = subtract, 'fdiv' = divide 'hue ' = hue, 'sat ' = saturation, 'colr' = color, 'lum ' = luminosity`
+</pre>
 
 They’re like characters in a kid’s book. *Smud, Plit, and Diff went down to the river one day to go fishing.* Nestled in the code of the open-source Mac OS X image-viewer Xee there is this comment, written by a coder:
 
-    /*
-    At this point, I’d like to take a moment to speak to you about the Adobe PSD format. PSD is not a good format. PSD is not even a bad format. Calling it such would be an insult to other bad formats, such as PCX or JPEG. No, PSD is an abysmal format. Having worked on this code for several weeks now, my hate for PSD has grown to a raging fire that burns with the fierce passion of a million suns.`
-    */
+<pre>
+/*
+At this point, I’d like to take a moment to speak to you about the Adobe PSD format. PSD is not a good format. PSD is not even a bad format. Calling it such would be an insult to other bad formats, such as PCX or JPEG. No, PSD is an abysmal format. Having worked on this code for several weeks now, my hate for PSD has grown to a raging fire that burns with the fierce passion of a million suns.`
+*/
+</pre>
 
 The poor guy. The thing is, he’s trying to unpack decades of decisions, to make sense of them. But at this point the Photoshop format—most file formats of great age, in fact—is more like a legal document. Parts are open to interpretation. The computer is the ultimate judge, but you never know how it will rule. Later, that same open-source programmer writes:
 
-    /*
-    Trying to get data out of a PSD file is like trying to find something in the attic of your eccentric old uncle who died in a freak freshwater shark attack on his fifty-eighth birthday. That last detail may not be important for the purposes of the simile, but at this point I am spending a lot of time imagining amusing fates for the people responsible for this Rube Goldberg of a file format. 
-    */
+<pre>
+/*
+Trying to get data out of a PSD file is like trying to find something in the attic of your eccentric old uncle who died in a freak freshwater shark attack on his fifty-eighth birthday. That last detail may not be important for the purposes of the simile, but at this point I am spending a lot of time imagining amusing fates for the people responsible for this Rube Goldberg of a file format. 
+*/
+</pre>
 
 You feel for the programmer. Because if you’re going to create an image viewer you need to deal with Photoshop. But when you think about it, when you look at the way that files and programs tend to go, well, the fact that Photoshop would be a puzzle seems inevitable. Look at HTML5.
 
