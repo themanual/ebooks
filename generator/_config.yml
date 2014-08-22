@@ -3,3 +3,4 @@ kramdown:
   auto_ids: false
 exclude:
   - "*.epub"
+  - "*.mobi"
