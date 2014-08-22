@@ -105,6 +105,14 @@ h2 {
   page-break-after: avoid;
 }
 
+hr {
+  height: 2px;
+  border: none;
+  width: 6em;
+  margin: 2em auto;
+  background: {{ site.data.issue.color }} !important;
+}
+
 p,
 .dialogue {
   margin: 0;
