@@ -445,55 +445,14 @@ img.right {
 /* Code */
 
 code {
-  color: rgb(199,111,70);
   font-family: monospace;
   font-size: 1.1em;
-  margin: 2em 0;
-  margin-left: -3.5em;
-  display: block;
-}
-
-h4 span {
-  color: rgb(199,111,70);
+  color: {{ site.data.issue.color }};
 }
 
 p code, li code {
   display: inline;
   margin: 0;
-}
-
-.code-example {
-  margin-top: 30px;
-  margin-bottom: 30px;
-  font-size: 9px;
-}
-
-.code2 {
-  margin-left: 15px;
-}
-
-.code3 {
-  margin-left: 35px;
-}
-
-.code4 {
-  margin-left: 55px;
-}
-
-.code5 {
-  margin-left: 75px;
-}
-
-.code6 {
-  margin-left: 95px;
-}
-
-.code7 {
-  margin-left: 115px;
-}
-
-.code8 {
-  margin-left: 135px;
 }
 
 /* Table Styles */
