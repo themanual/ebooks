@@ -74,7 +74,7 @@ Certain kinds of services that were originally only accessible via a browser, ac
 
 As new platforms emerge, it becomes our responsibility to make decisions about the appropriate form. To understand when something should become one form and not another, to elegantly and with confidence distinguish “possible” from “optimal”. And thriving as digital makers means cultivating an ability to see what’s invisible by looking for subtle protocol, making listening noises when we see it, and striving to craft work that is conversational and culturally aware.
 
-[^hoeg] Peter Høeg, *Smilla’s Sense of Snow* (Harvill, 1993).
-[^febvre-martin] Lucien Febvre and Henri-Jean Martin, *The Coming of The Book* (Verso, 1976).
-[^norman] Donald Norman, *The Design of Everyday Things* (Basic Books, 1988).
-[^anderson] Kurt Anderson, “You Say You Want a Devolution?,” *Vanity Fair* (January 2012).
+[^hoeg]: Peter Høeg, *Smilla’s Sense of Snow* (Harvill, 1993).
+[^febvre-martin]: Lucien Febvre and Henri-Jean Martin, *The Coming of The Book* (Verso, 1976).
+[^norman]: Donald Norman, *The Design of Everyday Things* (Basic Books, 1988).
+[^anderson]: Kurt Anderson, “You Say You Want a Devolution?,” *Vanity Fair* (January 2012).
