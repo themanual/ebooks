@@ -1,3 +1,5 @@
+require 'nokogiri'
+
 task default: 'build-all'
 
 ##### INDIVIDUAL STEPS
@@ -20,11 +22,17 @@ namespace :steps do
     Dir.chdir "#{wd}/issue-#{args[:issue]}/_site"
     Dir.glob('**/*.xhtml') do |xhtml|
 
+      doc = Nokogiri::XML(open(xhtml))
+
       #  <sup id="fnref:lanier"><a href="#fn:lanier" class="footnote">1</a></sup>
       #TO
       #  <sup id="fnref-lanier"><a href="#fn-lanier" epub:type="noteref" class="footnote">1</a></sup>
-      `sed -i '' -e 's/id=\\"fnref:/id=\\"fnref-/g;s/href=\\"#fn:/href=\\"#fn-/g' #{xhtml}`
-
+      doc.css('sup[id^="fnref:"]').each do |sup|
+        sup.css('a[href^="#fn:"]').each do |a|
+          a['href'] = a['href'].gsub(':','-')
+        end
+        sup['id'] = sup['id'].gsub(':','-')
+      end
 
       #  <li id="fn:lanier">
       #    <p>Jaron Lanier, <em><a href="http://www.jaronlanier.com/gadgetwebresources.html">You Are Not a Gadget: A Manifesto</a></em>, (Vintage Books, 2011). <a href="#fnref:lanier" class="reversefootnote">&#8617;</a></p>
@@ -33,8 +41,19 @@ namespace :steps do
       #  <li id="fn-lanier" epub:type="footnote">
       #    <p>Jaron Lanier, <em><a href="http://www.jaronlanier.com/gadgetwebresources.html">You Are Not a Gadget: A Manifesto</a></em>, (Vintage Books, 2011). <a href="#fnref-lanier" class="reversefootnote">&#8617;</a></p>
       #  </li>
-      `sed -i '' -E 's/li id=\\"fn:([a-z-]*)\\"/li id=\\"fn-\\1\\" epub:type=\\"footnote\\"/g' #{xhtml}`
-      `sed -i '' -e 's/href=\\"#fnref:/href=\\"#fnref-/g' #{xhtml}`
+      # `sed -i '' -E 's/li id=\\"fn:([a-z-]*)\\"/li id=\\"fn-\\1\\" epub:type=\\"footnote\\"/g' #{xhtml}`
+      # `sed -i '' -e 's/href=\\"#fnref:/href=\\"#fnref-/g' #{xhtml}`
+      doc.css('li[id^="fn:"]').each do |li|
+        li.css('a[href^="#fnref"]').each do |a|
+          a['href'] = a['href'].gsub(':','-')
+        end
+        li['id'] = li['id'].gsub(':','-')
+        li['epub:type'] = 'footnote'
+      end
+
+      File.open(xhtml, 'w') do |f|
+          f.write doc.to_xml
+      end
 
     end
     Dir.chdir wd
