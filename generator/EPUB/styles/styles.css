@@ -105,7 +105,8 @@ h2 {
   page-break-after: avoid;
 }
 
-p {
+p,
+.dialogue {
   margin: 0;
   margin-top: 1.5em;
 }
@@ -120,14 +121,20 @@ p + p {
   text-indent: 1em;
 }
 
-p.spaced {
+p.spaced,
+.dialogue p {
   margin-top: 1.5em;
   text-indent: 0;
+}
+
+.dialogue p:first-child {
+  margin-top: 0;
 }
 
 p.unindented {
   text-indent: 0;
 }
+
 p.indented {
   text-indent: 1em;
 }
