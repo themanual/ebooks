@@ -10,7 +10,7 @@ I love them for many reasons. Take the HTML page. Not the modern bundle of anxie
 
 `<HTML>`
 
-Look at that audacious uppercase! Well here we go! And then I’d type along for a while, writing in my text editor, filling in <P> tags and <IMG> tags. Finally, at the end of the document, I’d write:
+Look at that audacious uppercase! Well here we go! And then I’d type along for a while, writing in my text editor, filling in `<P>` tags and `<IMG>` tags. Finally, at the end of the document, I’d write:
 
 `</HTML>`
 
@@ -32,7 +32,7 @@ Those were long years, the years of drop-shadows. Everything was jumping just sl
 
 Photoshop is a program, but it’s also a language. When I work with a designer, it is the language we share. I know there are alternatives, just as there are alternatives to Word, but it is most likely, in the course of a workday, that if I am going to be discussing a mockup or a design, that Photoshop will have been opened along the way. Photoshop is a way for a designer to talk to an executive and a web developer and an information architect at once. We all talk a little Photoshop. When you open a well-defined Photoshop file it is a revelation. *Well look*, you think. *This person has named all their layers. They have named all their sub-layers. They have created an organized hierarchy out of this website.* A good web designer is ultimately a taxonomist. They dare never simply sketch in a line without knowing where it belongs—to the page at hand, to some imaginary template, as a divider between banner ads. Layers are the grammar of web design.
 
-The Photoshop file format itself, however, is impenetrable. Where <HTML>...</HTML> was almost an invitation to do something fun, everything about the interior of a PSD file is alienating, confusing. A Photoshop file is lump of binary data. It just sits there on your hard drive. Open it in Photoshop and there are your guides, your color swatches, and of course the manifold pixels of your intent. But outside of Photoshop that file is an enigma. There’s no “view source.”
+The Photoshop file format itself, however, is impenetrable. Where `<HTML>`...`</HTML>` was almost an invitation to do something fun, everything about the interior of a PSD file is alienating, confusing. A Photoshop file is lump of binary data. It just sits there on your hard drive. Open it in Photoshop and there are your guides, your color swatches, and of course the manifold pixels of your intent. But outside of Photoshop that file is an enigma. There’s no “view source.”
 
 You can, if you’re passionate, read the standard on the web, and it’s all piled in there, the history of pictures on computers. That’s when it becomes clear: only Photoshop’s creator Adobe can understand this thing. Here’s the list of four-letter abbreviations that are used to set the blend mode of a layer, taken straight from the standard as formatted:
 
