@@ -83,6 +83,7 @@ namespace :steps do
 
 end
 
+desc 'Build a single Issue'
 task :build, :issue do |task, args|
   print "* Building Issue #{args[:issue]}\n"
   Rake::Task["steps:parse"].execute :issue => args[:issue]
