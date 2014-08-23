@@ -63,9 +63,9 @@ toc:
 # (last name alphabetical order)
 #
 loa:
-  jennifer-brook
-  david-cole
-  paul-ford
+  - jennifer-brook
+  - david-cole
+  - paul-ford
   - diana-kimball
   - wilson-miner
   - craig-mod
@@ -127,13 +127,13 @@ authors:
     bio: "Diana Kimball is a writer and reader. She graduated from Harvard Business School and was part of the original team behind ROFLCon. She also co-founded 24-Hour Bookclub, an occasional reading flash mob. Diana now lives in Berlin, where she listens and works at SoundCloud."
   jennifer-brook:
     name: "Jennifer Brook"
-    bio: "Jennifer Brook is a designer based in Brook- lyn, NY. Her work includes research, strategy, and design for media companies and startups, as well as speaking about design at conferences around the world. She teaches in SVA’s MFA in Interaction Design."
+    bio: "Jennifer Brook is a designer based in Brooklyn, NY. Her work includes research, strategy, and design for media companies and startups, as well as speaking about design at conferences around the world. She teaches in SVA’s MFA in Interaction Design."
   david-cole:
     name: "David Cole"
     bio: "David Cole is the head of design at Quora. Previously, he was one half of Sleepover, a studio focusing on boutique and experimental online publishing. He’s also led design for startups such as Disrupto, Etherpad, Disqus, and Fluther. He resides in Mountain View, CA."
   paul-ford:
     name: "Paul Ford"
-    bio: "Paul Ford writes stories and essays, pro- grams computers, edits things, and helps people launch online publications. He was previously an editor at _Harper’s Magazine_, and was for a while a regular contributor on NPR’s _All Things Considered_. Paul lives in Baltimore, MD."
+    bio: "Paul Ford writes stories and essays, programs computers, edits things, and helps people launch online publications. He was previously an editor at _Harper’s Magazine_, and was for a while a regular contributor on NPR’s _All Things Considered_. Paul lives in Baltimore, MD."
 
 #
 # Illustrators Names and Biographies
