@@ -22,7 +22,7 @@ title:
   collection: "The Manual"
 
 # Optional pages in issue.
-# - if false, remove corresponding file under EPUB/html/content
+# if false, remove corresponding file under EPUB/html/content
 has:
   acknowledgements: false # acknowledgements(.xhtml|.md)
   dedication: true        # dedication(.xhtml|.md)
@@ -63,9 +63,9 @@ toc:
 # (last name alphabetical order)
 #
 loa:
-  - jennifer-brook
-  - david-cole
-  - paul-ford
+  jennifer-brook
+  david-cole
+  paul-ford
   - diana-kimball
   - wilson-miner
   - craig-mod
@@ -118,22 +118,22 @@ staff:
 authors:
   craig-mod:
     name: "Craig Mod"
-    bio: ""
+    bio: "Craig Mod is an independent writer and designer, splitting his time between New York and Tokyo. He is the co-founder of Hi, a real-time storytelling project, and writes regularly on the future of books, digital reading, publishing, and storytelling. He is a MacDowell Writing Fellow and a 2011 TechFellow."
   wilson-miner:
     name: "Wilson Miner"
-    bio: ""
+    bio: "Wilson Miner is a digital product designer based in San Francisco, CA. A former product designer at Facebook and interactive designer at Apple, Wilson led design at Rdio from 2009 to 2012. He previously co-founded EveryBlock and co-created the Django web framework."
   diana-kimball:
     name: "Diana Kimball"
-    bio: ""
+    bio: "Diana Kimball is a writer and reader. She graduated from Harvard Business School and was part of the original team behind ROFLCon. She also co-founded 24-Hour Bookclub, an occasional reading flash mob. Diana now lives in Berlin, where she listens and works at SoundCloud."
   jennifer-brook:
     name: "Jennifer Brook"
-    bio: ""
+    bio: "Jennifer Brook is a designer based in Brook- lyn, NY. Her work includes research, strategy, and design for media companies and startups, as well as speaking about design at conferences around the world. She teaches in SVA’s MFA in Interaction Design."
   david-cole:
     name: "David Cole"
-    bio: ""
+    bio: "David Cole is the head of design at Quora. Previously, he was one half of Sleepover, a studio focusing on boutique and experimental online publishing. He’s also led design for startups such as Disrupto, Etherpad, Disqus, and Fluther. He resides in Mountain View, CA."
   paul-ford:
     name: "Paul Ford"
-    bio: ""
+    bio: "Paul Ford writes stories and essays, pro- grams computers, edits things, and helps people launch online publications. He was previously an editor at _Harper’s Magazine_, and was for a while a regular contributor on NPR’s _All Things Considered_. Paul lives in Baltimore, MD."
 
 #
 # Illustrators Names and Biographies
@@ -142,19 +142,19 @@ authors:
 illustrators:
   julianna-brion:
     name: "Julianna Brion"
-    bio: ""
+    bio: "Julianna Brion is an artist based in Baltimore, MD. She studied illustration at MICA and now spends her days hard at work in the studio with her cat Ghostface by her side."
   richard-perez:
     name: "Richard Perez"
-    bio: ""
+    bio: "Richard Perez is an independent graphic designer and illustrator, now based in Portland, OR. He has worked with clients including IBM, Facebook, Path, Square, Google, Aol, and GOOD."
   matthew-the-horse:
     name: "Matthew the Horse"
-    bio: ""
+    bio: "Matthew the Horse, otherwise known as Matthew Hodson, is an illustrator, graphic artist, poet, educator, and idiot based in Leeds. He works with calligraphic pens, watercolours, a computer, and his hands."
   cesar-barcelo:
     name: "César Barceló"
-    bio: ""
+    bio: "César Barceló is an illustrator based in Alicante, focusing on character design and illustration for publishing, TV, and advertising. His fresh style mixes humor and irony with a limited palette of colors."
   tim-gough:
     name: "Tim Gough"
-    bio: ""
+    bio: "Tim Gough has been working as a creative person for various agencies and publications for over 10 years. He lives in Philadelphia, PA, with his dog, and currently works as a Senior Designer at 160over90."
   philipp-dornbierer:
     name: "Philipp Dornbierer"
-    bio: ""
+    bio: "Philipp Dornbierer is a freelance illustrator based in Zurich. His clients now include The New York Times, IBM, Süddeutsche Zeitung Magazin, and Carhartt."
