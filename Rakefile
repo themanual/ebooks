@@ -30,6 +30,7 @@ namespace :steps do
       doc.css('sup[id^="fnref:"]').each do |sup|
         sup.css('a[href^="#fn:"]').each do |a|
           a['href'] = a['href'].gsub(':','-')
+          a['epub:type'] = 'noteref'
         end
         sup['id'] = sup['id'].gsub(':','-')
       end
