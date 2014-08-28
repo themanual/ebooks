@@ -14,7 +14,7 @@ type:   article
 > that will build under the trees  
 > every thousand years.
 > 
-> — Wendell Berry [^berry]
+> <cite>— Wendell Berry</cite>[^berry]
 
 In the picture, I’m standing in a wheat field in western Kansas. I’m five years old; the wheat is higher than my head. It’s late summer, almost time for harvest.
 
@@ -74,7 +74,7 @@ Even the most ambitious systems don’t always have what it takes to survive. Vi
 
 > Futures not achieved are only branches of the past: dead branches.
 > 
-> — Italo Calvino[^calvino]
+> <cite>— Italo Calvino</cite>[^calvino]
 
 The largest shopping mall in the world is a ghost town. Built on former farmland in the suburbs of Dongguan, China, the New South China Mall covers 9.6 million square feet, with leasable space for as many as 2,350 stores. It has seven zones with features that mimic landmarks from international cities like Paris, Rome, and Venice, including an eighty-foot replica of the Arc de Triomphe, and a 1.3-mile canal complete with gondolas.[^mall]
 
@@ -108,7 +108,7 @@ There are more ways to scale than growth. There are more ways to deepen our impa
 
 > If your life’s work can be accomplished in your lifetime, you’re not thinking big enough.
 > 
-> — Wes Jackson
+> <cite>— Wes Jackson</cite>
 
 A few hours east of my grandfather’s farm by interstate highway, just outside of Salina, Kansas, there’s a barn. It’s a barn like many other barns around here, but every year for a few days in the fall, it fills up with people. They come from all over, for an event called The Prairie Festival, and set up camp in the surrounding fields. 
 
