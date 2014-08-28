@@ -7,7 +7,7 @@ task default: 'build-all'
 namespace :steps do
   desc 'Parse markup'
   task :parse, :issue do |task, args|
-    print " - Parsing Issue #{args[:issue]}\n"
+    print " - Parsing issue-#{args[:issue]}\n"
     wd = Dir.getwd
     Dir.chdir "#{wd}/issue-#{args[:issue]}"
     `bundle exec jekyll build`
@@ -16,7 +16,7 @@ namespace :steps do
 
   desc 'Fixup markup'
   task :fixup, :issue do |task, args|
-    print " - Fixing up Issue #{args[:issue]}\n"
+    print " - Fixing up issue-#{args[:issue]}\n"
 
     wd = Dir.getwd
     Dir.chdir "#{wd}/issue-#{args[:issue]}/_site"
@@ -62,7 +62,7 @@ namespace :steps do
 
   desc 'Package epub'
   task :package, :issue do |task, args|
-    print " - Packaging Issue #{args[:issue]}\n"
+    print " - Packaging issue-#{args[:issue]}\n"
     wd = Dir.getwd
     Dir.chdir "#{wd}/issue-#{args[:issue]}/_site"
     File.unlink "../issue-#{args[:issue]}.epub" rescue nil
@@ -73,7 +73,7 @@ namespace :steps do
 
   desc 'Validate epub'
   task :validate, :issue do |task, args|
-    print " - Validating Issue #{args[:issue]}\n"
+    print " - Validating issue-#{args[:issue]}\n"
 
     wd = Dir.getwd
     Dir.chdir "#{wd}/generator/bin/epubcheck-3.0.1"
@@ -88,7 +88,7 @@ namespace :steps do
 
   desc 'Generate kindle version'
   task :kindlegen, :issue do |task, args|
-    print " - Kindlegen'ing Issue #{args[:issue]}\n"
+    print " - Kindlegen'ing issue-#{args[:issue]}\n"
 
     wd = Dir.getwd
     Dir.chdir "#{wd}/generator/bin/kindlegen-2.9"
@@ -105,13 +105,13 @@ end
 
 desc 'Build a single Issue'
 task :build, :issue do |task, args|
-  print "* Building Issue #{args[:issue]}\n"
+  print "* Building issue-#{args[:issue]}\n"
   Rake::Task["steps:parse"].execute :issue => args[:issue]
   Rake::Task["steps:fixup"].execute :issue => args[:issue]
   Rake::Task["steps:package"].execute :issue => args[:issue]
   Rake::Task["steps:validate"].execute :issue => args[:issue]
   Rake::Task["steps:kindlegen"].execute :issue => args[:issue]
-  print "* Built Issue #{args[:issue]}\n\n\n"
+  print "* Built issue-#{args[:issue]}\n\n\n"
 end
 
 desc 'Build all Issues'
