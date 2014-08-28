@@ -1,0 +1,106 @@
+# Issue Number
+number: 4
+# Year of Publication
+year: 2014
+# Metadata Description
+description: "TBD"
+
+# ISSN of The Manual
+issn: 2047-3508
+# UUID of Issue, should be unique.
+uuid: AACA88AE-BE83-4E87-BBA1-710E5D43FA06
+# Version
+version: v1.0.0
+
+# Issue Color
+color: "#00CFB5"
+
+# Multiple title formats
+title:
+  full: "The Manual: Issue 4 [Sample]"
+  short: "Issue 4 [Sample]"
+  collection: "The Manual"
+
+# Optional pages in issue.
+# if false, remove corresponding file under EPUB/html/content
+has:
+  acknowledgements: false   # acknowledgements(.xhtml|.md)
+  dedication: false         # dedication(.xhtml|.md)
+  letter: false             # letter(.xhtml|.md)
+  note: true                # note(.xhtml|.md)
+
+# Illustrator of portraits, must belong in 'loi'
+portrait_illustrator: richard-perez
+
+#
+# Table of Contents
+#
+# author-key:
+#   article: "Title of Article"
+#   illustrator: illustrator-key
+#
+toc:
+  wilson-miner:
+    article: "Perennial Design"
+    illustrator: richard-perez
+
+#
+# List of author keys
+# (last name alphabetical order)
+#
+loa:
+  - wilson-miner
+
+#
+# List of illustrator keys
+# (last name alphabetical order)
+#
+loi:
+  - richard-perez
+
+#
+# Staff
+#
+# - name: "Staffer Name"
+# - colophon: "Staffer Role"
+# - role: http://www.loc.gov/marc/relators/ (pbl, edt, bkd, ard)
+staff:
+  - name: "Andy McMillan"
+    colophon: "Publisher"
+    role: pbl
+  - name: "Liz Danzico"
+    colophon: "Editor in Chief"
+    role: edt
+  - name: "Lisa Sanchez"
+    colophon: "Assistant Editor"
+    role: edt
+  - name: "Julie Steenson"
+    colophon: "Copy Editor"
+    role: edt
+  - name: "Frank Chimero"
+    colophon: "Cover Designer"
+    role: cov
+  - name: "Paulo Pereira"
+    colophon: "Ebook Designer"
+    role: bkd
+  - name: "David McMillan"
+    colophon: "Art Director"
+    role: ard
+
+#
+# Authors Names and Biographies
+# (biographies in markdown)
+#
+authors:
+  wilson-miner:
+    name: "Wilson Miner"
+    bio: "Wilson Miner is a digital product designer based in San Francisco, CA. A former product designer at Facebook and interactive designer at Apple, Wilson led design at Rdio from 2009 to 2012. He previously co-founded EveryBlock and co-created the Django web framework."
+
+#
+# Illustrators Names and Biographies
+# (biographies in markdown)
+#
+illustrators:
+  richard-perez:
+    name: "Richard Perez"
+    bio: "Richard Perez is an independent graphic designer and illustrator, now based in Portland, OR. He has worked with clients including IBM, Facebook, Path, Square, Google, Aol, and GOOD."
