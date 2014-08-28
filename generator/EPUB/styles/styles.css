@@ -129,6 +129,14 @@ p + p {
   text-indent: 1em;
 }
 
+blockquote p + p cite {
+  text-align: left;
+  display: inline;
+  display: inline-block;
+  margin-top: .5em;
+  text-indent: -1em;
+}
+
 p.spaced,
 .dialogue p {
   margin-top: 1.5em;
@@ -170,11 +178,6 @@ a.black {
   text-decoration: none !important;
 }
 
-/*a:link, a:visited, */sup {
-  color: rgb(0,159,238) !important;
-  text-decoration: underline;
-}
-
 pre {
   line-height: 1.5;
   margin: 1.5em 0 1.5em 1.5em;
@@ -182,18 +185,17 @@ pre {
   color: rgb(102, 102, 102); /* #666666 */
 }
 
-.footnote {
-  font-size: 70%;
-  font-weight: bold;
-  vertical-align: super;
+sub, sup {
+  font-size: .75em;
+  line-height: .75em;
+  text-decoration: none;
+}
+
+sup .footnote {
   padding-left: .3em;
   padding-right: .3em;
 }
 
-sub, sup {
-  font-size: .8em;
-  text-decoration: none;
-}
 
 li {
   margin-left: 1em;
