@@ -65,6 +65,9 @@
     <item id="nav"                      media-type="application/xhtml+xml" href="html/front-matter/nav.xhtml" properties="nav" />
     <item id="p_toc"                    media-type="application/xhtml+xml" href="html/front-matter/toc.xhtml" />
     <item id="p_loi"                    media-type="application/xhtml+xml" href="html/front-matter/loi.xhtml" />
+    {% if site.data.issue.has.note %}
+    <item id="p_note"                   media-type="application/xhtml+xml" href="html/content/note.xhtml" />
+    {% endif %}
     {% if site.data.issue.has.dedication %}
     <item id="p_dedication"             media-type="application/xhtml+xml" href="html/content/dedication.xhtml" />
     {% endif %}
@@ -107,6 +110,9 @@
     {% if site.data.issue.has.dedication %}
     <itemref idref="p_dedication" />
     {% endif %}
+    {% if site.data.issue.has.note %}
+    <itemref idref="p_note" />
+    {% endif %}
     {% if site.data.issue.has.letter %}
     <itemref idref="p_letter" />
     {% endif %}
@@ -129,6 +135,8 @@
     <reference type="loi"               title="List of Illustrations"       href="html/front-matter/loi.xhtml" />
     {% if site.data.issue.has.dedication %}
     <reference type="text"              title="Dedication"                  href="html/content/dedication.xhtml" />
+    {% elsif site.data.issue.has.note %}
+    <reference type="text"              title="Note"                        href="html/content/note.xhtml" />
     {% elsif site.data.issue.has.letter %}
     <reference type="text"              title="Leter from the Publisher"    href="html/content/letter.xhtml" />
     {% else %}
