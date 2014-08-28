@@ -15,7 +15,7 @@ title: Illustrations
       <span class="toc-heading">{{ site.data.issue.illustrators[v.illustrator].name }}</span>
       <ol>
         <li><a href="../content/author-{{forloop.index}}-article-illo.xhtml">{{ v.article }}</a></li>
-        {% if v.illustrator == portrait_illustrator %}
+        {% if v.illustrator == site.data.issue.portrait_illustrator %}
         <li><a href="../back-matter/authors.xhtml">Authors</a></li>
         {% endif %}
       </ol>
