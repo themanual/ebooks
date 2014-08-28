@@ -27,9 +27,10 @@ has:
   acknowledgements: false # acknowledgements(.xhtml|.md)
   dedication: true        # dedication(.xhtml|.md)
   letter: true            # letter(.xhtml|.md)
+  note: false             # note(.xhtml|.md)
 
 # Illustrator of portraits, must belong in 'loi'
-portrait_illustrator: "paul-blow"
+portrait_illustrator: paul-blow
 
 #
 # Table of Contents

@@ -1,25 +1,44 @@
+# Issue Number
 number: 1
-year: 2012
+# Year of Publication
+year: 2011
+# Metadata Description
 description: "DESCRIPTION TBD"
 
+# ISSN of The Manual
 issn: 2047-3508
+# UUID of Issue, should be unique.
 uuid: 1AF6F886-4C67-4C8C-91D9-6B8E0C58D732
+# Version
 version: v1.0.0
 
+# Issue Color
 color: "#EF3E42"
 
+# Multiple title formats
 title:
   full: "The Manual: Issue 1"
   short: "Issue 1"
   collection: "The Manual"
 
+# Optional pages in issue.
+# - if false, remove corresponding file under EPUB/html/content
 has:
-  acknowledgements: true
-  dedication: false
-  letter: true
+  acknowledgements: true  # acknowledgements(.xhtml|.md)
+  dedication: false       # dedication(.xhtml|.md)
+  letter: true            # letter(.xhtml|.md)
+  note: false             # note(.xhtml|.md)
 
-portrait_illustrator: "ping-zhu"
+# Illustrator of portraits, must belong in 'loi'
+portrait_illustrator: ping-zhu
 
+#
+# Table of Contents
+#
+# author-key:
+#   article: "Title of Article"
+#   illustrator: illustrator-key
+#
 toc:
   simon-collison:
     article: "Maturity and the Weight of Learning"
@@ -39,6 +58,11 @@ toc:
   the-standardistas:
     article: "Designing the Mind"
     illustrator: "superbrothers"
+
+#
+# List of author keys
+# (last name alphabetical order)
+#
 loa:
   - "frank-chimero"
   - "simon-collison"
@@ -46,6 +70,11 @@ loa:
   - "dan-rubin"
   - "jon-tan"
   - "the-standardistas"
+
+#
+# List of illustrator keys
+# (last name alphabetical order)
+#
 loi:
   - "raymond-biesinger"
   - "owen-gatley"
@@ -54,6 +83,12 @@ loi:
   - "olimpia-zagnoli"
   - "ping-zhu"
 
+#
+# Staff
+#
+# - name: "Staffer Name"
+# - colophon: "Staffer Role"
+# - role: http://www.loc.gov/marc/relators/ (pbl, edt, bkd, ard)
 staff:
   - name: "Andy McMillan"
     colophon: "Publisher"
@@ -71,6 +106,10 @@ staff:
     colophon: "Art Director"
     role: ard
 
+#
+# Authors Names and Biographies
+# (biographies in markdown)
+#
 authors:
   simon-collison:
     name: "Simon Collison"
@@ -91,6 +130,10 @@ authors:
     name: "The Standardistas"
     bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis, ducimus, dicta odit nihil recusandae in repellat quidem cum veritatis, laboriosam corporis. Officiis quod aut earum aspernatur dolor provident nam maiores!"
 
+#
+# Illustrators Names and Biographies
+# (biographies in markdown)
+#
 illustrators:
   raymond-biesinger:
     name: "Raymond Biesinger"

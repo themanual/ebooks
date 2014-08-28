@@ -27,6 +27,7 @@ has:
   acknowledgements: false  # acknowledgements(.xhtml|.md)
   dedication: false        # dedication(.xhtml|.md)
   letter: false            # letter(.xhtml|.md)
+  note: false              # note(.xhtml|.md)
 
 # Illustrator of portraits, must belong in 'loi'
 portrait_illustrator: luke-pearson
