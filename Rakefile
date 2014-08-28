@@ -116,7 +116,7 @@ end
 
 desc 'Build all Issues'
 task 'build-all' do
-  issues = Dir.glob('issue-*').select{|issue| issue =~ /^issue-\d+$/}
+  issues = Dir.glob('issue-*').select{|issue| issue =~ /^issue-\d.*$/}
 
   issues.each do |issue|
     Rake::Task["build"].execute :issue => issue.sub('issue-','')
