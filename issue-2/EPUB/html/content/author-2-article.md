@@ -52,23 +52,18 @@ What happened next altered the definition of graphic design forever, at least wi
 I first heard of the field of User Experience Design in the early 2000s, about the same time as when Steve Krug’s book *Don’t Make Me Think* was published. Then, of course, came Jesse James Garrett’s seminal book: *The Elements of User Experience* in 2002.[^garrett] In this book, Jesse created a diagram of user experience that had five planes of practice, like a big layer cake. I’ve listed Garrett’s planes here, with my own description of each:
 
 “Strategy: *User Needs/Site Objectives*”
-
 : The strategy layer is where it all starts. What do we need this website to do and deliver on? What is the proposition?
 
 “Scope: *Functional Specification/Content Requirements*”
-
 : The strategy transforms into *scope* where the features and content are documented.
 
 “Structure: *Interaction Design/Information Architecture*”
-
 : The structure layer is where the information is shaped. How does the whole site sit together?
 
 “Skeleton:*Information Design/Navigation/Interface Design*”
-
 : The skeleton is the layer at which the interactions between the user and site are documented. What do people do on the site? More importantly, how do they do it?
 
 “Surface: *Visual Design*”
-
 : This is where the color, typefaces, layout all come together to create the *look and feel* of the site.
 
 Quite rightly, Garrett’s book was a pivotal publication for the industry. It was a must-have for anyone who makes, writes for, or commissions websites. It clearly explained how good websites are constructed and the various roles and processes that are included. However, in one unwitting move, the industry’s response to Garrett’s layers relegated the practice of graphic design to the surface plane. This attitude was unfortunately reinforced by the recent rise in the opinion that *user experience design*—not graphic design—was the definition of *good* web design. Here on this surface plane, designers operate to make the product or website look great. They use color, typefaces, and layout. According to the industry’s perception of this model, what designers *don’t* do on the surface plane is design; they decorate.

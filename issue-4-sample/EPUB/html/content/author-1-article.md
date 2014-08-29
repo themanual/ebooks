@@ -14,7 +14,7 @@ type:   article
 > that will build under the trees  
 > every thousand years.
 > 
-> <cite>— Wendell Berry</cite>[^berry]
+> <cite>— Wendell Berry </cite>[^berry]
 
 In the picture, I’m standing in a wheat field in western Kansas. I’m five years old; the wheat is higher than my head. It’s late summer, almost time for harvest.
 
@@ -44,11 +44,11 @@ The farmer needs chemicals to fertilize his crops and protect against infestatio
 
 ## Technological Sediment
 
-It’s almost cliché at this point to bemoan the fact that the work we create as digital designers doesn’t last very long. Whatever we make is bound to be obsolete, replaced, or just plain gone in a few years or less. We’re like the farmer after a harvest, watching the rain fall on an empty field.  
+It’s almost cliché at this point to bemoan the fact that the work we create as digital designers doesn’t last very long. Whatever we make is bound to be obsolete, replaced, or just plain gone in a few years or less. We’re like the farmer after a harvest, watching the rain fall on an empty field.
 
-Steve Jobs gave an interview at NeXT in 1994 which resurfaced from the Silicon Valley Historical Association archives after his death.[^jobs] In response to one of the questions, comparing Silicon Valley to the European Renaissance in the fifteenth century and Jobs himself to Isaac Newton, he replies matter-of-factly, ‘All the work I’ve done in my life will be obsolete by the time I’m fifty.’
+Steve Jobs gave an interview at NeXT in 1994 which resurfaced from the Silicon Valley Historical Association archives after his death.[^jobs] In response to one of the questions, comparing Silicon Valley to the European Renaissance in the fifteenth century and Jobs himself to Isaac Newton, he replies matter-of-factly, “All the work I’ve done in my life will be obsolete by the time I’m fifty.”
 
-With his unceremonious departure from Apple almost a decade behind him and his triumphant return not yet on the horizon, he takes the long view: ‘It’s sort of like a sediment of rocks. You’re building up a mountain, and you get to contribute your little layer of sedimentary rock to make the mountain that much higher. But no one on the surface, unless they have X-ray vision, will see your sediment.’
+With his unceremonious departure from Apple almost a decade behind him and his triumphant return not yet on the horizon, he takes the long view: “It’s sort of like a sediment of rocks. You’re building up a mountain, and you get to contribute your little layer of sedimentary rock to make the mountain that much higher. But no one on the surface, unless they have X-ray vision, will see your sediment.”
 
 With digital interfaces, there’s only so much we can do to make our products more durable. We’re limited by the ephemeral nature of our materials. And we’ve learned to work in a way that takes advantage of the fact that digital material is so easily disposable. We try things; we learn something; we erase things, and we try again.
 
@@ -56,7 +56,7 @@ But the process, the way we got there, has a longer lifespan. The process is the
 
 If all we celebrate is what is visible on the surface—the fragile plant and not the durable root system—we limit the scope of our ambition to the shortest possible horizon. Are we making layers of sediment for future generations to build a mountain, or are we planting each year’s crop of new products and watching them wash away once their short-term value is harvested and consumed?
 
-The emergence of ideas like ‘responsive design’ and ‘future-friendly thinking’ are in part a response to the collective realization that designing products that solve one problem in one context at a time is no longer sustainable. By refocusing our process on systems that are explicitly designed to adapt to a changing environment, we have an opportunity to develop durable, long-lasting designs that renew their usefulness and value over time.
+The emergence of ideas like “responsive design” and “future-friendly thinking” are in part a response to the collective realization that designing products that solve one problem in one context at a time is no longer sustainable. By refocusing our process on systems that are explicitly designed to adapt to a changing environment, we have an opportunity to develop durable, long-lasting designs that renew their usefulness and value over time.
 
 ## Durable Systems
 
@@ -68,7 +68,7 @@ Vignelli designed another system, in 1977, for the National Park Service (NPS). 
 
 Like the subway signage system, the Unigrid system was designed to bring order to a chaotic process. The NPS is a widely distributed organization with widely varying needs and staff capabilities. Because the Unigrid was designed as a simple, modular system, it was straightforward to create many different brochures separately that felt like part of the same system. Because it was designed to be modular and flexible, it was possible to adapt it to new needs over time without dismantling the foundation of the system. 
 
-Even the most ambitious systems don’t always have what it takes to survive. Vignelli’s New York City subway map, which he designed alongside the subway signage system, was famously replaced a few years later after continued complaints from subway riders. Vignelli was quoted by the *New York Times*, calling the replacement map a ‘mongrel’ for its messy mixing of ‘naturalism and abstraction’ (Vignelli’s map was much-hated by New Yorkers for wildly misrepresenting above-ground distances in favor of diagrammatic purity). Michael Hertz, the designer of the map which long outlasted Vignelli’s own, responded that ‘mongrels’ or ‘hybrids’ are ‘usually healthier, smarter, and longer-lived creatures than his "thoroughbred" turned out to be.’
+Even the most ambitious systems don’t always have what it takes to survive. Vignelli’s New York City subway map, which he designed alongside the subway signage system, was famously replaced a few years later after continued complaints from subway riders. Vignelli was quoted by the *New York Times*, calling the replacement map a “mongrel” for its messy mixing of “naturalism and abstraction” (Vignelli’s map was much-hated by New Yorkers for wildly misrepresenting above-ground distances in favor of diagrammatic purity). Michael Hertz, the designer of the map which long outlasted Vignelli’s own, responded that “mongrels” or “hybrids” are “usually healthier, smarter, and longer-lived creatures than his ‘thoroughbred’ turned out to be.”
 
 ## Dead Branches
 
@@ -80,9 +80,9 @@ The largest shopping mall in the world is a ghost town. Built on former farmland
 
 It’s almost completely empty. There is no airport in Dongguan to bring shoppers from more populated areas, and there are no highways that reach the mall’s location. 
 
-The New South China Mall is the largest, but far from the only mall in the world standing vacant. All over the world, the great hulking masses of ‘dead malls’ loom over the suburbs, the ghosted outlines of dismantled signs on the walls of the department stores like the shadows of an earlier age of commerce.
+The New South China Mall is the largest, but far from the only mall in the world standing vacant. All over the world, the great hulking masses of “dead malls” loom over the suburbs, the ghosted outlines of dismantled signs on the walls of the department stores like the shadows of an earlier age of commerce.
 
-Edged out by the rise of ‘big box’ stores like Wal-Mart and Target, and unable to adapt to the changing calculus of a series of economic downturns, the shopping mall has become a symbol  of stagnation and decay. But it began as something completely different, an ambitious idea in the mind of the man with the now dubious distinction of being credited as the ‘inventor’ of the shopping mall.
+Edged out by the rise of “big box” stores like Wal-Mart and Target, and unable to adapt to the changing calculus of a series of economic downturns, the shopping mall has become a symbol of stagnation and decay. But it began as something completely different, an ambitious idea in the mind of the man with the now dubious distinction of being credited as the “inventor” of the shopping mall.
 
 Victor Gruen, an architect and city planner who grew up in Vienna, was disgusted by the American suburbs. Inspired by the broad plazas and civic centers of Europe, he hoped to design a new built environment that would restore a sense of civic life and community to the sprawling, isolating chaos of the suburbs. As the architect for the Southdale Mall near Minneapolis, the first enclosed shopping center in the United States, his original designs included plans for a 400-acre development with apartment buildings, houses, schools, a medical center, parks, and a lake.
 
@@ -90,7 +90,7 @@ Gruen designed an ambitious system to right the wrongs of the suburbs, and fix t
 
 Of course, the only part of his plans that ever got built, at Southdale or any of the other countless developments which rapidly copied and expanded on its model, was the shopping center. Instead of building Gruen’s system as the foundation, the developers extracted just the most lucrative piece and optimized it in isolation for one outcome: profit. Once chosen, that metric became the one thing that every other part of Gruen’s idea would eventually be traded against.
 
-By the end of his life, Gruen left America as disgusted with his own invention as he had been with the suburbs when he first arrived. Appalled by the metastatic sprawl the malls had spawned and the ‘ugliness and discomfort of the land-wasting seas of parking,’[^gruen] he eventually disowned and disparaged his own creation. In a speech in London in 1978, he declared, ‘I refuse to pay alimony for those bastard developments.’ He died in Vienna in 1980. He never returned to America.
+By the end of his life, Gruen left America as disgusted with his own invention as he had been with the suburbs when he first arrived. Appalled by the metastatic sprawl the malls had spawned and the “ugliness and discomfort of the land-wasting seas of parking,”[^gruen] he eventually disowned and disparaged his own creation. In a speech in London in 1978, he declared, “I refuse to pay alimony for those bastard developments.” He died in Vienna in 1980. He never returned to America.
 
 ## The Failure Of Success
 
@@ -112,15 +112,15 @@ There are more ways to scale than growth. There are more ways to deepen our impa
 
 A few hours east of my grandfather’s farm by interstate highway, just outside of Salina, Kansas, there’s a barn. It’s a barn like many other barns around here, but every year for a few days in the fall, it fills up with people. They come from all over, for an event called The Prairie Festival, and set up camp in the surrounding fields. 
 
-They come for many of the same things you’d expect from a harvest festival in the American Midwest—food, music, dances, bonfires. But they also gather in this barn every year to discuss ‘the problem of agriculture,’ in the words of Wes Jackson, who founded The Land Institute here with his wife Dana in 1971.
+They come for many of the same things you’d expect from a harvest festival in the American Midwest—food, music, dances, bonfires. But they also gather in this barn every year to discuss “the problem of agriculture,” in the words of Wes Jackson, who founded The Land Institute here with his wife Dana in 1971.
 
 The Land Institute began with the radical idea to question the entire premise of annual monoculture and look for an entirely new system of agriculture to replace it. Using the native prairie ecosystem as a model, teams of researchers and students here are working to find a new way of feeding ourselves which would sustain and enrich the soil instead of depleting it.
 
 They’re using many of the same techniques, like hybridization and selective breeding, which have been so successful at increasing yields in commercial grain crops, to develop promising strains of native, perennial plants into viable food-producing crops. 
 
-A few years after he started the Land Institute, Wes Jackson was asked about its chances for success. Was it even possible to develop a perennial mixture of plants which can even approach the yields necessary to be a viable alternative to commercial grains for food production? His response was characteristically understated: ‘Given a little bit of money and up to a hundred years, we can do it. I see no reason why it can’t be done.’[^jackson]
+A few years after he started the Land Institute, Wes Jackson was asked about its chances for success. Was it even possible to develop a perennial mixture of plants which can even approach the yields necessary to be a viable alternative to commercial grains for food production? His response was characteristically understated: “Given a little bit of money and up to a hundred years, we can do it. I see no reason why it can’t be done.”[^jackson]
 
-Thirty years later, The Land Institute now hopes to be able to grow enough of its most promising grain, a type of wheatgrass they call Kernza™ to begin supplying it to farmers within a decade. But this is just a proof of concept, not even a minimum viable product. The hundred-year goal is not just to create one viable perennial crop, but to develop a ‘perennial polyculture’—many diverse systems of plants which can be planted in mixtures and form the foundation for continual improvement and adaptation in climates and regions all over the world. A sustainable system designed to adapt and survive.
+Thirty years later, The Land Institute now hopes to be able to grow enough of its most promising grain, a type of wheatgrass they call Kernza™ to begin supplying it to farmers within a decade. But this is just a proof of concept, not even a minimum viable product. The hundred-year goal is not just to create one viable perennial crop, but to develop a “perennial polyculture”—many diverse systems of plants which can be planted in mixtures and form the foundation for continual improvement and adaptation in climates and regions all over the world. A sustainable system designed to adapt and survive.
 
 ## Renewal
 
@@ -130,9 +130,9 @@ Last summer, the last wheat crop that would have grown on this land was harveste
 
 The land has other uses: there are still a few oil wells pumping, and the grassland is good for grazing. But underneath the ground, a new root system is growing, and soon it will start to build the soil back up. Maybe someday this land will grow food again. Maybe my grandchildren will come stand out in this field too, just in time for harvest. 
 
-[^berry]: Wendell Berry, "Manifesto: The Mad Farmer Liberation Front," *Reclaiming Politics* (1991).
+[^berry]: Wendell Berry, “Manifesto: The Mad Farmer Liberation Front,” *Reclaiming Politics* (1991).
 [^jobs]: John McLaughlin, Steve Jobs 1994 Uncut Interview (Silicon Valley Historical Association, 2013).
 [^calvino]: Italo Calvino, *Invisible Cities* (Harcourt Brace, 1974).
 [^mall]: *Utopia Part 3: The World’s Largest Shopping Mall*, directed by Sam Green and Carrie Lozano (2009).
-[^gruen]: Malcolm Gladwell, "The Terrazzo Jungle," *New Yorker* (2004).
+[^gruen]: Malcolm Gladwell, “The Terrazzo Jungle,” *New Yorker* (2004).
 [^jackson]: Wes Jackson, *New Roots for Agriculture* (University of Nebraska, 1980).
