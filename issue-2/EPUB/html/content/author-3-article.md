@@ -18,11 +18,11 @@ As designers, we obsess over making technology easy to use and intuitive. But no
 
 Our profession has a mantra: no one wants to use technology. People merely want to achieve their own goals, complete their own tasks. We’re judged successful if we remove any unpleasant friction; create a pleasurable, seamless interface to the mysteries that lurk within; and make technology invisible.
 
-Ask an audiologist, and he’ll tell you: People want invisible hearing technology, too. People seek out the tiniest, most unobtrusive hearing aids. It’s a form of magical thinking: If no one can see it, then I don’t really have hearing loss. In recent years, as I’ve become more open about my hearing impairment, I frequently hear this response: “Really? I had no idea.” I’m ambivalent about this reaction. I’m proud of myself for *passing*, for successfully playing the part.  Yet I now know that maintaining my facade came at a price. The cost I paid was pretending to understand even when I didn’t.
+Ask an audiologist, and he’ll tell you: People want invisible hearing technology, too. People seek out the tiniest, most unobtrusive hearing aids. It’s a form of magical thinking: If no one can see it, then I don’t really have hearing loss. In recent years, as I’ve become more open about my hearing impairment, I frequently hear this response: “Really? I had no idea.” I’m ambivalent about this reaction. I’m proud of myself for *passing*, for successfully playing the part. Yet I now know that maintaining my facade came at a price. The cost I paid was pretending to understand even when I didn’t.
 
 Conversation has a thread. During an evening out, you lose it and pick it up again in the encompassing din of roaring and clanging and buzzing. It’s all just noise until a robust pair of consonants springs forth: a *th* or *ch* or *gr*. Suddenly you have your arms around that thread, grab hold and follow that *digraph* down into the structure of the language beneath. Now you can grasp it—one sharp sound opens the door to an hour of conversation. But it’s exhausting. No matter how hard you try, you will eventually tire; your mind wanders for a second, and you’ve lost track. You struggle to maintain but eventually let go and just let the raw sounds and syllables wash over you. Language devolves into guttural noise, meaningless utterances, like that of the adults mumbling in Peanuts television specials.
 
-How often can you ask someone to repeat herself? I’ll tell you. Three times. The first time, you offer a casual, quizzical look and say, “Excuse me?”  The second time, you look a bit more serious, and ask, “Say that again?” The third time (and this is when things get real) you sit up straighter, stare the person in the eye and invest in a full sentence like, “I’m sorry, could you repeat that?”
+How often can you ask someone to repeat herself? I’ll tell you. Three times. The first time, you offer a casual, quizzical look and say, “Excuse me?” The second time, you look a bit more serious, and ask, “Say that again?” The third time (and this is when things get real) you sit up straighter, stare the person in the eye and invest in a full sentence like, “I’m sorry, could you repeat that?”
 
 If you’re lucky, she repeats herself more clearly. Restates the point using different words. Turns and faces you directly, so you get the full impact of watching her face move, feeling the air currents hit your ear drums. Praying all the while that someone else picks up the conversation, ideally a braying man with a loud, low voice.
 
@@ -46,7 +46,7 @@ Communicating with me can be more difficult than talking to people with normal h
 
 ## Powerfully Unsexy
 
-In a 2010 SXSW keynote, Evan Williams of Twitter stumbled in response to a question from Umair Haque. After an uncomfortably long pause, he grabbed me with the most meaningful statement of the whole interview: “We want  Twitter to reach the weakest signals. We want it to be inclusive, and by using SMS we can reach anyone.”
+In a 2010 SXSW keynote, Evan Williams of Twitter stumbled in response to a question from Umair Haque. After an uncomfortably long pause, he grabbed me with the most meaningful statement of the whole interview: “We want Twitter to reach the weakest signals. We want it to be inclusive, and by using SMS we can reach anyone.”
 
 We may set our aim on dazzling the very consumers who already have too many options. But sometimes it’s the boring old unsexy technology that can reach people in new ways, make something out of nothing, make a thunderously transformative difference in people’s lives.
 
@@ -70,7 +70,7 @@ And then it hit me. Obviously I wouldn’t. I’d been scraping by for years wit
 
 I scheduled an appointment with my audiologist the very next day. I told her, “I want the best hearing aids money can buy.” Since I’d last purchased a pair of hearing aids, the digital revolution had swept this space as well.
 
-A couple weeks later, I picked up my new digital hearing aids, had them custom-programmed, and went out into the night. I asked my friend Randy to meet me for dinner, and we met up at the bar at a crowded restaurant in a fashionable Manhattan neighborhood, a place I’d always wanted to go but never had. We sat close together on barstools and started talking. At least I did. “It’s so LOUD,” he said. “You have to SPEAK UP. I CAN’T HEAR  YOU.”
+A couple weeks later, I picked up my new digital hearing aids, had them custom-programmed, and went out into the night. I asked my friend Randy to meet me for dinner, and we met up at the bar at a crowded restaurant in a fashionable Manhattan neighborhood, a place I’d always wanted to go but never had. We sat close together on barstools and started talking. At least I did. “It’s so LOUD,” he said. “You have to SPEAK UP. I CAN’T HEAR YOU.”
 
 Hey, that’s *my* line!
 
@@ -84,9 +84,9 @@ No one was jealous when I purchased these prosaic devices. I gained no geek cred
 
 ## Digital Superheroes
 
-If I had a magic wand to wave that would enable me to hear like a normal person, I wouldn’t do it. I wouldn’t need it. Hey‚ if you had a volume knob for your life, one that didn’t shut the sound off altogether but just turned it down‚ you might not want to give it up either. Because I’ve mastered making what’s hard for me appropriately visible, I’m able to mitigate the downsides of my dependence on technology.  Where I used to see only pain points, I now see the upside of a quiet hush where I can focus, my own private space where I can think clearly. What I used to think of as a disability, I now sometimes think of as a superpower.
+If I had a magic wand to wave that would enable me to hear like a normal person, I wouldn’t do it. I wouldn’t need it. Hey‚ if you had a volume knob for your life, one that didn’t shut the sound off altogether but just turned it down‚ you might not want to give it up either. Because I’ve mastered making what’s hard for me appropriately visible, I’m able to mitigate the downsides of my dependence on technology. Where I used to see only pain points, I now see the upside of a quiet hush where I can focus, my own private space where I can think clearly. What I used to think of as a disability, I now sometimes think of as a superpower.
 
-Do you have the ability to grant your users superpowers? If  you do, it might not be because your designs are simple, intuitive, or make technology invisible. A powerful interface might take time to understand; people might need to stretch a bit to learn it. Rather than striving to erase the parts of the technology that are difficult or challenging, you might seek ways to make them appropriately visible. Sometimes it’s only through communicating complexity that you can empower people.
+Do you have the ability to grant your users superpowers? If you do, it might not be because your designs are simple, intuitive, or make technology invisible. A powerful interface might take time to understand; people might need to stretch a bit to learn it. Rather than striving to erase the parts of the technology that are difficult or challenging, you might seek ways to make them appropriately visible. Sometimes it’s only through communicating complexity that you can empower people.
 
 These designs likely won’t get you written up in TechCrunch or on the leaderboard at the iTunes Store. But you just might profoundly improve the lives of a few people. Remove the daily frustrations that grind away at them, offer them meaning or whispers of love or a fresh chance, take pain and make the absence of pain seem like pleasure, or crack open the world and bring them right to the center of this great conversation of life that by all rights belongs to us all.
 

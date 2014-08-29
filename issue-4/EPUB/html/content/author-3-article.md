@@ -66,7 +66,7 @@ When we’re comfortable enough to shift between high and low at will, laughter 
 
 To be acknowledged as a mentor in hindsight is meaningful because it is a form of thanks. To be asked upfront to be someone’s mentor is unnerving because it’s a boundless request, an inchoate *please.* The word has power both ways. But if we set aside the word and go back to basic needs, mentoring starts to look like something much simpler: friendship. Of all the possible outcomes of mentoring, the best one is ending up on the same level.
 
-So it was that one day in June 2013, Jane showed up at the apartment my boyfriend and I shared in San Francisco. I was moving to Berlin and needed help like nobody's business. She knew this, and decided to pitch in as part of saying goodbye. Jane surveyed the kitchen, clapped her hands, and began. Together, we bundled cups and bowls in bubble wrap and talked about our days.
+So it was that one day in June 2013, Jane showed up at the apartment my boyfriend and I shared in San Francisco. I was moving to Berlin and needed help like nobody’s business. She knew this, and decided to pitch in as part of saying goodbye. Jane surveyed the kitchen, clapped her hands, and began. Together, we bundled cups and bowls in bubble wrap and talked about our days.
 
 [^seelig]: Tina Seelig, *What I Wish I Knew When I Was 20* (HarperOne, 2009).
 [^jane]: Personal correspondence with Jane Chun, published with permission.

@@ -20,7 +20,7 @@ In a letter to F. Scott Fitzgerald, Thomas Wolfe said there are two kinds of wri
 
 Creative pursuits hold an inherent need for choice, whether we consider music, art, literature, dance, or design. Every great story is surrounded by white space of some kind. Blank spaces are powerful. The author and designer choose not to lay out a page with text to every edge. Its white space is part of the story it tells. What we choose to leave out creates the story.
 
-Consider your favorite novel. You probably don’t recall the most memorable character in the book doing the most mundane of tasks — eating breakfast, getting dressed, using the bathroom, tying shoelaces — day in and day out. The author made an intentional decision to leave these details out. He or she, the leaver-outter in that situation, crafted a story about another arc that didn’t need those ordinaries.
+Consider your favorite novel. You probably don’t recall the most memorable character in the book doing the most mundane of tasks—eating breakfast, getting dressed, using the bathroom, tying shoelaces—day in and day out. The author made an intentional decision to leave these details out. He or she, the leaver-outter in that situation, crafted a story about another arc that didn’t need those ordinaries.
 
 As a reader, you didn’t consider those absences, but that didn’t mean they weren’t there. Their presence, like the silent subjects of sentences or the silent strength of typographic scaffolding, creates the supporting structure to guide the main story, the primary choices, that the author, the artist, the creator is making.
 
@@ -32,6 +32,6 @@ I’ve always paid attention to and wondered at the leaver-outers of the world, 
 
 “It’s easy to say no if you love something.”
 
-No matter what it is — be it a business, a person, a piece of art, a career, a song, a family, a way of life, or a pursuit of any kind — it’s easy to say no to all the other choices that will present themselves if you truly love something.
+No matter what it is—be it a business, a person, a piece of art, a career, a song, a family, a way of life, or a pursuit of any kind—it’s easy to say no to all the other choices that will present themselves if you truly love something.
 
 Finding that thing is the hardest part. But that’s another lesson.

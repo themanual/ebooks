@@ -38,7 +38,7 @@ The speaker halts in front of him. He’s looking down, face twisted with rage, 
 
 The backpacker’s face rises from fear to relief.
 
-But then the bottle is pressing against his neck. The speaker’s smile has gone. The backpacker freezes. People including me shout, “No!”
+But then the bottle is pressing against his neck. The speaker’s smile has gone. The backpacker freezes. People including me shout, “No!” 
 
 The speaker smiles again. He steps back, clips the backpacker around the ear and, still smiling, drops the bottle and walks back into the bar. His friends follow. I’m watching the backpacker, slumped on the sand, tears in his eyes. We help him up. He’s in shock, too ashamed to speak or look anyone in the eye, and mutters he’s fine as he stumbles away. I am shaking, too.
 

@@ -16,7 +16,7 @@ Dammit. That didn’t go the way I wanted it to. Again.
 
 Once more, I’ve proven to be a poor representative of the industry I’m so proud to belong to. I know what comes to mind when I use the term *web designer*—an overenthusiastic adolescent fresh from MySpace with a pirated copy of Photoshop® and a code editor, or maybe a clipart-loving temp worker who knows how to save a Microsoft Word® document as an HTML file. I always want to follow up with, “But I’m one of the good ones. Really! Here, let me pull up this site for you on my iPhone®.” But I’ve already lost their interest.
 
-People in our field are problem solvers, engineers, researchers, and craftspeople responsible for architecting how we all live and interact on the web. Why is it so hard for me to explain that?  Why can’t I be *smooth*?
+People in our field are problem solvers, engineers, researchers, and craftspeople responsible for architecting how we all live and interact on the web. Why is it so hard for me to explain that? Why can’t I be *smooth*?
 
 I have one brother-in-law in his last year of law school and another doing cancer research. They don’t have the same problem. When people hear *lawyer* or *scientist*, they generally know what that entails. They think of them as intellectuals, critical thinkers, and invaluable members of a professional community. I feel that what web designers do is just as exciting, challenging, and interesting. Regrettably, few people I encounter *out there* regard web design in the same way we do.
 
@@ -32,7 +32,7 @@ Anyone, even Mr. Spray Paint, can become a web designer. And, in some ways, that
 
 ## The Evolution of Our Role
 
-In the early 1990s, the world hadn’t yet realized the economic and social potential available to them through the web. People weren’t buying things online, updating their statuses, or checking bank accounts from their smartphones.  Websites were not yet a crucial element behind the success of a business or idea. Web designers (in the sense that we know them today) did not exist.
+In the early 1990s, the world hadn’t yet realized the economic and social potential available to them through the web. People weren’t buying things online, updating their statuses, or checking bank accounts from their smartphones. Websites were not yet a crucial element behind the success of a business or idea. Web designers (in the sense that we know them today) did not exist.
 
 Most of the hired talent were regarded as binary clerical workers, employed by department heads of large organizations, doomed (as I imagine/remember) to windowless, server-filled basements where, as *webmasters*, they sat waiting for their supervisors to storm down and bark out the next site update. Think Austin Millbarge à la Dan Aykroyd in *Spies Like Us*.
 

@@ -6,7 +6,7 @@ type:   article
 
 > The world exploded into a whirling network of kinships, where everything pointed to everything else, everything explained everything else.
 > 
-> <cite>— Umberto Eco[^eco]</cite>
+> <cite>— Umberto Eco</cite>[^eco]
 
 I’ll never forget the first time I used the World Wide Web. It was in the early 1990s. I was in America visiting my girlfriend (now wife) at her college in Massachusetts. This was before Mosaic, the first graphical web browser, was released. There were no images on the web, but I was still stunned by the scope of what I experienced. Even back then, the web seemed limitless, without edges. That Encarta CD-ROM sitting next to the computer suddenly seemed pathetically constrained.
 
@@ -26,7 +26,7 @@ There are economies of scale with this kind of information storage and retrieval
 
 > An intellect which at a certain moment would know all forces that set nature in motion, and all positions of all items of which nature is composed, if this intellect were also vast enough to submit these data to analysis, it would embrace in a single formula the movements of the greatest bodies of the universe and those of the tiniest atom; for such an intellect nothing would be uncertain and the future just like the past would be present before its eyes.
 > 
-> <cite>— Pierre Simon Laplace[^laplace]</cite>
+> <cite>— Pierre Simon Laplace</cite>[^laplace]
 
 This Newtonian idea of a clockwork universe was dented by Heisenberg’s uncertainty principle, but Laplace’s demon remains the logical conclusion to an ongoing human endeavor—the never-ending quest to name and catalog everything we see.
 
@@ -38,7 +38,7 @@ Bishop John Wilkins lived in England in the seventeenth century. He was no stran
 
 > He divided the universe in forty categories or classes, these being further subdivided into differences, which was then subdivided into species. He assigned to each class a monosyllable of two letters; to each difference, a consonant; to each species, a vowel. For example: *de*, which means an element; *deb*, the first of the elements, fire; *deba*, a part of the element fire, a flame.
 > 
-> <cite>— Jorge Luis Borges[^borges]</cite>
+> <cite>— Jorge Luis Borges</cite>[^borges]
 
 Borges plays with this idea in his short story “The Library Of Babel.” Here, the universe consists of a single library, created from an infinite series of interlocking hexagonal rooms. This infinite library, containing nothing more than different combinations of letters and punctuation, holds every book that has ever been written, as well as every book that could ever possibly be written.
 
@@ -93,7 +93,5 @@ Alas, this is not hypertext. It is simply text.
 And so this story ends.
 
 [^eco]: Umberto Eco, *Foucault’s Pendulum*, (Bompiani, 1988).
-
 [^laplace]: Pierre-Simon Laplace, *A Philosophical Essay on Probabilities*, (1814).
-
 [^borges]: Jorge Luis Borges, *The Analytical Language of John Wilkins*, (Sur, 1952).

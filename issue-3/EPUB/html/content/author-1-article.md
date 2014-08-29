@@ -76,19 +76,17 @@ Perhaps it’s the courage to confront self-doubt that empowers us.
 
 Let’s call it *design humility*—a vulnerable, observant posture. Fully engaged and open to risk. It’s difficult to articulate it, but I know design humility when I see it. I see it when Milton Glaser talks about failure. “The only way to confront the realization that we’re not as good as we think we are”—that the master is not the genius that everyone expects him to be—“is to embrace failure.”[^glaser]
 
-I see it in Kate Bingaman Burt’s <a href="http://creativemornings.com/talks/kate-bingaman-burt/1">inspiring talk</a> for Portland Creative Mornings. “You should start projects because you feel like you’re going to explode, or vomit, or both.”
+I see it in Kate Bingaman Burt’s [inspiring talk](http://creativemornings.com/talks/kate-bingaman-burt/1) for Portland Creative Mornings. “You should start projects because you feel like you’re going to explode, or vomit, or both.”
 
 I see it in Bruce Mau’s “Incomplete Manifesto for Growth”: “Allow events to change you…forget about good…capture accidents…drift…”[^mau]
 
 I see it when designers and performers speak passionately at an Occupy Wall Street rally about artists using their work to enable change in the world.
 
-I see it in the tweets of John Maeda, <a href="https://twitter.com/johnmaeda/status/1457373031">who says</a> that humility is “a leader’s greatest strength.”
+I see it in the tweets of John Maeda, [who says](https://twitter.com/johnmaeda/status/1457373031) that humility is “a leader’s greatest strength.”
 
 I want to see more design humility in our conversations. I suspect our work will take on thicker value if we start to openly acknowledge the full range of emotions we invest in our careers—from insecurity to courage. The rewards might be richer, and the conversations more interesting, if we freely expose ourselves in real time to our peers as emotional beings who are sometimes afraid, sometimes gutsy, but always human.
 
 
 [^kostelanetz]: Richard Kostelanetz, *Conversing with Cage*, (Routledge, New York, 2003).
-
 [^glaser]: Milton Glaser, “On the Fear of Failure,” (Berghs Exhibition, 2011). 
-
 [^mau]: Bruce Mau, “Incomplete Manifesto for Growth,” (Blog, Bruce Mau Design, 1998-2011).

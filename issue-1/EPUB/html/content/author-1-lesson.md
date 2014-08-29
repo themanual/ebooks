@@ -24,13 +24,13 @@ Initially speaking only occasionally to encourage me, he listened intently, all 
 
 Breakwell understood that I wasn’t trying to create a romanticized view of the landscape and that my interest was more about journeys, geology, and what we learn about ourselves by immersion in the wilderness.
 
-“What you’re doing is interesting,” he said, as I remember it. “And you should enjoy the fact that it’s at odds with what everyone else in this building is doing.”
+“What you’re doing is interesting,” he said, as I remember it. “And you should enjoy the fact that it’s at odds with what everyone else in this building is doing.” 
 
 This was a significant breakthrough for me. I listened intently as he began to throw more ideas and suggestions my way. Leaning forward as the feedback became increasingly focused, he proffered logical and enlightening suggestions for where I should take my work and how I could draw upon specific influences to better understand my own intentions.
 
 At the end of our meeting, Breakwell passed me the handwritten notes he’d scribbled down. The result was a list of artists whose approaches continue to inspire me today, along with specific references to books and exhibition catalogs. This marked a turning point in my methods of inquiry and thought processes; I learned to narrow my research and to delve deeper into the minds of creative people in order to better understand their own motivations and ways of thinking.
 
-Fast forward to 2003, and after several years of exhibitions and reasonable success, I‘d all but abandoned making art as my web career began to flourish. Despite the change of discipline, the way I approach creative output still has its foundations in that meeting almost a decade earlier. In 2005, when I read that Breakwell had died, his passing affected me deeply.
+Fast forward to 2003, and after several years of exhibitions and reasonable success, I’d all but abandoned making art as my web career began to flourish. Despite the change of discipline, the way I approach creative output still has its foundations in that meeting almost a decade earlier. In 2005, when I read that Breakwell had died, his passing affected me deeply.
 
 I was, however, delighted to see him receive deserved acknowledgment in the broadsheets. In a thorough obituary for the *Independent* newspaper, Jeremy Lewison describes Breakwell as a man who “saw the extraordinary in the ordinary.” This was surely meant as a reflection on the artist’s own work, but I like to think this was also something Breakwell hoped to find in the people he encountered. That’s not to say that he considered me extraordinary, but in one short meeting this great man had looked beyond that which others saw and recognized value and potential in what I wanted to achieve.
 

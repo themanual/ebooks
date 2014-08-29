@@ -29,4 +29,4 @@ I walked those same quiet back streets past those same cramped apartments. I hea
 
 I rode down the bike paths of the rivers and asked my selves what their plans were. As we peddled in the chilly January sunlight, I listened patiently to their stories. Their goals to work on books. Their progress on web projects. I jumped between bikes, between eyes. The further we got down the path the bigger the jumps. Until the goals were so small, so distant, all I could do was smile.
 
-I smiled riding down that river bank. Bundled up against the crisp air. I smiled and let the distance wash over me and fill me with an awareness of the now. I had gone back — to places, moments, feelings — and for the very first time, saw where I was in the present.
+I smiled riding down that river bank. Bundled up against the crisp air. I smiled and let the distance wash over me and fill me with an awareness of the now. I had gone back—to places, moments, feelings—and for the very first time, saw where I was in the present.

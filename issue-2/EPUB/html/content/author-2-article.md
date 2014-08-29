@@ -9,7 +9,7 @@ type:   article
 > 
 > <cite>— David Carson</cite>
 
-It was a Thursday, I think. A cold, drizzly day in Cardiff, the capital of  Wales. Nestled in amongst aging sycamores and field maples sits the most official looking building in Cardiff: the museum. The building is as you’d expect: slightly dirty white limestone, grandiose architecture, a musty smell of aging wooden furniture and floor polish masking the underlying whiff of decay.
+It was a Thursday, I think. A cold, drizzly day in Cardiff, the capital of Wales. Nestled in amongst aging sycamores and field maples sits the most official looking building in Cardiff: the museum. The building is as you’d expect: slightly dirty white limestone, grandiose architecture, a musty smell of aging wooden furniture and floor polish masking the underlying whiff of decay.
 
 It’s an old place full of old things.
 
@@ -35,11 +35,11 @@ Graphic design is a deep, rich craft. But it’s also a process defined by ideas
 
 > The designer does not, as a rule, begin with a preconceived idea. His idea is the result of subjective and objective thought, and the design a product of the idea.
 > 
-> In order, therefore, to achieve an honest and effective solution he necessarily passes through some sort of mental process...Consciously or not, he analyzes, interprets, translates...He improvises, invents new techniques and combinations.
+> In order, therefore, to achieve an honest and effective solution he necessarily passes through some sort of mental process…Consciously or not, he analyzes, interprets, translates…He improvises, invents new techniques and combinations.
 > 
 > He intensifies and reinforces his symbol with appropriate accessories to achieve clarity and interest. He draws upon instinct and intuition. He considers the spectator, his feelings and predilections.
 > 
-> <cite>— Paul Rand[^rand]</cite>
+> <cite>— Paul Rand</cite>[^rand]
 
 Throughout the 2000s, graphic design became a dirty, embarrassing word in web design. Other design professionals in the web industry thought that graphic designers merely concerned themselves with how things look—that they didn’t consider navigation, user goals, business goals, or other vital parts of any design project. In their opinion, graphic designers belonged to another field of practice entirely. Graphic designer equals print designer equals *not quite good enough* to think like a *web* designer. I myself have been subjected to this snobbery but have dished it out, too. It’s true that so much more is involved in web design than in your customary poster or annual report design. But that’s not the whole picture.
 
@@ -53,23 +53,23 @@ I first heard of the field of User Experience Design in the early 2000s, about t
 
 “Strategy: *User Needs/Site Objectives*”
 
-The strategy layer is where it all starts. What do we need this website to do and deliver on?  What is the proposition?
+: The strategy layer is where it all starts. What do we need this website to do and deliver on? What is the proposition?
 
 “Scope: *Functional Specification/Content Requirements*”
 
-The strategy transforms into *scope* where the features and content are documented.
+: The strategy transforms into *scope* where the features and content are documented.
 
 “Structure: *Interaction Design/Information Architecture*”
 
-The structure layer is where the information is shaped. How does the whole site sit together?
+: The structure layer is where the information is shaped. How does the whole site sit together?
 
 “Skeleton:*Information Design/Navigation/Interface Design*”
 
-The skeleton is the layer at which the interactions between the user and site are documented. What do people do on the site? More importantly, how do they do it?
+: The skeleton is the layer at which the interactions between the user and site are documented. What do people do on the site? More importantly, how do they do it?
 
 “Surface: *Visual Design*”
 
-This is where the color, typefaces, layout all come together to create the *look and feel* of the site.
+: This is where the color, typefaces, layout all come together to create the *look and feel* of the site.
 
 Quite rightly, Garrett’s book was a pivotal publication for the industry. It was a must-have for anyone who makes, writes for, or commissions websites. It clearly explained how good websites are constructed and the various roles and processes that are included. However, in one unwitting move, the industry’s response to Garrett’s layers relegated the practice of graphic design to the surface plane. This attitude was unfortunately reinforced by the recent rise in the opinion that *user experience design*—not graphic design—was the definition of *good* web design. Here on this surface plane, designers operate to make the product or website look great. They use color, typefaces, and layout. According to the industry’s perception of this model, what designers *don’t* do on the surface plane is design; they decorate.
 
@@ -105,10 +105,9 @@ Graphic design is as much about use as it is about look. The semantics of the ti
 
 Real graphic design is about creating things with stories, for people to use.
 
-But what about the designers?  What about the *visual designers* inhabiting the UX industry? What do they do? If they’re getting wireframes from people and told to make them pretty, they’re not designing. They’re decorating. They’re applying a surface level sheen to someone else’s thinking. Because if you just go by Jesse James Garrett’s diagram, the story is already being told on the four layers beneath. The designing is being done there. This fifth layer is hardly more than some swirly frosting with a cherry on top.
+But what about the designers? What about the *visual designers* inhabiting the UX industry? What do they do? If they’re getting wireframes from people and told to make them pretty, they’re not designing. They’re decorating. They’re applying a surface level sheen to someone else’s thinking. Because if you just go by Jesse James Garrett’s diagram, the story is already being told on the four layers beneath. The designing is being done there. This fifth layer is hardly more than some swirly frosting with a cherry on top.
 
 Good graphic designers concern themselves with the *what*, the *who*, and the *how*. The message, the audience, and the mechanics. This is exactly how professional web designers work on the web. If, as an industry, we feel we need to call this practice something, can we just call it what it’s always been called? Let’s call it *graphic design*.
 
 [^rand]: Paul Rand, *The Designer’s Role*, (1946).
-
 [^garrett]: Jesse James Garrett, *Elements of User Experience: User-centered Design for the Web*, (Peachpit Press, 2002).

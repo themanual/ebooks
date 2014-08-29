@@ -32,7 +32,7 @@ My mind screamed “Pour from the spout! No, no, the top! The spout! The top!”
 
 The laughter came from all sides—they could see I wasn’t from here. All I could do was wheeze and scramble for bread as my cousin poured me a glass of water, handing it to me quickly and patting me on the back, still gently chuckling.
 
-I burned with mid-pubescent embarrassment. I hated him, I hated the chef, I hated the people smiling at me, speaking a language I was lost in. I hated the food and the trip and every moment. He was laughing. I wanted to claw at him. I wanted to hide in the dark hovels of the surrounding streets. I wanted to...I wanted to...I realized—my reddened eyes looking at their wide grins—that I just needed to *laugh*.
+I burned with mid-pubescent embarrassment. I hated him, I hated the chef, I hated the people smiling at me, speaking a language I was lost in. I hated the food and the trip and every moment. He was laughing. I wanted to claw at him. I wanted to hide in the dark hovels of the surrounding streets. I wanted to…I wanted to…I realized—my reddened eyes looking at their wide grins—that I just needed to *laugh*.
 
 My cousin’s eyes weren’t mocking; *no one’s* were mocking. The room held no ego or spite or anger. They weren’t laughing for their own enjoyment but because they were witnessing something so familiar.
 

@@ -5,7 +5,7 @@ title: Letter from the Publisher
 
 In the first issue, I took us back to autumn in Brooklyn. Over pints of ale, Simon Collison and I spoke ardently about our feeling that the web design profession was stretching toward a deeper, more mature sense of its work.
 
-I asked Simon that same evening to suggest the best person to help me clarify my thoughts and put the ethos of The Manual into words. A tall order indeed, but Simon didn't hesitate for a single beat. “Carolyn Wood,” he said. Within days, I was pouring out a flood of ideas via Skype, feeling powerfully validated, and laughing heartily with a woman who would quickly become one of my closest friends.
+I asked Simon that same evening to suggest the best person to help me clarify my thoughts and put the ethos of The Manual into words. A tall order indeed, but Simon didn’t hesitate for a single beat. “Carolyn Wood,” he said. Within days, I was pouring out a flood of ideas via Skype, feeling powerfully validated, and laughing heartily with a woman who would quickly become one of my closest friends.
 
 Meanwhile, I’d seen the finely detailed work of the wildly talented Jez Burrows. I went to him for the identity work I required for Build. Here was a guy whose designs feature in major publications around the world.Yet now he was working with me. Last year Jez and I toyed with producing a sort of book, a gift for the attendees, but we lacked the time—and the idea seemed even bigger than Build itself.
 

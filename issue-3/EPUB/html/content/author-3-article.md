@@ -70,9 +70,9 @@ Focus on your own medium, the rules and conventions it needs. And all fascinatio
 
 ## The Elbow Grease of Ants
 
-If we accept that, as Oliver Reichenstein wrote, design for the web as a text-based medium is <a href="http://ia.net/blog/the-web-is-all-about-typography-period/">“95% typography,”</a> let’s not just discuss OpenType feature support, CSS drop shadows, or even which implementation of grid layouts to use. Let’s instead take a closer look. What good typography requires is sensitivity and respect for the inglorious and invisible craft of making text work.
+If we accept that, as Oliver Reichenstein wrote, design for the web as a text-based medium is [“95% typography,”](http://ia.net/blog/the-web-is-all-about-typography-period/) let’s not just discuss OpenType feature support, CSS drop shadows, or even which implementation of grid layouts to use. Let’s instead take a closer look. What good typography requires is sensitivity and respect for the inglorious and invisible craft of making text work.
 
-> For far too long, many of us... have been guilty of focusing on *decoration*: the colours and the shapes and the textures. […] I’m talking about stripping away all the cruft and getting back to good, solid design principles, like well-formed grids and decent measures and incremental leading and appropriately paired typefaces. As the web is content and content is type, it’s no surprise that at the heart of this approach is typography.[^stocks]
+> For far too long, many of us… have been guilty of focusing on *decoration*: the colours and the shapes and the textures. […] I’m talking about stripping away all the cruft and getting back to good, solid design principles, like well-formed grids and decent measures and incremental leading and appropriately paired typefaces. As the web is content and content is type, it’s no surprise that at the heart of this approach is typography.[^stocks]
 
 The challenge then is this: Really dive into the micro-world of type. Learn to see; develop an eye for type, one that you trust. Force yourself to slow down. The web may be a fast medium, but reading is slow, and so is crafting text that is meant to be read. It takes time, and curiosity, and the patience to really stop and sniff the serifs, to precisely observe what changes with each decision. If design, understood as craft, generally requires elbow grease, setting body type well requires the sort of micro-level elbow grease that ants’ elbows would have. And lots of it.
 
@@ -81,15 +81,9 @@ The challenge then is this: Really dive into the micro-world of type. Learn to s
 So cast the best actor you can and work with the text to really make it shine. Then sit back and watch. And know that even on an empty stage, this actor could deliver an experience more powerful and intense than a stage full of bells and whistles built around a voice that doesn’t reach the audience or just isn’t all that memorable. Know that the right type, set well, can make all the difference, can drive your site and carry your layout. Even—and especially—if readers don’t consciously take notice.
 
 [^stocks]: Elliot Jay Stocks, [“The typography-out approach in the world of browser-based web design.”](http://elliotjaystocks.com/blog/the-typography-out-approach-in-the-world-of-browser-based-web-design/)
-
 [^brown]: Tim Brown, [“More Perfect Typography.”](https://vimeo.com/17079380)
-
 [^hazlett]: Richard L. Hazlett, A. Dawn Shaikh, Kevin Larson, Barbara S. Chaparo, “The Instant Impact of Onscreen Aesthetics: The Effects of Typeface Personality,” (unpublished research/publication proposal, 2008).
-
 [^hochuli-kinross]: Jost Hochuli and Robin Kinross, *Designing Books: practice and theory*, (Hyphen Press, 1996).
-
 [^bringhurst]: Robert Bringhurst, *The Elements of Typographic Style*, (Hartley &amp; Marks, 1992/2005).
-
 [^song-schwarz]: Hyunjin Song and Norbert Schwarz, “If It’s Easy to Read, It’s Easy to Do, Pretty, Good, and True,” (*The Psychologist*, 2010).
-
 [^rands]: [@rands on Twitter](https://twitter.com/rands/status/140983268173549568), November 28, 2011.

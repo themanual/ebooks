@@ -14,7 +14,7 @@ It’s tempting to think that we webfolk should be spared from this accusation. 
 
 Mass-market product design—and yes, web design as well—has seen its value slowly diluted. For every breakthrough web app, a hundred banal Groupon clones are greeted by copy-and-paste clamor from the usual sources. We have become a community overexcited by things that don’t matter. In the words of author and economist Umair Haque, many of our dominant businesses and products have become pedestrian, predictable, and pointless. Leaders who buck the trend are rightly celebrated but lamentably scarce.
 
-Thankfully, this downward slide of pseudo-innovation has no future. Public perception of business is near breaking point. Just 12 percent of the British public holds a high opinion of business executives—a figure that has halved within a decade. In the US, 84 percent of the public blames business leaders for the recession. Public attitudes are shifting away from consumerism and instead demanding change, accountability, and social responsibility from business owners. With growing concern over privacy and intellectual property,  the big businesses of the web are no more immune to public distrust and press indignation than the industrial corporations.
+Thankfully, this downward slide of pseudo-innovation has no future. Public perception of business is near breaking point. Just 12 percent of the British public holds a high opinion of business executives—a figure that has halved within a decade. In the US, 84 percent of the public blames business leaders for the recession. Public attitudes are shifting away from consumerism and instead demanding change, accountability, and social responsibility from business owners. With growing concern over privacy and intellectual property, the big businesses of the web are no more immune to public distrust and press indignation than the industrial corporations.
 
 On a more personal, immediate level, we’re stalked by the shadow of a second recession and environmental ruin. We have neither money nor energy to waste on trivial things. Those luminous cans with their limited-edition packaging appear even more pathetically wasteful. Another photo-sharing app is meaningless to regular people who are busy worrying about their jobs and finances.
 
@@ -46,9 +46,9 @@ The design industry dwells, of course, at the heart of a particularly complex wi
 
 Surprisingly, our love of the cutting edge makes this more difficult. It’s understandable that we all want to design for the latest sparkly devices and shiny technologies. However, the thrill of the new distracts us from our true target: designing apps that work with *tomorrow’s* technology.
 
-It’s not as far-fetched as it may seem. Bill Buxton[^buxton] famously claims that all technologies have a thirty year ramp-up period. Alert web designers can read the signals: we stand on the brink of an explosion of diversity.  We’ll have to design for input methods that include touchscreen, voice, and GPS alongside the trusty keyboard and mouse. The web will sprawl onto screens that range from three inches to fifty, from cheap pixellation to super-high definition. Bandwidths will vary between blistering and glacial.
+It’s not as far-fetched as it may seem. Bill Buxton[^buxton] famously claims that all technologies have a thirty year ramp-up period. Alert web designers can read the signals: we stand on the brink of an explosion of diversity. We’ll have to design for input methods that include touchscreen, voice, and GPS alongside the trusty keyboard and mouse. The web will sprawl onto screens that range from three inches to fifty, from cheap pixellation to super-high definition. Bandwidths will vary between blistering and glacial.
 
-Astute web designers should be considering these issues today since our applications will live in the future, not the present. The <a href="http://futurefriend.ly">Future Friendly</a> campaign recognizes this:
+Astute web designers should be considering these issues today since our applications will live in the future, not the present. The [Future Friendly](http://futurefriend.ly) campaign recognizes this:
 
 > Disruption will only accelerate. The quantity and diversity of connected devices—many of which we haven’t imagined—will explode, as will the quantity and diversity of the people around the world who use them. Our existing standards, workflows, and infrastructure won’t hold up.
 
@@ -72,7 +72,7 @@ We can redress the balance by influencing business to focus on *our* natural ter
 
 We must give in to the lure of the path less followed and reject the notion of replicating what’s come before. This means testing our designs with real people, not just relying on data. It means questioning every assumption and shortcut, not falling back on pattern libraries. It means risk, bravery, glorious embarrassment, and everything that’s good about life. It means harder work and a few arguments. That’s fine. What some may label arrogance, we will recognize as simply a need to have pride in what we do.
 
-But this isn’t just artistic flightiness. Focusing on making *great things* also gets results. In 2006, consultants  Teehan + Lax created the UX Fund, a $50,000 investment fund split across ten companies who have a reputation for delivering great customer experiences. It outperformed every major index. Data from the UK’s Design Council suggests that businesses can see a return of £225 for every £100 they invest in design. Put simply, people will pay for great things.
+But this isn’t just artistic flightiness. Focusing on making *great things* also gets results. In 2006, consultants Teehan + Lax created the UX Fund, a $50,000 investment fund split across ten companies who have a reputation for delivering great customer experiences. It outperformed every major index. Data from the UK’s Design Council suggests that businesses can see a return of £225 for every £100 they invest in design. Put simply, people will pay for great things.
 
 It’s comforting to know that designers can draw on this economic ammunition if we need to, but to see design as a purely commercial pursuit is to overlook its full power. Great web apps spark unmeasurable emotions: loyalty, trust, love. When the time is right, we’ll have to convince our clients and bosses to look beyond the metrics and to put faith in their intuition to do the right thing.
 
@@ -88,5 +88,4 @@ To do the *right thing* means to recognize that the business-user relationship i
 So the future can be saved. If the web design community can make things that help not only business, not just individual users, but everyone on the web, we can arrest our slide into mediocrity. Create valuable, wonderful things and the economics will follow. In this new environment, we’ll see personal success defined through the success we bring to other people’s lives. In tough times, the right response is not division, but solidarity. I can’t wait for this future, and I hope to meet you there.
 
 [^buxton]: Bill Buxton, *Sketching User Experiences*, (Morgan Kaufmann, 2007).
-
 [^willians]: Luke Williams, *Disrupt*, (FT Press, 2010).

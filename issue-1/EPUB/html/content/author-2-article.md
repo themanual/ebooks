@@ -4,9 +4,9 @@ author: frank-chimero
 type:   article
 ---
 
-> I fear that we are beginning to design ourselves to suit digital models of us, and I worry about a leaching of empathy and humanity in that process.[^lanier]
->
-> <cite>— Jaron Lanier</cite>
+> I fear that we are beginning to design ourselves to suit digital models of us, and I worry about a leaching of empathy and humanity in that process.
+> 
+> <cite>— Jaron Lanier</cite>[^lanier]
 
 Specks. All of them, even from just seven stories up. We’re on the roof, and you can’t hear what they’re saying. You can’t see what they’re wearing, or the looks on their faces. You can’t see if someone is holding a shopping bag or what may be in it. A red dab follows closely behind a yellow dab. Seven stories up and I can’t tell the difference between a kid being dragged along by his arm and a woman being held at gunpoint for her purse. Distance makes the world blurry. There are no identities. There is no vocabulary. The only language is velocity. They are a school of fish swimming through pavement.
 
@@ -58,9 +58,9 @@ I have to shut myself off. My heart is not big enough to hold them all.
 
 I hadn’t thought of it. The best sorts of insights are like that. When you hear them, they seem so obvious, but until someone says them out loud, they are almost unthinkable.
 
-> Let’s just try to have a marvelous time this weekend. I mean not try to analyze everything to death for once, if possible. Especially me. I love you.[^salinger]
->
-> <cite>— Franny</cite>
+> Let’s just try to have a marvelous time this weekend. I mean not try to analyze everything to death for once, if possible. Especially me. I love you.
+> 
+> <cite>— Franny</cite>[^salinger]
 
 A network is a connection of nodes. The history of our network has been a study in how the edges have pushed further out. First our network was for small bits of data transmission. It was for correspondence: short, awkward messages of text sent mostly to people you didn’t know. They were the only people out there; the only nodes who could signal us back, who could answer. Then, the edges pushed out, and the network could share images, and then it crept into other media.
 
@@ -76,11 +76,11 @@ It is a struggle to stay human online: avatars of logos (or the very term *avata
 
 When the nodes cease to be human, we respond differently. A person with reasons becomes a detached opinion that is wrong; actions become annoyances to lash out against; the personality of an individual becomes a *brand* without context. Can providing the human element to the web alleviate these problems? The web documents and doesn’t forget, but if users turn into people, can we forgive? Forgiveness is a term I’ve never heard in relation to the web. Let’s not try to analyze everything to death for once. Especially me. I love you.
 
-> The connections we make in the course of a life — maybe that’s what heaven is, Tom. We make so many connections here on earth. Look at us — I’ve just met you, but I’m investing in who you are and who you will be, and I can’t help it.
->
-> <cite>— Fred Rogers (Mr. Rogers)[^junod]</cite>
+> The connections we make in the course of a life—maybe that’s what heaven is, Tom. We make so many connections here on earth. Look at us—I’ve just met you, but I’m investing in who you are and who you will be, and I can’t help it.
+> 
+> <cite>— Fred Rogers (Mr. Rogers)</cite>[^junod]
 
-When the network became social, it was dumb. It lacked nuance. The social network was based on our idea of ourselves and technology. When we think of ourselves, we picture our complex inner monologues: we believe that we are not simple but rather complex, romantic, self-contradicting — *beautiful messes*. We say this is what makes us human. But what if we’re wrong? What if we pull back the veil to discover that perhaps we are not so complex, but instead we are the opposite?
+When the network became social, it was dumb. It lacked nuance. The social network was based on our idea of ourselves and technology. When we think of ourselves, we picture our complex inner monologues: we believe that we are not simple but rather complex, romantic, self-contradicting—*beautiful messes*. We say this is what makes us human. But what if we’re wrong? What if we pull back the veil to discover that perhaps we are not so complex, but instead we are the opposite?
 
 Technology runs counter to our personhood; technology is complicated and shallow, but people are simple and deep. Our true needs are not complex. I remembered asking Brandon what everyone needed. His answer was profound and human: “To be understood.”
 
@@ -97,7 +97,5 @@ We are not there, and yet, I have hope. We can make conduits for meaningful rela
 See, I’ve just met you, but I am invested in who you are. We are part of a human network. Maybe that’s heaven.
 
 [^lanier]: Jaron Lanier, *[You Are Not a Gadget: A Manifesto](http://www.jaronlanier.com/gadgetwebresources.html)*, (Vintage Books, 2011).
-
 [^salinger]: JD Salinger, *Franny and Zooey*, (Little, Brown and Company, 1961).
-
-[^junod]: Tom Junod, “Can You Say...Hero?” (*Esquire*, November, 1998).
+[^junod]: Tom Junod, “Can You Say…Hero?” (*Esquire*, November, 1998).
