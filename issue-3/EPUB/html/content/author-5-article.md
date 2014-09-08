@@ -56,7 +56,7 @@ Turing’s universal machine isn’t *real* in the sense of being an actual phys
 
 There’s another story about a theoretical machine. This equally world-changing story was told in the form of an article published in the *Atlantic Monthly* in 1945. Written by Vannevar Bush, it describes the memex, a desk-sized machine for collecting and retrieving vast amounts of information stored on microfilm. He introduced the innovative idea of associative trails. This would allow users of the memex to create their own connections between documents. It’s here in this story of the memex that we find the first stirrings of hypertext.
 
-That term *hypertext*, along with* hypermedia*, was coined by Ted Nelson in the early 1960s. Nelson, the prototypically brilliant mad scientist, produced a series of books that were part manifesto, part comic, and part computer science manual in his pursuit of his vision of a hypertext system eventually called *Project Xanadu*. But the project languished as vaporware for decades.
+That term *hypertext*, along with *hypermedia*, was coined by Ted Nelson in the early 1960s. Nelson, the prototypically brilliant mad scientist, produced a series of books that were part manifesto, part comic, and part computer science manual in his pursuit of his vision of a hypertext system eventually called *Project Xanadu*. But the project languished as vaporware for decades.
 
 ## Small Pieces, Loosely Joined
 
