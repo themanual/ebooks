@@ -88,4 +88,4 @@ To do the *right thing* means to recognize that the business-user relationship i
 So the future can be saved. If the web design community can make things that help not only business, not just individual users, but everyone on the web, we can arrest our slide into mediocrity. Create valuable, wonderful things and the economics will follow. In this new environment, we’ll see personal success defined through the success we bring to other people’s lives. In tough times, the right response is not division, but solidarity. I can’t wait for this future, and I hope to meet you there.
 
 [^buxton]: Bill Buxton, *Sketching User Experiences*, (Morgan Kaufmann, 2007).
-[^willians]: Luke Williams, *Disrupt*, (FT Press, 2010).
+[^williams]: Luke Williams, *Disrupt*, (FT Press, 2010).
