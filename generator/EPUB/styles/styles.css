@@ -142,6 +142,7 @@ blockquote p + p cite {
   text-indent: -1em;
 }
 
+blockquote p + p,
 p.spaced,
 .dialogue p {
   margin-top: 1.5em;
