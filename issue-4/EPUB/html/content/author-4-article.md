@@ -22,7 +22,7 @@ Our pre-digital ancestors used material artifacts, architectures, and objects to
 
 Kurt Anderson, in *Vanity Fair’*s “You Say You Want a Devolution?”,[^anderson] claims that very few advances have been made in material culture since the ’90s. While he briefly mentions personal computing as an exception, his focus remains with the material artifact. What he doesn’t address, however, is how many of the artifacts and architectures have become immaterial and often invisible. And that these invisible architectures and digital artifacts are changing and shaping our culture.
 
-Without materialization how then, can we see or tell others to *see* digital cultures?
+Without materialization, how then can we see or tell others to *see* digital cultures?
 
 ## Seeing Culture
 
@@ -44,7 +44,7 @@ There was, and still is, the notion that we can “create once and publish every
 
 Today, as I work primarily on apps for mobile and tablet devices, these projects feel like completely different territory. Different languages, values, behaviors, and new subtle protocols. If you’re making something that will exist within a computing or social ecosystem, whether it’s an app intended for a smartphone or a tumblr blog intended for the tumblr dashboard, the platform is a culture. The information architectures, the interface artifacts, the social objects, have been shaped by us and, in turn, shape our behavior. This is true for the web-as-interface, but what I was bearing witness to in my work at the *Times*, what we’ve all been participating in, has been a shift from a single dominant digital culture, the web, to an explosion of digital cultures.
 
-If we want what we make to feel relevant, indigenous, and thoughtful, then it’s crucial that we understand cultural differences in order situate our creations within it.
+If we want what we make to feel relevant, indigenous, and thoughtful, then it’s crucial that we understand cultural differences in order to situate our creations within it.
 
 ## Listening Noises And Subtle Protocol
 
@@ -60,7 +60,7 @@ As a maker of digital things, I notice when the subtle protocol missing, when a 
 
 ## Hot Sweaty Dialogue
 
-On a platform at the New Jersey airport, several feet in front of people holding small whiteboards scribbled with passengers’ names, a woman stood. She was a little taller than me and had a visible aura. She wore a uniform and welcomed us off our twelve-hour flight from Stockholm. Bleary-eyed and jet lagged, it wasn’t until I was standing directly in front of her that I realized this woman was a hologram.
+On a platform at the New Jersey airport, several feet in front of people holding small whiteboards scribbled with passengers’ names, a woman stood. She was a little taller than me and had a visible aura. She wore a uniform and welcomed us off our twelve-hour flight from Stockholm. Bleary-eyed and jet-lagged, it wasn’t until I was standing directly in front of her that I realized this woman was a hologram.
 
 There’s a secret devious place inside me that loves work that is stubbornly not digital. I revel in people, places, and forms that are impervious to the link, or whose scope and experience doesn’t translate online. This is not the list-making archivist part of myself, the information architect, or the righteous citizen of this digital community. This is the tiny Anarchist. The Resistor. Deep down, I’m not form-agnostic. In becoming a maker, both of physical books and of digital forms, I’ve learned that content and form are not two strangers that come together with ease and obviousness. They are more like quarrelsome lovers engaged in a hot sweaty dialogue.
 
@@ -70,7 +70,7 @@ Yet I’ve found myself in the last few years experiencing similar feelings when
 
 My current digital work and play happens across many different cultures. In the next five years, along with the dozens of existing forms we get to choose from, it’s entirely possible we will also have the hologram—or some other yet-to-be born form—to consider as a possible platform for our content, and a site for listening. As mobile devices and computers become smaller and more ubiquitous, our contexts will multiply as well.
 
-Certain kinds of services that were originally only accessible via a browser, actually do make more sense as apps. The same can be said about certain content that was previously only contained in books, that it clearly belongs on the network.
+Certain kinds of services that were originally only accessible via a browser actually do make more sense as apps. The same can be said about certain content that was previously only contained in books—that it clearly belongs on the network.
 
 As new platforms emerge, it becomes our responsibility to make decisions about the appropriate form. To understand when something should become one form and not another, to elegantly and with confidence distinguish “possible” from “optimal”. And thriving as digital makers means cultivating an ability to see what’s invisible by looking for subtle protocol, making listening noises when we see it, and striving to craft work that is conversational and culturally aware.
 
