@@ -8,7 +8,7 @@ The story is now infamous: between 2006 and 2009, Google tested 41 different sha
 
 It came to light after designer Doug Bowman left his Visual Design Lead position at Google due to their data-driven culture. He wrote this about his departure:
 
-I had a recent debate over whether a border should be 3, 4 or 5 pixels wide, and was asked to prove my case. I can’t operate in an environment like that. I’ve grown tired of debating such minuscule design decisions… I won’t miss a design philosophy that lives or dies strictly by the sword of data.[^bowman]
+> I had a recent debate over whether a border should be 3, 4 or 5 pixels wide, and was asked to prove my case. I can’t operate in an environment like that. I’ve grown tired of debating such minuscule design decisions… I won’t miss a design philosophy that lives or dies strictly by the sword of data.[^bowman]
 
 The post spread quickly through the design community, with many designers expressing their disgust with Google’s approach. *Fast Company* ran a wonderful, violent headline on the story: “Google’s Marissa Mayer Assaults Designers with Data.”[^walker]
 
@@ -60,7 +60,7 @@ These principles don’t need to be arbitrary: the difference between a three-pi
 
 Perhaps the most problematic aspect of the “41 shades” story goes unmentioned. It happened before the 41 shades:
 
-A designer, Jamie Divine, had picked out a blue that everyone on his team liked. But a product manager tested a different color with users and found they were more likely to click on the toolbar if it was painted a greener shade.
+> A designer, Jamie Divine, had picked out a blue that everyone on his team liked. But a product manager tested a different color with users and found they were more likely to click on the toolbar if it was painted a greener shade.
 
 As trivial as color choices might seem, clicks are a key part of Google’s revenue stream, and anything that enhances clicks means more money. Mr Divine’s team resisted the greener hue, so Ms Mayer split the difference by choosing a shade halfway between those of the two camps.[^holson]
 
