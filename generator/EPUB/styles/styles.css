@@ -138,14 +138,17 @@ blockquote p + p cite {
   text-align: left;
   display: inline;
   display: inline-block;
-  margin-top: .5em;
-  text-indent: -1em;
+  margin-top: 0;
 }
 
-blockquote p + p,
 p.spaced,
 .dialogue p {
   margin-top: 1.5em;
+  text-indent: 0;
+}
+
+blockquote p + p {
+  margin-top: 1em;
   text-indent: 0;
 }
 
@@ -259,7 +262,6 @@ blockquote cite {
   font-style: normal;
   font-weight: normal;
   text-indent: 0;
-  margin-top: .75em;
 }
 
 blockquote + blockquote {
