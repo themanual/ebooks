@@ -24,6 +24,13 @@ img {
   text-align: right !important;
 }
 
+.perfect-center {
+  margin: 50vh 0 0 0;
+  text-align: center;
+  -webkit-transform: translateY(-50%); 
+  transform: translateY(-50%);
+}
+
 .no-hyphens, .no-hyphens *,
 h1, h2, h3, h4 {
   -webkit-hyphens: none !important;
