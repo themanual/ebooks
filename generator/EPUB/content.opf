@@ -68,7 +68,7 @@
     {% if site.data.issue.has.note %}
     <item id="p_note"                   media-type="application/xhtml+xml" href="html/content/note.xhtml" />
     {% endif %}
-    <item id="p_patrons"                media-type="application/xhtml+xml" href="html/front-matter/patrons.xhtml" />
+    <item id="p_patrons"                media-type="application/xhtml+xml" href="html/content/patrons.xhtml" />
     {% if site.data.issue.has.dedication %}
     <item id="p_dedication"             media-type="application/xhtml+xml" href="html/content/dedication.xhtml" />
     {% endif %}
@@ -135,7 +135,7 @@
     <reference type="cover"             title="Cover"                       href="html/front-matter/cover.xhtml" />
     <reference type="toc"               title="Table of Contents"           href="html/front-matter/toc.xhtml" />
     <reference type="loi"               title="List of Illustrations"       href="html/front-matter/loi.xhtml" />
-    <reference type="text"              title="Patrons"                     href="html/front-matter/patrons.xhtml" />
+    <reference type="text"              title="Patrons"                     href="html/content/patrons.xhtml" />
     {% if site.data.issue.has.dedication %}
     <reference type="text"              title="Dedication"                  href="html/content/dedication.xhtml" />
     {% elsif site.data.issue.has.note %}
