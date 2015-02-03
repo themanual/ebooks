@@ -91,12 +91,19 @@ namespace :steps do
     print " - Kindlegen'ing issue-#{args[:issue]}\n"
 
     wd = Dir.getwd
-    Dir.chdir "#{wd}/generator/bin/kindlegen-2.9"
-    `./kindlegen ../../../issue-#{args[:issue]}/issue-#{args[:issue]}.epub -c2 -o issue-#{args[:issue]}.mobi`
-    if $? != 0
+    kgdir = "#{wd}/generator/bin/kindlegen-2.9"
+    Dir.chdir kgdir
+    cmd = "./kindlegen ../../../issue-#{args[:issue]}/issue-#{args[:issue]}.epub -c2 -o issue-#{args[:issue]}.mobi"
+    `#{cmd}`
+    if $?.exitstatus > 1
       print "\n\n **** ERROR CONVERTING EPUB ****\n\n"
       exit
     end
+
+    if $?.exitstatus == 1
+      print "   ** warnings raised, run 'cd #{kgdir} && #{cmd}' to view them\n"
+    end
+
     Dir.chdir wd
 
   end
