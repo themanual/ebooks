@@ -3,7 +3,7 @@ number: 4
 # Year of Publication
 year: 2014
 # Metadata Description
-description: "TBD"
+description: "Issue 4 of The Manual, with Craig Mod, Wilson Miner, Diana Kimball, Jennifer Brook, David Cole, and Paul Ford."
 
 # ISSN of The Manual
 issn: 2047-3508
@@ -146,7 +146,7 @@ illustrators:
     bio: "Julianna Brion is an artist based in Baltimore, MD. She studied illustration at MICA and now spends her days hard at work in the studio with her cat Ghostface by her side."
   richard-perez:
     name: "Richard Perez"
-    bio: "Richard Perez is an independent graphic designer and illustrator, now based in Portland, OR. He has worked with clients including IBM, Facebook, Path, Square, Google, Aol, and GOOD."
+    bio: "Richard Perez is an independent graphic designer and illustrator, now based in Portland, OR. He has worked with clients including IBM, Facebook, Path, Square, Google, AOL, and GOOD."
   matthew-the-horse:
     name: "Matthew the Horse"
     bio: "Matthew the Horse, otherwise known as Matthew Hodson, is an illustrator, graphic artist, poet, educator, and idiot based in Leeds. He works with calligraphic pens, watercolours, a computer, and his hands."
@@ -158,4 +158,4 @@ illustrators:
     bio: "Tim Gough has been working as a creative person for various agencies and publications for over 10 years. He lives in Philadelphia, PA, with his dog, and currently works as a Senior Designer at 160over90."
   philipp-dornbierer:
     name: "Philipp Dornbierer"
-    bio: "Philipp Dornbierer is a freelance illustrator based in Zurich. His clients now include The New York Times, IBM, Süddeutsche Zeitung Magazin, and Carhartt."
+    bio: "Philipp Dornbierer is a freelance illustrator based in Zurich. His clients now include _The New York Times_, IBM, _Süddeutsche Zeitung Magazin_, and Carhartt."

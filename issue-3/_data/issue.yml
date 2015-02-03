@@ -3,7 +3,7 @@ number: 3
 # Year of Publication
 year: 2012
 # Metadata Description
-description: "TBD"
+description: "Issue 3 of The Manual, with Paul Soulellis, Tiffani Jones Brown, Nina Stössinger, Duane King, Jeremy Keith, and Ethan Marcotte."
 
 # ISSN of The Manual
 issn: 2047-3508
@@ -113,22 +113,22 @@ staff:
 authors:
   paul-soulellis:
     name: "Paul Soulellis"
-    bio: ""
+    bio: "[Paul Soulellis](https://twitter.com/soulellis) is an artist and creative director, maintaining his studio in New York. He founded his research-based graphic design and publishing studio Counterpractice in 2014, and he teaches at Rhode Island School of Design. He has produced award-winning work for clients including Cornell University, TED, Waterworks, Esri, and The Rockefeller Foundation."
   tiffani-jones-brown:
     name: "Tiffani Jones Brown"
-    bio: ""
+    bio: "[Tiffani Jones Brown](https://twitter.com/ticjones) lives in San Francisco and manages writing and content strategy at Pinterest. She’s also an editor and a creative-writing dabbler, and she used to run the design agency Things That Are Brown with her husband. Her writing has appeared in _Contents_ magazine and _Offscreen_ magazine."
   nina-stoessinger:
     name: "Nina Stössinger"
-    bio: ""
+    bio: "[Nina Stössinger](https://twitter.com/ninastoessinger) is a typographic designer from Basel, Switzerland. She started out building websites but switched tracks during art school once she discovered her love for typography. After five years running her own studio for graphic design, web design, and typography, she enrolled in the TypeMedia graduate program at the Royal Academy of Art in the Netherlands."
   duane-king:
     name: "Duane King"
-    bio: ""
+    bio: "Duane King runs the design innovation lab Huge/KingCoyle in Portland, Oregon, together with Ian Coyle. Duane is the founder of Thinking for a Living, a curation of original, thought-provoking design content, and he’s on the board of Designspeaks. Fast Company named him one of the fifty Most Influential Designers in America."
   jeremy-keith:
     name: "Jeremy Keith"
-    bio: ""
+    bio: "[Jeremy Keith](https://twitter.com/adactio) is an Irishman living in Brighton, England, where he makes websites at the design agency Clearleft. He is the author of _HTML5 for Web Designers_, and he can be found online at [Adactio](http://adactio.com/)."
   ethan-marcotte:
     name: "Ethan Marcotte"
-    bio: ""
+    bio: "[Ethan Marcotte](https://twitter.com/beep) is an independent designer/developer who is passionate about beautiful design, elegant code, and the intersection of the two. He coined the term responsive web design to describe a new way of designing for the ever-changing web, wrote a book on the topic, and would like to be an unstoppable robot ninja when he grows up. Beep."
 
 #
 # Illustrators Names and Biographies
@@ -137,19 +137,19 @@ authors:
 illustrators:
   eleni-kalorkoti:
     name: "Eleni Kalorkoti"
-    bio: ""
+    bio: "Eleni Kalorkoti is a freelance illustrator from Edinburgh, Scotland. She is now based in London where she enjoys making bold and slightly mischievous illustrations. Her clients include the _New York Times_, _Anorak_ magazine, Random House, Analogue Books, and Advice to Sink in Slowly."
   michael-kirkham:
     name: "Michael Kirkham"
-    bio: ""
+    bio: "Michael Kirkham is an illustrator based in Edinburgh, Scotland. His work has appeared in major publications throughout the world and is characterized by its clear lines, composite viewpoints, and subtle human interactions. He graduated from the Edinburgh College of Art in 2006."
   owen-davey:
     name: "Owen Davey"
-    bio: ""
+    bio: "Owen Davey has been working as a freelance illustrator based in Leicester, UK. His clients include Orange, BBC, and Microsoft, and his work has been published on every continent except Antarctica. He is the author of Leika: the _Astronaut_, _Knight Night_, and _Foxley’s Feast_."
   luke-pearson:
     name: "Luke Pearson"
-    bio: ""
+    bio: "Luke Pearson is an illustrator and comic book artist from the UK. He is probably best known for writing and drawing the short graphic novel _Everything We Miss_ and the _Hilda_ series of comics, both published by Nobrow Press."
   rob-bailey:
     name: "Rob Bailey"
-    bio: ""
+    bio: "Rob Bailey is an artist and illustrator based in Manchester, England. His work combines the order of geometry and the elegance of the natural world in an attempt to make something more beautiful than both. It’s a losing battle but one he enjoys fighting."
   jing-wei:
     name: "Jing Wei"
-    bio: ""
+    bio: "Jing Wei is an illustrator and printmaker. Since graduating from RISD, she has been making artwork for a variety of clients, including NPR, _McSweeney’s_, the _New York Times_, HHMI, and the _Boston Globe_. Jing is currently based in Brooklyn and works out of a studio in Greenpoint."

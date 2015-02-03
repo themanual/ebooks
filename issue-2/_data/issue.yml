@@ -3,7 +3,7 @@ number: 2
 # Year of Publication
 year: 2011
 # Metadata Description
-description: "DESCRIPTION TBD"
+description: "Issue 2 of The Manual, with Alex Charchar, Mark Boulton, Karen McGrane, Cennydd Bowles, Trent Walton, and Josh Brewer."
 
 # ISSN of The Manual
 issn: 2047-3508
@@ -113,22 +113,22 @@ staff:
 authors:
   alex-charchar:
     name: "Alex Charchar"
-    bio: ""
+    bio: "[Alex Charchar](https://twitter.com/retinart) is a full-time graphic designer and a letterpress enthusiast who dreams of using his Heidelberg Windmill printing press. Formerly the editor of the typography section for Smashing Magazine, he lives in Queensland, Australia, and writes at [Retinart](http://retinart.net/)."
   mark-boulton:
     name: "Mark Boulton"
-    bio: ""
+    bio: "[Mark Boulton](https://twitter.com/markboulton) is a graphic designer living in South Wales. After designing for the BBC and Agency.com, he ran a small design studio, which published Five Simple Steps and worked with clients such as Al Jazeera, ESPN, CERN, and Drupal. Mark Boulton Design was acquired by Monotype in 2014."
   karen-mcgrane:
     name: "Karen McGrane"
-    bio: ""
+    bio: "[Karen McGrane](https://twitter.com/karenmcgrane) plays nicely in the content strategy, information architecture, and interaction design sandboxes. Founder and Managing Partner at the UX consultancy Bond Art + Science, she also teaches Design Management in the Interaction Design MFA program at the School of Visual Arts. She lives in New York and is the author of Content Strategy for Mobile."
   cennydd-bowles:
     name: "Cennydd Bowles"
-    bio: ""
+    bio: "[Cennydd Bowles](https://twitter.com/Cennydd) is a design manager at Twitter in London and a columnist for _A List Apart_. He has over a decade of experience advising clients large and small on the benefits of customer-focused design. He writes for his popular [blog](http://www.cennydd.com/blog/) and co-authored Undercover User Experience Design."
   trent-walton:
     name: "Trent Walton"
-    bio: ""
+    bio: "[Trent Walton](https://twitter.com/TrentWalton) is founder and one third of Paravel, a custom web design and development shop based out of the Texas Hill Country. He’s a web designer, speaker, and [writer](http://trentwalton.com/) who likes to experiment with web typography and fluid grids."
   josh-brewer:
     name: "Josh Brewer"
-    bio: ""
+    bio: "[Josh Brewer](https://twitter.com/jbrewer) is a husband and father who spends his time thinking about, designing, and building things that live at the intersection of form, function, and aesthetic. Formerly Principal Designer at Twitter, he lives in San Francisco and co-created the usability blog [52 Weeks of UX](http://52weeksofux.com)."
 
 #
 # Illustrators Names and Biographies
@@ -137,19 +137,19 @@ authors:
 illustrators:
   jon-mcnaught:
     name: "Jon McNaught"
-    bio: ""
+    bio: "Jon McNaught is a printmaker and illustrator living in Bristol. He has produced illustrations and comic strips for _Art Review_ and the _New York Times_, among others. A printmaking instructor at the University of the West of England, he is the author of _Birchfield Close_ and _Pebble Island_."
   always-with-honor:
     name: "Always With Honor"
-    bio: ""
+    bio: "Always With Honor is the collective work of husband and wife team Elsa and Tyler Lang from their Portland-based studio. Inspired by nature, travel, and their longdog Zoe, they aim to create work that reflects their curiosity and pursuit of clarity."
   dadu-shin:
     name: "Dadu Shin"
-    bio: ""
+    bio: "Dadu Shin was born and raised in Massachusetts. After attending the Rhode Island School of Design, he moved to New York City and began working as a freelance illustrator. His clients have included the _Boston Globe_, the _New York Times_, and Simon & Schuster."
   rose-blake:
     name: "Rose Blake"
-    bio: ""
+    bio: "Rose Blake is an illustrator based in London. She is a part of the This Is It collective and runs the website [Studio Music](http://www.studiomusic.fm/). She holds an MA in Communication Art and Design from the Royal College of Art in 2011. Her clients have included _The New Yorker_ and the _New York Times_."
   paul-blow:
     name: "Paul Blow"
-    bio: ""
+    bio: "Paul Blow earned his MA in Narrative Illustration from the University of Brighton. His clients include the _Guardian_, _New Scientist_, _Harvard Business Review_, and Saatchi & Saatchi. In 2006, he received the Association of Illustrators gold award for editorial illustration."
   mike-lemanski:
     name: "Mike Lemanski"
-    bio: ""
+    bio: "Mike Lemanski is a British illustrator and designer. He produces concept-driven work ranging from infographics and editorial illustrations to branding and interactive designs. His clients include IBM, Nike, Google, and Coca-Cola."

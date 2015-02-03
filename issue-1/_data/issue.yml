@@ -3,7 +3,7 @@ number: 1
 # Year of Publication
 year: 2011
 # Metadata Description
-description: "DESCRIPTION TBD"
+description: "Issue 1 of The Manual, with Simon Collison, Dan Rubin, Liz Danzico, Frank Chimero, Jon Tan, and The Standardistas."
 
 # ISSN of The Manual
 issn: 2047-3508
@@ -13,7 +13,7 @@ uuid: 1AF6F886-4C67-4C8C-91D9-6B8E0C58D732
 version: v1.0.0
 
 # Issue Color
-color: "#EF3E42"
+color: "#ED3D45"
 
 # Multiple title formats
 title:
@@ -113,22 +113,22 @@ staff:
 authors:
   simon-collison:
     name: "Simon Collison"
-    bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum iure vitae architecto quidem, quas praesentium totam, et sapiente. Omnis tempora fugiat quae animi, nobis! Similique, voluptatum temporibus sunt quos? Molestias."
+    bio: "[Simon Collison](https://twitter.com/colly) is a UK-based web designer with over a decade of experience at the sharp end. He previously cofounded Erskine Design and organized the New Adventures conference. Now a partner at Fictive Kin, he is a writer and frequent speaker on the design process."
   frank-chimero:
     name: "Frank Chimero"
-    bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis ullam perferendis at cupiditate voluptatibus molestias architecto dolorem repudiandae provident ut! Eaque ab minus numquam, quis praesentium. Magni, incidunt dolore adipisci."
+    bio: "[Frank Chimero](https://twitter.com/anotherny) is a designer, writer, illustrator, and educator. He lives in Brooklyn and leads Another, a design studio for page and screen. He is the author of The Shape of Design, a design theory overview that focuses on storytelling, craft, and interdependency."
   jon-tan:
     name: "Jon Tan"
-    bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati alias tenetur est sequi odit ipsam dicta eum, doloremque veritatis possimus aliquid quam totam saepe ut consequatur placeat facere tempora. Fuga."
+    bio: "[Jon Tan](https://twitter.com/jontangerine) is a designer and typographer. He cofounded Fontdeck and works from Mild Bunch HQ, the co-working studio he founded in Bristol, UK. Jon speaks internationally about design and typography at conferences such as An Event Apart, and has written for publications such as _Typographica_ and _8Faces_."
   dan-rubin:
     name: "Dan Rubin"
-    bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio commodi omnis, obcaecati esse explicabo voluptatibus saepe aliquam inventore rem similique modi earum, repellendus. Sit explicabo laudantium, expedita officiis cum quasi."
+    bio: "[Dan Rubin](https://twitter.com/danrubin) is a designer, photographer, and barbershop harmony aficionado based in London. Founder and creative director of webgraph, Dan speaks at conferences around the world, writes about myriad topics, and works with good-looking clients including The Guardian, Red Bull, MailChimp, Google, Yahoo!, Microsoft, Geffen/Universal, IDEO, and Nokia."
   liz-danzico:
     name: "Liz Danzico"
-    bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores at quos fugit possimus quaerat quibusdam animi quidem hic, quae unde maiores quam et, veritatis, optio aut neque aperiam ipsam. Nulla!"
+    bio: "[Liz Danzico](https://twitter.com/bobulate) is creative director for NPR in digital media and founding chairperson of the MFA in Interaction Design program at the School of Visual Arts. She lives in New York and has written for _Eye_ magazine, _Fortune_ magazine, and _Interactions_ magazine. She also writes occasionally at [Bobulate](http://bobulate.com/)."
   the-standardistas:
     name: "The Standardistas"
-    bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis, ducimus, dicta odit nihil recusandae in repellat quidem cum veritatis, laboriosam corporis. Officiis quod aut earum aspernatur dolor provident nam maiores!"
+    bio: "[Christopher Murphy](https://twitter.com/fehler) and [Nicklas Persson](https://twitter.com/takete) teach interactive design at the University of Ulster at Belfast, where they have been active in promoting a web standards-based curriculum. They’ve written for 24 Ways, New Adventures, and _.net_ magazine, and have published a book, _HTML and CSS Web Standards Solutions: A Web Standardistas’ Approach_."
 
 #
 # Illustrators Names and Biographies
@@ -137,19 +137,19 @@ authors:
 illustrators:
   raymond-biesinger:
     name: "Raymond Biesinger"
-    bio: "Lorem ipsum [dolor](http://paulo.is) sit amet, consectetur adipisicing elit. Quae accusamus deserunt magnam quis impedit maxime est, id, tempora totam assumenda expedita, sequi fugit fugiat sit ratione beatae sed corporis modi."
+    bio: "Raymond Biesinger is a multitalented illustrator who lives in Montreal. Since the year 2000, he’s illustrated over 1000 projects on five continents, for clients including the _New Yorker_, the _New York Times_, and _Fortune_ magazine."
   owen-gatley:
     name: "Owen Gatley"
-    bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum odio quidem tempore quas aliquid rem numquam, nisi ducimus, at, deleniti amet, repellendus blanditiis. Ex reiciendis, cum quidem placeat consequatur distinctio."
+    bio: "Owen Gatley lives in Berlin and hails from the Malvern Hills in Worcestershire. He likes to create playful illustrations, often taking inspiration from 1950s color palettes and comic books. Clients include Pan Macmillan, Urban Outfitters, and the _Times_."
   christopher-gray:
     name: "Christopher Gray"
-    bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil commodi, aliquid qui, corrupti repudiandae obcaecati minus consequatur eos cupiditate reprehenderit rem delectus nulla hic amet error molestiae labore voluptatem voluptate!"
+    bio: "Christopher Gray is a graphic designer based in London. His work has been published by _Die Gestalten_, _Creative Review_, _idN_, and Wallpaper\*_, and he has collaborated with the BBC, Nike, Moleskine, and the _New York Times_."
   superbrothers:
     name: "Superbrothers"
-    bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque, voluptatibus et. Fugiat consectetur, facilis consequatur minima molestiae! Tempora quas vero sint, nesciunt, ipsum officia magnam aspernatur, delectus natus alias iusto."
+    bio: "Superbrothers, Inc. is an ambiguously pluralized art and design organization located in Quebec. They are best known for a distinctive style of pixel artwork and for their archetypical adventure video game project for iOS known as Superbrothers: Sword & Sworcery EP."
   olimpia-zagnoli:
     name: "Olimpia Zagnoli"
-    bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio ipsum eaque necessitatibus cupiditate hic. Soluta eaque, quaerat atque nisi ipsam. Illum neque excepturi commodi praesentium expedita dolor accusamus delectus repellendus!"
+    bio: "Olimpia Zagnoli is an illustrator who lives in Milan. Her style is characterized by soft shapes and chameleonic colors that she uses to create bold illustrations, odd music videos, and curious objects. Her clients include _New York Magazine_, _Rolling Stone_, and _Vanity Fair_."
   ping-zhu:
     name: "Ping Zhu"
-    bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod excepturi, est eaque debitis, ipsam asperiores magnam! Officia perferendis fugiat obcaecati labore quasi recusandae, quos illo, deleniti reprehenderit omnis, a repudiandae."
+    bio: "Ping is an illustrator organically grown in Los Angeles and currently based in Brooklyn. She loves animals and speed drawing on Post-its®. When feeling fancy, she combines them. Her clients have included the _New York Times_, the _New Yorker_, and Pentagram."
