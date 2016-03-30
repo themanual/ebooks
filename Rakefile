@@ -76,8 +76,8 @@ namespace :steps do
     print " - Validating issue-#{args[:issue]}\n"
 
     wd = Dir.getwd
-    Dir.chdir "#{wd}/generator/bin/epubcheck-3.0.1"
-    `java -jar epubcheck-3.0.1.jar ../../../issue-#{args[:issue]}/issue-#{args[:issue]}.epub`
+    Dir.chdir "#{wd}/generator/bin/epubcheck-4.0.1"
+    `java -jar epubcheck-4.0.1.jar ../../../issue-#{args[:issue]}/issue-#{args[:issue]}.epub`
     if $? != 0
       print "\n\n **** ERROR VALIDATING EPUB ****\n\n"
       exit
