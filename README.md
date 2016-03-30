@@ -14,7 +14,7 @@ All files are under `EPUB/html/content`:
 
 - All articles and lesson files are required, and need correct author keys in the YAML front-end matter.
 - Letter From the Publisher is optional.
-- Acknowledgements is optional. 
+- Acknowledgements are optional. 
 
 **3. Add images**
 
