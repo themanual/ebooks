@@ -1,0 +1,32 @@
+---
+layout: piece
+author: jessica-collier
+type:   lesson
+---
+I often tell the story of my academic transition by starting *in media res*: “The day after I filed my dissertation, I went to work full-time as a consultant for a small software company.”
+
+Really, the things that I did the day after I filed my dissertation—a Saturday—were: 1. cry, partly out of naked relief and partly out of sheer terror, and 2. go on a long hike up at Point Reyes to banish the existential but also weirdly postpartum dread of starting anew, all over again.
+
+I went to work as a full-time consultant on Monday. The elision of the weekend might seem insignificant, but it does a lot of rhetorical heavy-lifting. It indicates immediate turnaround, pulled off without hitch or hesitation. Picking up in the middle of the action, it omits the decision-making process that led to a non-academic career. Specifically, I don’t say: “I realized that, while I enjoyed teaching, I didn’t want to devote as much time to it as most academic appointments required. I also realized that writing for the narrow audience that academia provides felt increasingly claustrophobic and unfulfilling.”
+
+I’ve told this story in a conference room, one-on-one with a CEO. I’ve told it in front of a panel of eleven people at a job interview. I’ve told it at parties and family get-togethers over glasses of wine. Each time, I’ve presented what was in fact a genuinely traumatic transition as a foregone conclusion.
+
+I learned from the best how to polish away rough edges. My PhD advisor—a position for life, which is why I speak of it in the present tense though I am as fully doctored as it is possible to be—is a very deliberate, detail-oriented, and patient person. Her ability to read, closely and beautifully and ruthlessly, everything from novels to paintings to advertisements to dissertation chapters is inextricable from her penchant for transmitting heady life lessons masked as professional truisms.
+
+“Jessica”—she prefaces advice with solemn first-naming—”Jessica,” she said one rainy afternoon well into my doctoral candidacy, looking up from a stack of printed draft pages strewn with comments in her green ink, “these projects are with us for years.”
+
+We were in a cafe, sharing a plate of biscotti. My iced coffee was sweating on the wood table. Despite the caffeine, I was exhausted, chafing under what felt like an endless apprenticeship-cum-prolonged-adolescence that was becoming harder and harder to explain to my loved ones who existed outside of academia (namely, all of them). I wanted to send out the marked-up pages as an article—publish or perish—and she was keen for me to hone the work further, holding it tightly to my chest until the day that it was so perfect, so magnificent, so seamless a thing that it would appear without warning in a journal as though sprung from Zeus’s forehead. Her compact advice—*These projects are with us for years—*was exemplary of the only kind of writing she deemed suitable for the eyes of the world: polished and refined, distilled and precise, packing endless meaning into well-chosen words.
+
+Under her mentorship, I acquired a verbal tic intended primarily for initiating discussion of the kinds of texts that she believed in producing: “What can we say about this?” Standing in front of a class, she—and eventually I—would read a passage from Anne Bradstreet or Margaret Fuller or Emily Dickinson or Henry Thoreau, then look up and ask, with a small smile that betrayed just how many things there were to say, “What can we say?”
+
+It is, to be honest, the most foolproof way I’ve encountered to dive into lines of text. I mean, what *can *we say about that advice, those seven words articulating a worldview that seems to revolve around endless incubation? Graduate school can feel like a continuous present, with no clear sense of the future. You mull, and you mull, and you mull, iterating on the same ideas until they’re worth something in the academic marketplace. But how do you square that with the capitalist model of knowledge production at the core of contemporary academic life, let alone the model of material production at the core of private industry?
+
+Technological products, after all, will not be with us for years. You have to get them out the door. Tech is all future—what you ship today, you’ll iterate tomorrow. The entire industry evolves so quickly that it’s hard to make the present count.
+
+When I read it closely, *These projects are with us for years* is a summation of a particular model of professionalism. In this model, all of the struggle, the labor, the gut-tearing process of thinking and writing and creating ideas must be rendered invisible, folded into something larger that is always in process. The final product is never completely final, but it’s an ever-expanding representation of what your mind is capable of. And you—smooth and polished, seamless and self-possessed, never scrappy or harried—grow to embody your work.
+
+I am a deliberate and detail-oriented but rather impatient person. I want to create thoughtful work. I want to put it out into the world so that it can develop with the aid of oxygen, breathe in the zeitgeist and shape itself accordingly. And I don’t see these desires as mutually exclusive.
+
+In the end, I left my academic career behind. I did not, however, leave everything it bequeathed me. I’ve retained that verbal tic. I’ve internalized the need to theorize about what I do—to think not just about getting work done but about articulating how to do it and imagining the larger ramifications of that process. And I’ve realized that the most important piece of that rainy-day advice is not simply the idea that good work is cumulative, but the concomitant notion that as you gradually iterate on your work, you become a different version of yourself.
+
+The thought processes honed by creating things—those are what last, what carry over into the next things you build and how you live. Maybe it doesn’t take seven years to create one substantial thing, but it takes far more than seven years to become a person capable of creating something worthy of being called a life’s work. These projects are with us for years.
