@@ -10,7 +10,7 @@ issn: 2047-3508
 # UUID of Issue, should be unique.
 uuid: AACA88AE-BE83-4E87-BBA1-710E5D43FA06
 # Version
-version: v1.0.0
+version: v1.1.0
 
 # Issue Color
 color: "#00CFB5"
