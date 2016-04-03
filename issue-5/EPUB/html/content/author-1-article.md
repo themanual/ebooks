@@ -91,6 +91,6 @@ Either way, the nature of a system says something very clear about the people wh
 [^4]: Jeffrey Zeldman, [“The Color Purple,”](http://eldman.com/2014/06/10/the-color-purple/) *zeldman.com* (blog), June 10, 2014.
 [^5]: [“Name #663399 “Becca Purple” in CSS4 Color?”,](http://iscourse.wicg.io/t/name-663399-becca-purple-in-css4-color/225) WICG (forum), June 12, 2014.
 [^6]: [Daniel Glazman to www-style@w3.org,](http://lists.w3.org/Archives/Public/www-style/2014Jun/0312.html) June 21, 2014.
-[^7] Eric Meyer, [“rebeccapurple,”](http://eyerweb.com/eric/thoughts/2014/06/19/rebeccapurple/) *meyerweb.com* (blog), June 19, 2014.
+[^7]: Eric Meyer, [“rebeccapurple,”](http://eyerweb.com/eric/thoughts/2014/06/19/rebeccapurple/) *meyerweb.com* (blog), June 19, 2014.
 [^8]: Kathy Sierra, *Badass: Making Users Awesome* (O’reilly Media, 2015).
-[^9] Derek Powazek, [Twitter post](https://twitter.com/fraying/status/547471656068087808), December 23, 2014, 2:19 p.m.
+[^9]: Derek Powazek, [Twitter post](https://twitter.com/fraying/status/547471656068087808), December 23, 2014, 2:19 p.m.
