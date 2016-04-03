@@ -15,7 +15,7 @@ And with the gesture, he gives me a memory. A moment with my grandmother. No sto
 
 I’ve been experiencing nostalgia more and more lately. It can take over any of the senses—a taste, a smell, or a song can bring on memories so vivid they feel like dreams. The older I get, the further back they go. You can’t stop time, but you can hold on to it.
 
-Every once in a while, I’ll hear a song or pick up a scent that brings back an experience I hadn’t thought about in years. It makes me wonder what purpose these memories serve. Maybe they exist to comfort us. I get the strongest nostalgia during seasons of change, and I most often remember simple, happy times.
+Every once in a while, I’ll hear a song or pick up a scent that brings back an experience I haven’t thought about in years. It makes me wonder what purpose these memories serve. Maybe they exist to comfort us. I get the strongest nostalgia during seasons of change, and I most often remember simple, happy times.
 
 You can’t force nostalgia, and you surely can’t escape it. It’s a strange gift that way. Our brains record moments so we can relive them later, and we subconsciously assign meaning to sounds, smells, and tastes that serve as signals. When we get the signals, we go back to those places.
 
