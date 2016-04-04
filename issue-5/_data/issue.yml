@@ -95,9 +95,15 @@ staff:
   - name: "Lisa Sanchez"
     colophon: "Editor in Chief"
     role: edt
+  - name: "Julie Steenson"
+    colophon: "Copy Editor"
+    role: edt
   - name: "Paulo Pereira"
     colophon: "Ebook Designer"
     role: bkd
+  - name: "Frank Chimero"
+    colophon: "Cover Designer"
+    role: cov
   - name: "David McMillan"
     colophon: "Art Director"
     role: ard
