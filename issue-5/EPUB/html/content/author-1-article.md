@@ -85,12 +85,12 @@ And so those who build the systems of interaction have a unique responsibility, 
 
 Either way, the nature of a system says something very clear about the people who create that system and what *they* value; just as much as how we use those systems, and what we tolerate in the behavior of those around us, says something very clear about us and what *we* value. It’s a statement we make to everyone around us as well to everyone yet to come. This is our legacy, our message to the future about who we really are and what we truly value. We are what we build. It’s long past time we started building wisely.
 
-[^1]: Eric Meyer, [“On Writing,”](http://eyerweb.com/eric/thoughts/2014/04/04/on-writing/) *meyerweb.com* (blog), April 4, 2014. 
-[^2]: Eric Meyer, [“In Memoriam,”](http://eyerweb.com/eric/thoughts/2014/06/09/in-memoriam-2/) *meyerweb.com* (blog), June 9, 2014. 
-[^3]: Matt Robin, [Twitter post,](http://witter.com/mattrobin140s/status/476109575532601344) June 9, 2014, 5:14 p.m.
-[^4]: Jeffrey Zeldman, [“The Color Purple,”](http://eldman.com/2014/06/10/the-color-purple/) *zeldman.com* (blog), June 10, 2014.
-[^5]: [“Name #663399 “Becca Purple” in CSS4 Color?”,](http://iscourse.wicg.io/t/name-663399-becca-purple-in-css4-color/225) WICG (forum), June 12, 2014.
+[^1]: Eric Meyer, [“On Writing,”](http://meyerweb.com/eric/thoughts/2014/04/04/on-writing/) *meyerweb.com* (blog), April 4, 2014.
+[^2]: Eric Meyer, [“In Memoriam,”](http://meyerweb.com/eric/thoughts/2014/06/09/in-memoriam-2/) *meyerweb.com* (blog), June 9, 2014.
+[^3]: Matt Robin, [Twitter post,](http://twitter.com/mattrobin140s/status/476109575532601344) June 9, 2014, 5:14 p.m.
+[^4]: Jeffrey Zeldman, [“The Color Purple,”](http://zeldman.com/2014/06/10/the-color-purple/) *zeldman.com* (blog), June 10, 2014.
+[^5]: [“Name #663399 “Becca Purple” in CSS4 Color?”,](http://discourse.wicg.io/t/name-663399-becca-purple-in-css4-color/225) WICG (forum), June 12, 2014.
 [^6]: [Daniel Glazman to www-style@w3.org,](http://lists.w3.org/Archives/Public/www-style/2014Jun/0312.html) June 21, 2014.
-[^7]: Eric Meyer, [“rebeccapurple,”](http://eyerweb.com/eric/thoughts/2014/06/19/rebeccapurple/) *meyerweb.com* (blog), June 19, 2014.
+[^7]: Eric Meyer, [“rebeccapurple,”](http://meyerweb.com/eric/thoughts/2014/06/19/rebeccapurple/) *meyerweb.com* (blog), June 19, 2014.
 [^8]: Kathy Sierra, *Badass: Making Users Awesome* (O’reilly Media, 2015).
 [^9]: Derek Powazek, [Twitter post](https://twitter.com/fraying/status/547471656068087808), December 23, 2014, 2:19 p.m.
