@@ -115,7 +115,7 @@ staff:
 authors:
   eric-meyer:
     name: "Eric Meyer"
-    bio: "Eric A. Meyer is a writer, coder, occasional teacher, and amateur designer who co-founded An Event Apart and contributed to the development of CSS, microformats, and the web standards movement. He lives with his family in Cleveland, Ohio, and serves as technical lead for Rebecca’s Gift."
+    bio: "[Eric A. Meyer](http://meyerweb.com) is a writer, coder, occasional teacher, and amateur designer who co-founded [An Event Apart](http://aneventapart.com) and contributed to the development of CSS, microformats, and the web standards movement. He lives with his family in Cleveland, Ohio, and serves as technical lead for [Rebecca’s Gift](http://rebeccasgift.org)."
   kelli-anderson:
     name: "Kelli Anderson"
     bio: "Kelli Anderson is a designer who is interested in things that don’t behave as expected. A creative resident at Adobe, she is currently focusing on design’s ability to highlight surprising possibilities hiding in plain view. She is the author of _This Book is a Planetarium_, a pop-up book of functional things."
@@ -130,7 +130,7 @@ authors:
     bio: "Heather Ryan is an Assistant Professor at the University of Denver’s Library and Information Science program. Her PhD is from the University of North Carolina at Chapel Hill in Information and Library Science, and she focuses her teaching and research on archives and digital preservation. She has been a Long Now Foundation Research Associate since 2007."
   kate-kiefer-lee:
     name: "Kate Kiefer Lee"
-    bio: "Kate Kiefer Lee leads the content and communications team at MailChimp. She's a former magazine editor and coauthor of the book _Nicely Said: Writing for the Web With Style and Purpose_. She's slowly but surely working on a master's degree in strategic communications. Kate lives in Atlanta with her husband, Andrew, and dog, Leon."
+    bio: "Kate Kiefer Lee is the Communications Director at MailChimp. She's a former magazine editor and coauthor of the book _Nicely Said: Writing for the Web With Style and Purpose_. She's slowly but surely working on a master's degree in strategic communications. Kate lives in Atlanta with her husband, Andrew, and dog, Leon."
 
 #
 # Illustrators Names and Biographies
