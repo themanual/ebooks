@@ -15,7 +15,7 @@ During this time I also started my career as a print and web designer. I was thr
 
 ## To Capture a River
 
-I can’t even begin to wrap my head around how quickly a moment goes by on the web today. Back in the early days of the web, there was an actual sense that one could read just about everything on it over a long weekend. Then, websites were more static.They consisted mostly of linked pages that were sporadically, if ever, updated. Even the old bulletin board forums seem slow and steady compared to the raging flow of thoughts and facts rushing by on the web today.
+I can’t even begin to wrap my head around how quickly a moment goes by on the web today. Back in the early days of the web, there was an actual sense that one could read just about everything on it over a long weekend. Then, websites were more static. They consisted mostly of linked pages that were sporadically, if ever, updated. Even the old bulletin board forums seem slow and steady compared to the raging flow of thoughts and facts rushing by on the web today.
 
 Captured moments of our history used to be monolithic: monumental and made of stone. Our archived history has traditionally been built around pivotal moments, leaders, or grand representations of an age. We go back to our archives to learn about wars, inventions, kings, and cathedrals. These recorded “moments” we look back on span years, decades, and sometimes centuries. The shorter, lived moments of day-to-day thoughts and experiences were rarely recorded.
 
